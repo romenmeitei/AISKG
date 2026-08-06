@@ -1,0 +1,378 @@
+project:
+  name: AISKG Framework
+  version: 3.0.0
+  mode: manuscript_snapshot
+  random_seed: 20260731
+  run_id: ci
+  clean_run: true
+paths:
+  section1_input_bundle: data/frozen/AISKG_Section1_Inputs_v1.0.0.zip
+  section2_input_bundle: data/frozen/AISKG_Section2_Inputs_v2.1.1.zip
+  section1_reference_outputs: data/reference/AISKG_Framework_v3.0.0_Executed_Outputs_Reference.zip
+  section2_reference_outputs: data/reference/AISKG_Framework_v3.0.0_Executed_Outputs_Reference.zip
+  ontology_aliases: ontology/entity_aliases.csv
+  relation_rules: ontology/relation_rules.json
+  legacy_expected_results: expected/legacy_section2_expected.json
+  ablation_expected_results: expected/ablation_expected_v3.0.0.json
+  output_root: outputs
+  work_root: .aiskg_work
+  ablation_frozen_bundle: data/reference/AISKG_Ablation_Frozen_Variants_v3.0.0.zip
+  executed_reference_outputs: data/reference/AISKG_Framework_v3.0.0_Executed_Outputs_Reference.zip
+stages:
+  retrieval: true
+  preprocessing: true
+  embedding: true
+  topic_model: true
+  extraction: true
+  graph_generation: true
+  temporal_analysis: true
+  pathway_reconstruction: true
+  benchmarking: true
+  validation: true
+  research_representation: true
+  monte_carlo: true
+  ablation: true
+  visualization: true
+  reproducibility_audit: true
+  release_packaging: true
+  section1_snapshot: true
+  section2_snapshot: true
+retrieval:
+  year_start: 2000
+  year_end: 2025
+  language: English
+  retry_attempts: 5
+  retry_backoff_seconds: 2.0
+  request_timeout_seconds: 60
+  archive_raw_responses: true
+  pubmed:
+    enabled: true
+    batch_size: 200
+    query: '("mushroom poisoning"[Title/Abstract] OR "mushroom intoxication"[Title/Abstract]
+      OR "poisonous mushroom"[Title/Abstract] OR mycetism[Title/Abstract] OR amatoxin[Title/Abstract]
+      OR amanitin[Title/Abstract] OR "mushroom toxin"[Title/Abstract] OR "Amanita
+      poisoning"[Title/Abstract]) AND ("2000/01/01"[Date - Publication] : "2025/12/31"[Date
+      - Publication]) AND english[Language]'
+  scopus:
+    enabled: true
+    batch_size: 25
+    max_records: 5000
+    query: TITLE-ABS-KEY("mushroom poisoning" OR "mushroom intoxication" OR "poisonous
+      mushroom" OR mycetism OR amatoxin OR amanitin OR "mushroom toxin" OR "Amanita
+      poisoning") AND PUBYEAR > 1999 AND PUBYEAR < 2026
+    abstract_attempt_limit: 1000
+  web_of_science:
+    enabled: true
+    batch_size: 50
+    max_records: 300
+    query: TS=("mushroom poisoning" OR "mushroom intoxication" OR "poisonous mushroom"
+      OR mycetism OR amatoxin OR amanitin OR "mushroom toxin" OR "Amanita poisoning")
+  credentials:
+    entrez_email_env: ENTREZ_EMAIL
+    ncbi_api_key_env: NCBI_API_KEY
+    scopus_api_key_env: SCOPUS_API_KEY
+    wos_api_key_env: WOS_API_KEY
+  live_phase: RETRIEVE_AND_MODEL
+  annotated_topic_file: null
+preprocessing:
+  normalize_doi: true
+  normalize_pmid: true
+  normalize_unicode: true
+  collapse_whitespace: true
+  remove_malformed_records: true
+  require_title: true
+  require_abstract: false
+  exact_title_deduplication: true
+  fuzzy_title_deduplication: true
+  fuzzy_title_threshold: 96
+  sentence_segmentation: frozen_manifest
+embedding:
+  enabled: true
+  model_name: sentence-transformers/all-mpnet-base-v2
+  batch_size: 32
+  normalize_embeddings: false
+  device: auto
+topic_model:
+  enabled: true
+  use_frozen_assignments_in_snapshot: true
+  calculate_probabilities: true
+  outlier_reduction_strategy: embeddings
+  umap:
+    n_neighbors: 15
+    n_components: 5
+    min_dist: 0.0
+    metric: cosine
+    random_state: 42
+  hdbscan:
+    min_cluster_size: 15
+    min_samples: 5
+    metric: euclidean
+    prediction_data: true
+extraction:
+  ontology_constraints: true
+  canonical_normalization: true
+  semantic_quality_filters: true
+  outcome_aware_refinement: true
+  confidence_threshold: 0.0
+  outcome_entities:
+  - Death
+  - Mortality
+  - Fatality
+  - Fatal outcome
+  terminal_outcome_relation: LEADS_TO_OUTCOME
+  quality:
+    remove_negated: true
+    remove_speculative: true
+    remove_unsupported: true
+    remove_ambiguous_therapeutic: true
+    minimum_confidence: 0.0
+    speculative_terms:
+    - may
+    - might
+    - could
+    - possibly
+    - suggests
+    - suggested
+    - hypothesized
+    negation_terms:
+    - 'no'
+    - not
+    - without
+    - neither
+    - nor
+    - failed to
+  trigger_confidence:
+    between_entities: 0.8
+    sentence_level: 0.65
+  outcome_source_types:
+  - TOXIN
+  - MECHANISM
+  - SYNDROME
+  outcome_convertible_relations:
+  - CAUSES_SYNDROME
+  - CONTRIBUTES_TO_SYNDROME
+  outcome_invalid_source_types:
+  - INTERVENTION
+graph:
+  enabled: true
+  evidence_threshold: 2
+  confidence_threshold: 0.0
+  edge_weight: support_documents
+  community_algorithm: louvain
+  community_seed: 20260731
+  temporal_community_seed: 42
+  export_graphml: true
+  temporal_periods:
+  - - 2000
+    - 2009
+  - - 2010
+    - 2019
+  - - 2020
+    - 2025
+  temporal_normalize_per_publications: 100
+  temporal_rarefaction_iterations: 100
+pathway:
+  enabled: true
+  minimum_confidence: 0.4
+  primary_support_threshold: 2
+  support_thresholds:
+  - 1
+  - 2
+  - 3
+  - 5
+  maximum_path_length: 4
+  require_terminal_outcome: true
+  require_terminal_organ: true
+  intervention_must_be_first: true
+  templates:
+    Species-Toxin-Mechanism-Syndrome:
+    - SPECIES
+    - TOXIN
+    - MECHANISM
+    - SYNDROME
+    Species-Toxin-Mechanism-Outcome:
+    - SPECIES
+    - TOXIN
+    - MECHANISM
+    - OUTCOME
+    Species-Toxin-Syndrome-Organ:
+    - SPECIES
+    - TOXIN
+    - SYNDROME
+    - ORGAN
+    Species-Toxin-Outcome:
+    - SPECIES
+    - TOXIN
+    - OUTCOME
+    Toxin-Mechanism-Syndrome-Organ:
+    - TOXIN
+    - MECHANISM
+    - SYNDROME
+    - ORGAN
+    Toxin-Mechanism-Outcome:
+    - TOXIN
+    - MECHANISM
+    - OUTCOME
+    Intervention-Toxin-Mechanism-Syndrome:
+    - INTERVENTION
+    - TOXIN
+    - MECHANISM
+    - SYNDROME
+    Intervention-Syndrome-Organ:
+    - INTERVENTION
+    - SYNDROME
+    - ORGAN
+benchmarking:
+  enabled: true
+  bootstrap_iterations: 5000
+  entity_match_mode: canonical_sentence
+  relation_match_mode: ontology_aware
+  relation_crosswalk:
+    AFFECTS_ORGAN: AFFECTS
+    AFFECTS: AFFECTS
+    INVOLVES_ORGAN: INVOLVES_ORGAN
+    TREATS_SYNDROME: TREATS
+    TREATS: TREATS
+    CONTAINS_TOXIN: CONTAINS
+    CONTAINS: CONTAINS
+    CAUSES_SYNDROME: CAUSES
+    CONTRIBUTES_TO_SYNDROME: CAUSES
+    LEADS_TO_OUTCOME: CAUSES
+    CAUSES: CAUSES
+    COUNTERACTS_TOXIN: COUNTERACTS_TOXIN
+    ACTS_THROUGH_MECHANISM: ACTS_THROUGH_MECHANISM
+    MODULATES_MECHANISM: MODULATES_MECHANISM
+validation:
+  entity_sample_size: 300
+  relation_sample_size: 220
+  pathway_sample_size: 52
+  bootstrap_iterations: 5000
+  rating_labels:
+  - 'Yes'
+  - 'No'
+  - Borderline
+  - Uncertain
+  cohen_kappa: true
+  gwets_ac1: true
+  wilson_intervals: true
+research_representation:
+  weights:
+    publication_coverage: 0.35
+    mentions: 0.15
+    sentence_coverage: 0.1
+    incident_relations: 0.15
+    neighboring_concepts: 0.1
+    weighted_degree: 0.15
+  normalization: minmax
+  bootstrap_iterations: 5000
+  monte_carlo_iterations: 10000
+  monte_carlo_dirichlet_concentrations:
+  - 100.0
+  - 20.0
+  - 1.0
+  fractional_publication_concentration: true
+  priority_tier_cutoffs:
+  - 0.2
+  - 0.4
+  - 0.7
+  - 1.0
+ablation:
+  enabled: true
+  bootstrap_iterations: 2000
+  monte_carlo_iterations: 10000
+  export_per_variant_graphml: true
+  variants:
+  - name: FULL_FRAMEWORK
+    label: Full framework
+    canonical_normalization: true
+    ontology_constraints: true
+    semantic_quality_filters: true
+    outcome_aware_refinement: true
+    evidence_threshold: 2
+  - name: WITHOUT_CANONICAL_NORMALIZATION
+    label: Without canonical normalization
+    canonical_normalization: false
+    ontology_constraints: true
+    semantic_quality_filters: true
+    outcome_aware_refinement: true
+    evidence_threshold: 2
+  - name: WITHOUT_ONTOLOGY_TYPE_CONSTRAINTS
+    label: Without ontology type constraints
+    canonical_normalization: true
+    ontology_constraints: false
+    semantic_quality_filters: true
+    outcome_aware_refinement: true
+    evidence_threshold: 2
+  - name: WITHOUT_SEMANTIC_QUALITY_FILTERS
+    label: Without semantic quality filters
+    canonical_normalization: true
+    ontology_constraints: true
+    semantic_quality_filters: false
+    outcome_aware_refinement: true
+    evidence_threshold: 2
+  - name: WITHOUT_OUTCOME_AWARE_REFINEMENT
+    label: Without outcome-aware refinement
+    canonical_normalization: true
+    ontology_constraints: true
+    semantic_quality_filters: true
+    outcome_aware_refinement: false
+    evidence_threshold: 2
+  - name: SUPPORT_GE_1
+    label: Support >=1
+    canonical_normalization: true
+    ontology_constraints: true
+    semantic_quality_filters: true
+    outcome_aware_refinement: true
+    evidence_threshold: 1
+  - name: SUPPORT_GE_2
+    label: Support >=2
+    canonical_normalization: true
+    ontology_constraints: true
+    semantic_quality_filters: true
+    outcome_aware_refinement: true
+    evidence_threshold: 2
+  - name: SUPPORT_GE_3
+    label: Support >=3
+    canonical_normalization: true
+    ontology_constraints: true
+    semantic_quality_filters: true
+    outcome_aware_refinement: true
+    evidence_threshold: 3
+  - name: SUPPORT_GE_5
+    label: Support >=5
+    canonical_normalization: true
+    ontology_constraints: true
+    semantic_quality_filters: true
+    outcome_aware_refinement: true
+    evidence_threshold: 5
+  monte_carlo_dirichlet_concentration: 20.0
+  top_k_stability: 3
+visualization:
+  dpi: 300
+  format: png
+  font_size: 10
+  figure_width: 10
+  figure_height: 6
+  radar_metrics:
+  - entity_f1
+  - relation_f1
+  - exact_triple_accuracy
+  - directionality_accuracy
+  - modularity
+  - largest_connected_component_fraction
+reproducibility:
+  verify_input_sha256: true
+  verify_legacy_expected_results: true
+  verify_ablation_expected_results: true
+  fail_on_expected_result_mismatch: true
+  compare_frozen_bridge_to_section2_bundle: true
+  deterministic_zip_timestamp: '2026-01-01T00:00:00Z'
+  write_manifest: true
+  write_checksums: true
+  create_release_zip: true
+release:
+  include_frozen_inputs: false
+  include_reference_outputs: false
+  archive_name: AISKG_Framework_v3.0.0_Release.zip
+ontology:
+  substring_alias_min_length: 4

@@ -1,0 +1,227 @@
+entity_type,canonical_entity,alias
+SPECIES,Amanita phalloides,amanita phalloides
+SPECIES,Amanita phalloides,death cap
+SPECIES,Amanita virosa,amanita virosa
+SPECIES,Amanita virosa,destroying angel
+SPECIES,Amanita verna,amanita verna
+SPECIES,Amanita bisporigera,amanita bisporigera
+SPECIES,Amanita muscaria,amanita muscaria
+SPECIES,Amanita muscaria,fly agaric
+SPECIES,Amanita pantherina,amanita pantherina
+SPECIES,Amanita pantherina,panther cap
+SPECIES,Galerina marginata,galerina marginata
+SPECIES,Lepiota brunneoincarnata,lepiota brunneoincarnata
+SPECIES,Lepiota helveola,lepiota helveola
+SPECIES,Cortinarius rubellus,cortinarius rubellus
+SPECIES,Cortinarius orellanus,cortinarius orellanus
+SPECIES,Gyromitra esculenta,gyromitra esculenta
+SPECIES,Gyromitra esculenta,false morel
+SPECIES,Clitocybe dealbata,clitocybe dealbata
+SPECIES,Clitocybe rivulosa,clitocybe rivulosa
+SPECIES,Inocybe spp.,inocybe
+SPECIES,Inocybe spp.,inocybe species
+SPECIES,Inocybe spp.,inocybe spp
+SPECIES,Coprinopsis atramentaria,coprinopsis atramentaria
+SPECIES,Coprinopsis atramentaria,coprinus atramentarius
+SPECIES,Coprinopsis atramentaria,inky cap
+SPECIES,Tricholoma equestre,tricholoma equestre
+SPECIES,Paxillus involutus,paxillus involutus
+SPECIES,Omphalotus olearius,omphalotus olearius
+SPECIES,Omphalotus olearius,jack-o'-lantern mushroom
+SPECIES,Chlorophyllum molybdites,chlorophyllum molybdites
+SPECIES,Russula subnigricans,russula subnigricans
+SPECIES,Podostroma cornu-damae,podostroma cornu-damae
+SPECIES,Pleurocybella porrigens,pleurocybella porrigens
+SPECIES,Boletus satanas,boletus satanas
+SPECIES,Boletus satanas,rubroboletus satanas
+TOXIN,Amatoxins,amatoxin
+TOXIN,Amatoxins,amatoxins
+TOXIN,Alpha-amanitin,alpha-amanitin
+TOXIN,Alpha-amanitin,α-amanitin
+TOXIN,Alpha-amanitin,alpha amanitin
+TOXIN,Beta-amanitin,beta-amanitin
+TOXIN,Beta-amanitin,β-amanitin
+TOXIN,Beta-amanitin,beta amanitin
+TOXIN,Phallotoxins,phallotoxin
+TOXIN,Phallotoxins,phallotoxins
+TOXIN,Phallotoxins,phalloidin
+TOXIN,Virotoxins,virotoxin
+TOXIN,Virotoxins,virotoxins
+TOXIN,Orellanine,orellanine
+TOXIN,Gyromitrin,gyromitrin
+TOXIN,Monomethylhydrazine,monomethylhydrazine
+TOXIN,Monomethylhydrazine,methylhydrazine
+TOXIN,Monomethylhydrazine,mmh
+TOXIN,Muscarine,muscarine
+TOXIN,Ibotenic acid,ibotenic acid
+TOXIN,Ibotenic acid,ibotenate
+TOXIN,Muscimol,muscimol
+TOXIN,Coprine,coprine
+TOXIN,Psilocybin,psilocybin
+TOXIN,Psilocin,psilocin
+TOXIN,Illudins,illudin
+TOXIN,Illudins,illudins
+TOXIN,Tricholomic acid,tricholomic acid
+TOXIN,Acromelic acids,acromelic acid
+TOXIN,Acromelic acids,acromelic acids
+TOXIN,Russuphelins,russuphelin
+TOXIN,Russuphelins,russuphelins
+TOXIN,Cycloprop-2-ene carboxylic acid,cycloprop-2-ene carboxylic acid
+TOXIN,Pleurocybellaziridine,pleurocybellaziridine
+ORGAN,Liver,liver
+ORGAN,Liver,hepatic
+ORGAN,Liver,hepatocyte
+ORGAN,Liver,hepatocytes
+ORGAN,Kidney,kidney
+ORGAN,Kidney,renal
+ORGAN,Kidney,nephron
+ORGAN,Kidney,tubular
+ORGAN,Central nervous system,central nervous system
+ORGAN,Central nervous system,cns
+ORGAN,Central nervous system,brain
+ORGAN,Central nervous system,neurologic
+ORGAN,Central nervous system,neurological
+ORGAN,Gastrointestinal tract,gastrointestinal
+ORGAN,Gastrointestinal tract,gastro-intestinal
+ORGAN,Gastrointestinal tract,stomach
+ORGAN,Gastrointestinal tract,intestine
+ORGAN,Gastrointestinal tract,intestinal
+ORGAN,Heart,heart
+ORGAN,Heart,cardiac
+ORGAN,Heart,myocardial
+ORGAN,Skeletal muscle,skeletal muscle
+ORGAN,Skeletal muscle,muscle
+ORGAN,Skeletal muscle,myocyte
+ORGAN,Blood,blood
+ORGAN,Blood,hematologic
+ORGAN,Blood,haematologic
+ORGAN,Pancreas,pancreas
+ORGAN,Pancreas,pancreatic
+ORGAN,Respiratory system,respiratory
+ORGAN,Respiratory system,lung
+ORGAN,Respiratory system,pulmonary
+SYNDROME,Acute liver failure,acute liver failure
+SYNDROME,Acute liver failure,fulminant hepatic failure
+SYNDROME,Acute liver failure,fulminant liver failure
+SYNDROME,Hepatotoxicity,hepatotoxicity
+SYNDROME,Hepatotoxicity,hepatic injury
+SYNDROME,Hepatotoxicity,liver injury
+SYNDROME,Acute kidney injury,acute kidney injury
+SYNDROME,Acute kidney injury,acute renal failure
+SYNDROME,Acute kidney injury,aki
+SYNDROME,Nephrotoxicity,nephrotoxicity
+SYNDROME,Nephrotoxicity,renal toxicity
+SYNDROME,Nephrotoxicity,kidney injury
+SYNDROME,Gastroenteritis,gastroenteritis
+SYNDROME,Gastroenteritis,gastrointestinal syndrome
+SYNDROME,Gastroenteritis,gastrointestinal toxicity
+SYNDROME,Cholinergic syndrome,cholinergic syndrome
+SYNDROME,Cholinergic syndrome,muscarinic syndrome
+SYNDROME,Cholinergic syndrome,cholinergic toxidrome
+SYNDROME,Anticholinergic-like syndrome,anticholinergic syndrome
+SYNDROME,Anticholinergic-like syndrome,pantherina syndrome
+SYNDROME,Seizures,seizure
+SYNDROME,Seizures,seizures
+SYNDROME,Seizures,convulsion
+SYNDROME,Seizures,convulsions
+SYNDROME,Encephalopathy,encephalopathy
+SYNDROME,Hallucinations,hallucination
+SYNDROME,Hallucinations,hallucinations
+SYNDROME,Hallucinations,hallucinogenic
+SYNDROME,Rhabdomyolysis,rhabdomyolysis
+SYNDROME,Rhabdomyolysis,rhabdomyolytic
+SYNDROME,Hemolysis,hemolysis
+SYNDROME,Hemolysis,haemolysis
+SYNDROME,Hemolysis,hemolytic
+SYNDROME,Methemoglobinemia,methemoglobinemia
+SYNDROME,Methemoglobinemia,methaemoglobinaemia
+SYNDROME,Disulfiram-like reaction,disulfiram-like reaction
+SYNDROME,Disulfiram-like reaction,coprine syndrome
+SYNDROME,Erythromelalgia,erythromelalgia
+SYNDROME,Delayed renal failure,delayed renal failure
+SYNDROME,Delayed renal failure,delayed nephrotoxicity
+SYNDROME,Cardiotoxicity,cardiotoxicity
+SYNDROME,Cardiotoxicity,cardiac toxicity
+SYNDROME,Respiratory failure,respiratory failure
+SYNDROME,Death,death
+SYNDROME,Death,fatality
+SYNDROME,Death,mortality
+SYNDROME,Death,fatal outcome
+MECHANISM,RNA polymerase II inhibition,rna polymerase ii inhibition
+MECHANISM,RNA polymerase II inhibition,inhibition of rna polymerase ii
+MECHANISM,RNA polymerase II inhibition,inhibits rna polymerase ii
+MECHANISM,RNA polymerase II inhibition,rna pol ii inhibition
+MECHANISM,Transcription inhibition,transcription inhibition
+MECHANISM,Transcription inhibition,inhibition of transcription
+MECHANISM,Transcription inhibition,suppression of mrna synthesis
+MECHANISM,Transcription inhibition,inhibition of mrna synthesis
+MECHANISM,Oxidative stress,oxidative stress
+MECHANISM,Oxidative stress,reactive oxygen species
+MECHANISM,Oxidative stress,ros generation
+MECHANISM,Mitochondrial dysfunction,mitochondrial dysfunction
+MECHANISM,Mitochondrial dysfunction,mitochondrial damage
+MECHANISM,Apoptosis,apoptosis
+MECHANISM,Apoptosis,apoptotic cell death
+MECHANISM,Necrosis,necrosis
+MECHANISM,Necrosis,necrotic cell death
+MECHANISM,Lipid peroxidation,lipid peroxidation
+MECHANISM,Glutathione depletion,glutathione depletion
+MECHANISM,Glutathione depletion,depletion of glutathione
+MECHANISM,GABAergic disruption,gaba disruption
+MECHANISM,GABAergic disruption,gabaergic
+MECHANISM,GABAergic disruption,gamma-aminobutyric acid
+MECHANISM,Pyridoxal phosphate depletion,pyridoxal phosphate depletion
+MECHANISM,Pyridoxal phosphate depletion,vitamin b6 depletion
+MECHANISM,Pyridoxal phosphate depletion,pyridoxine depletion
+MECHANISM,GABA-A receptor agonism,gaba-a receptor agonist
+MECHANISM,GABA-A receptor agonism,gaba a receptor agonism
+MECHANISM,NMDA receptor agonism,nmda receptor agonist
+MECHANISM,NMDA receptor agonism,nmda receptor agonism
+MECHANISM,Muscarinic receptor agonism,muscarinic receptor agonist
+MECHANISM,Muscarinic receptor agonism,muscarinic receptor activation
+MECHANISM,Aldehyde dehydrogenase inhibition,aldehyde dehydrogenase inhibition
+MECHANISM,Aldehyde dehydrogenase inhibition,inhibits aldehyde dehydrogenase
+MECHANISM,Renal tubular injury,renal tubular injury
+MECHANISM,Renal tubular injury,tubular necrosis
+MECHANISM,Renal tubular injury,proximal tubular injury
+MECHANISM,Immune-mediated injury,immune-mediated
+MECHANISM,Immune-mediated injury,immune mediated injury
+MECHANISM,Immune-mediated injury,immune hemolysis
+MECHANISM,Protein synthesis inhibition,protein synthesis inhibition
+MECHANISM,Protein synthesis inhibition,inhibition of protein synthesis
+INTERVENTION,Silibinin,silibinin
+INTERVENTION,Silibinin,silybin
+INTERVENTION,N-acetylcysteine,n-acetylcysteine
+INTERVENTION,N-acetylcysteine,n acetylcysteine
+INTERVENTION,N-acetylcysteine,nac
+INTERVENTION,Benzylpenicillin,benzylpenicillin
+INTERVENTION,Benzylpenicillin,penicillin g
+INTERVENTION,Activated charcoal,activated charcoal
+INTERVENTION,Activated charcoal,multiple-dose activated charcoal
+INTERVENTION,Liver transplantation,liver transplantation
+INTERVENTION,Liver transplantation,hepatic transplantation
+INTERVENTION,Hemodialysis,hemodialysis
+INTERVENTION,Hemodialysis,haemodialysis
+INTERVENTION,Hemodialysis,dialysis
+INTERVENTION,Hemoperfusion,hemoperfusion
+INTERVENTION,Hemoperfusion,haemoperfusion
+INTERVENTION,Plasmapheresis,plasmapheresis
+INTERVENTION,Plasmapheresis,plasma exchange
+INTERVENTION,Molecular adsorbent recirculating system,molecular adsorbent recirculating system
+INTERVENTION,Molecular adsorbent recirculating system,mars therapy
+INTERVENTION,Molecular adsorbent recirculating system,mars treatment
+INTERVENTION,Pyridoxine,pyridoxine
+INTERVENTION,Pyridoxine,vitamin b6
+INTERVENTION,Atropine,atropine
+INTERVENTION,Benzodiazepines,benzodiazepine
+INTERVENTION,Benzodiazepines,benzodiazepines
+INTERVENTION,Benzodiazepines,diazepam
+INTERVENTION,Benzodiazepines,lorazepam
+INTERVENTION,Intravenous fluids,intravenous fluids
+INTERVENTION,Intravenous fluids,iv fluids
+INTERVENTION,Intravenous fluids,fluid resuscitation
+INTERVENTION,Supportive care,supportive care
+INTERVENTION,Supportive care,supportive treatment
+INTERVENTION,Gastric lavage,gastric lavage
+INTERVENTION,Extracorporeal liver support,extracorporeal liver support
+INTERVENTION,Extracorporeal liver support,artificial liver support

@@ -1,0 +1,156 @@
+[
+  {
+    "source_types": [
+      "SPECIES"
+    ],
+    "target_types": [
+      "TOXIN"
+    ],
+    "relation": "CONTAINS_TOXIN",
+    "patterns": [
+      "contain(?:s|ed|ing)?",
+      "produce(?:s|d|ing)?",
+      "harbou?r(?:s|ed|ing)?",
+      "toxin(?:s)? (?:in|from)",
+      "isolated from"
+    ]
+  },
+  {
+    "source_types": [
+      "TOXIN"
+    ],
+    "target_types": [
+      "MECHANISM"
+    ],
+    "relation": "ACTS_THROUGH_MECHANISM",
+    "patterns": [
+      "inhibit(?:s|ed|ing|ion)?",
+      "activate(?:s|d|ing|ion)?",
+      "induce(?:s|d|ing|ion)?",
+      "cause(?:s|d|ing)?",
+      "mediate(?:s|d|ing|ion)?",
+      "through",
+      "via",
+      "mechanism"
+    ]
+  },
+  {
+    "source_types": [
+      "TOXIN"
+    ],
+    "target_types": [
+      "ORGAN"
+    ],
+    "relation": "AFFECTS_ORGAN",
+    "patterns": [
+      "affect(?:s|ed|ing)?",
+      "injur(?:y|ies|ed)",
+      "damage(?:s|d|ing)?",
+      "toxic(?:ity)?",
+      "target(?:s|ed|ing)?",
+      "failure"
+    ]
+  },
+  {
+    "source_types": [
+      "TOXIN"
+    ],
+    "target_types": [
+      "SYNDROME"
+    ],
+    "relation": "CAUSES_SYNDROME",
+    "patterns": [
+      "cause(?:s|d|ing)?",
+      "induce(?:s|d|ing)?",
+      "lead(?:s|ing)? to",
+      "result(?:s|ed|ing)? in",
+      "associated with",
+      "responsible for",
+      "produce(?:s|d|ing)?"
+    ]
+  },
+  {
+    "source_types": [
+      "MECHANISM"
+    ],
+    "target_types": [
+      "SYNDROME"
+    ],
+    "relation": "CONTRIBUTES_TO_SYNDROME",
+    "patterns": [
+      "cause(?:s|d|ing)?",
+      "induce(?:s|d|ing)?",
+      "lead(?:s|ing)? to",
+      "result(?:s|ed|ing)? in",
+      "contribut(?:e|es|ed|ing) to",
+      "associated with"
+    ]
+  },
+  {
+    "source_types": [
+      "SYNDROME"
+    ],
+    "target_types": [
+      "ORGAN"
+    ],
+    "relation": "INVOLVES_ORGAN",
+    "patterns": [
+      "involv(?:e|es|ed|ing)",
+      "affect(?:s|ed|ing)?",
+      "injur(?:y|ies|ed)",
+      "failure",
+      "damage"
+    ]
+  },
+  {
+    "source_types": [
+      "INTERVENTION"
+    ],
+    "target_types": [
+      "SYNDROME"
+    ],
+    "relation": "TREATS_SYNDROME",
+    "patterns": [
+      "treat(?:s|ed|ing|ment)?",
+      "therap(?:y|ies|eutic)",
+      "administer(?:s|ed|ing)?",
+      "manage(?:s|d|ment)?",
+      "effective (?:for|against|in)",
+      "used (?:for|to|in)",
+      "improve(?:s|d|ment)?"
+    ]
+  },
+  {
+    "source_types": [
+      "INTERVENTION"
+    ],
+    "target_types": [
+      "TOXIN"
+    ],
+    "relation": "COUNTERACTS_TOXIN",
+    "patterns": [
+      "antidot(?:e|al)",
+      "treat(?:s|ed|ing|ment)?",
+      "against",
+      "counteract(?:s|ed|ing)?",
+      "detoxif(?:y|ies|ied|ication)"
+    ]
+  },
+  {
+    "source_types": [
+      "INTERVENTION"
+    ],
+    "target_types": [
+      "MECHANISM"
+    ],
+    "relation": "MODULATES_MECHANISM",
+    "patterns": [
+      "inhibit(?:s|ed|ing|ion)?",
+      "reduce(?:s|d|ing|tion)?",
+      "prevent(?:s|ed|ing|ion)?",
+      "restore(?:s|d|ing|ation)?",
+      "modulat(?:e|es|ed|ing|ion)",
+      "protect(?:s|ed|ing|ion)?"
+    ]
+  }
+]

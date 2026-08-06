@@ -1,0 +1,441 @@
+{
+  "pipeline_version": "2.1.1",
+  "checks": {
+    "Entity recognition: n": {
+      "expected": 300.0,
+      "tolerance": 0.0
+    },
+    "Entity recognition: correct": {
+      "expected": 290.0,
+      "tolerance": 0.0
+    },
+    "Relation correctness: n": {
+      "expected": 220.0,
+      "tolerance": 0.0
+    },
+    "Relation correctness: correct": {
+      "expected": 163.0,
+      "tolerance": 0.0
+    },
+    "Relation directionality: n": {
+      "expected": 220.0,
+      "tolerance": 0.0
+    },
+    "Relation directionality: correct": {
+      "expected": 195.0,
+      "tolerance": 0.0
+    },
+    "Pathway correctness: n": {
+      "expected": 52.0,
+      "tolerance": 0.0
+    },
+    "Pathway correctness: correct": {
+      "expected": 11.0,
+      "tolerance": 0.0
+    },
+    "Pathway directionality: n": {
+      "expected": 52.0,
+      "tolerance": 0.0
+    },
+    "Pathway directionality: correct": {
+      "expected": 16.0,
+      "tolerance": 0.0
+    },
+    "Outcome classification: n": {
+      "expected": 52.0,
+      "tolerance": 0.0
+    },
+    "Outcome classification: correct": {
+      "expected": 19.0,
+      "tolerance": 0.0
+    },
+    "Audited entity reference count": {
+      "expected": 294.0,
+      "tolerance": 0.0
+    },
+    "Proposed entity recovery": {
+      "expected": 294.0,
+      "tolerance": 0.0
+    },
+    "SciSpacy entity recovery": {
+      "expected": 292.0,
+      "tolerance": 0.0
+    },
+    "Relation candidate count": {
+      "expected": 220.0,
+      "tolerance": 0.0
+    },
+    "Adjudicated relation correctness": {
+      "expected": 163.0,
+      "tolerance": 0.0
+    },
+    "Exact corrected triple matches": {
+      "expected": 163.0,
+      "tolerance": 0.0
+    },
+    "Sentence co-occurrence predicted positive": {
+      "expected": 110.0,
+      "tolerance": 0.0
+    },
+    "Sentence co-occurrence precision": {
+      "expected": 0.8,
+      "tolerance": 1e-12
+    },
+    "Sentence co-occurrence recall": {
+      "expected": 0.5398773006134969,
+      "tolerance": 1e-12
+    },
+    "Sentence co-occurrence F1": {
+      "expected": 0.6446886446886447,
+      "tolerance": 1e-12
+    },
+    "Type-pair all-candidate denominator": {
+      "expected": 220.0,
+      "tolerance": 0.0
+    },
+    "Type-pair all-candidate correct": {
+      "expected": 163.0,
+      "tolerance": 0.0
+    },
+    "Type-pair relation-bearing denominator": {
+      "expected": 184.0,
+      "tolerance": 0.0
+    },
+    "Type-pair relation-bearing correct": {
+      "expected": 163.0,
+      "tolerance": 0.0
+    },
+    "McNemar exact P": {
+      "expected": 1.0,
+      "tolerance": 1e-12
+    },
+    "Graph comparison: cooccurrence_nodes": {
+      "expected": 73.0,
+      "tolerance": 0.0
+    },
+    "Graph comparison: cooccurrence_pairs": {
+      "expected": 191.0,
+      "tolerance": 0.0
+    },
+    "Graph comparison: semantic_pairs_support_ge_2": {
+      "expected": 86.0,
+      "tolerance": 0.0
+    },
+    "Graph comparison: overlapping_pairs": {
+      "expected": 38.0,
+      "tolerance": 0.0
+    },
+    "Graph comparison: cooccurrence_unique_pairs": {
+      "expected": 153.0,
+      "tolerance": 0.0
+    },
+    "Graph comparison: semantic_unique_pairs": {
+      "expected": 48.0,
+      "tolerance": 0.0
+    },
+    "Graph comparison: document_contexts_retained": {
+      "expected": 845.0,
+      "tolerance": 0.0
+    },
+    "Graph comparison: pair_set_jaccard": {
+      "expected": 0.1589958158995816,
+      "tolerance": 1e-12
+    },
+    "Mapped toxin classes": {
+      "expected": 11.0,
+      "tolerance": 0.0
+    },
+    "Toxin-related publications": {
+      "expected": 839.0,
+      "tolerance": 0.0
+    },
+    "Publication concentration HHI": {
+      "expected": 0.6324938056592933,
+      "tolerance": 1e-10
+    },
+    "Normalized publication entropy": {
+      "expected": 0.3773845606511096,
+      "tolerance": 1e-10
+    },
+    "Classes below 10% of leader": {
+      "expected": 9.0,
+      "tolerance": 0.0
+    },
+    "Corpus eligible records": {
+      "expected": 1868.0,
+      "tolerance": 0.0
+    },
+    "Corpus research domains": {
+      "expected": 9.0,
+      "tolerance": 0.0
+    },
+    "Semantic typed relations": {
+      "expected": 183.0,
+      "tolerance": 0.0
+    },
+    "Semantic evidence-filtered relations": {
+      "expected": 86.0,
+      "tolerance": 0.0
+    },
+    "Semantic active nodes": {
+      "expected": 40.0,
+      "tolerance": 0.0
+    },
+    "Semantic communities": {
+      "expected": 6.0,
+      "tolerance": 0.0
+    },
+    "Semantic Louvain modularity": {
+      "expected": 0.2817,
+      "tolerance": 0.0005
+    },
+    "2000\u20132009 nodes": {
+      "expected": 40.0,
+      "tolerance": 0.0
+    },
+    "2000\u20132009 edges": {
+      "expected": 71.0,
+      "tolerance": 0.0
+    },
+    "2000\u20132009 density": {
+      "expected": 0.0455128205128205,
+      "tolerance": 1e-12
+    },
+    "2000\u20132009 transitivity": {
+      "expected": 0.0979899497487437,
+      "tolerance": 1e-12
+    },
+    "2000\u20132009 modularity": {
+      "expected": 0.4033,
+      "tolerance": 0.0005
+    },
+    "2010\u20132019 nodes": {
+      "expected": 48.0,
+      "tolerance": 0.0
+    },
+    "2010\u20132019 edges": {
+      "expected": 105.0,
+      "tolerance": 0.0
+    },
+    "2010\u20132019 density": {
+      "expected": 0.0465425531914893,
+      "tolerance": 1e-12
+    },
+    "2010\u20132019 transitivity": {
+      "expected": 0.1484771573604061,
+      "tolerance": 1e-12
+    },
+    "2010\u20132019 modularity": {
+      "expected": 0.3391,
+      "tolerance": 0.0005
+    },
+    "2020\u20132025 nodes": {
+      "expected": 47.0,
+      "tolerance": 0.0
+    },
+    "2020\u20132025 edges": {
+      "expected": 114.0,
+      "tolerance": 0.0
+    },
+    "2020\u20132025 density": {
+      "expected": 0.0527289546716003,
+      "tolerance": 1e-12
+    },
+    "2020\u20132025 transitivity": {
+      "expected": 0.1830835117773019,
+      "tolerance": 1e-12
+    },
+    "2020\u20132025 modularity": {
+      "expected": 0.2463,
+      "tolerance": 0.0005
+    },
+    "Refined pathway count": {
+      "expected": 52.0,
+      "tolerance": 0.0
+    },
+    "Pathway score-stability R squared": {
+      "expected": 0.8138815819901482,
+      "tolerance": 1e-12
+    },
+    "Held-out common-core entity: n_gold": {
+      "expected": 194.0,
+      "tolerance": 0.0
+    },
+    "Held-out common-core entity: n_predictions": {
+      "expected": 206.0,
+      "tolerance": 0.0
+    },
+    "Held-out common-core entity: TP": {
+      "expected": 191.0,
+      "tolerance": 0.0
+    },
+    "Held-out common-core entity: FP": {
+      "expected": 15.0,
+      "tolerance": 0.0
+    },
+    "Held-out common-core entity: FN": {
+      "expected": 3.0,
+      "tolerance": 0.0
+    },
+    "Held-out full-domain entity: n_gold": {
+      "expected": 318.0,
+      "tolerance": 0.0
+    },
+    "Held-out full-domain entity: n_predictions": {
+      "expected": 279.0,
+      "tolerance": 0.0
+    },
+    "Held-out full-domain entity: TP": {
+      "expected": 264.0,
+      "tolerance": 0.0
+    },
+    "Held-out full-domain entity: FP": {
+      "expected": 15.0,
+      "tolerance": 0.0
+    },
+    "Held-out full-domain entity: FN": {
+      "expected": 54.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Surface-form strict: gold_relations": {
+      "expected": 56.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Surface-form strict: predicted_relations": {
+      "expected": 27.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Surface-form strict: TP": {
+      "expected": 27.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Surface-form strict: FP": {
+      "expected": 0.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Surface-form strict: FN": {
+      "expected": 29.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Ontology-aware endpoint sensitivity: gold_relations": {
+      "expected": 56.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Ontology-aware endpoint sensitivity: predicted_relations": {
+      "expected": 47.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Ontology-aware endpoint sensitivity: TP": {
+      "expected": 47.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Ontology-aware endpoint sensitivity: FP": {
+      "expected": 0.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Ontology-aware endpoint sensitivity: FN": {
+      "expected": 9.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation AI-assisted adjudicated gold correction: gold_relations": {
+      "expected": 49.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation AI-assisted adjudicated gold correction: predicted_relations": {
+      "expected": 47.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation AI-assisted adjudicated gold correction: TP": {
+      "expected": 40.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation AI-assisted adjudicated gold correction: FP": {
+      "expected": 7.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation AI-assisted adjudicated gold correction: FN": {
+      "expected": 9.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Conservative original-gold sensitivity: gold_relations": {
+      "expected": 56.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Conservative original-gold sensitivity: predicted_relations": {
+      "expected": 40.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Conservative original-gold sensitivity: TP": {
+      "expected": 40.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Conservative original-gold sensitivity: FP": {
+      "expected": 0.0,
+      "tolerance": 0.0
+    },
+    "Held-out relation Conservative original-gold sensitivity: FN": {
+      "expected": 16.0,
+      "tolerance": 0.0
+    },
+    "Outcome-aware aggregated relations": {
+      "expected": 170.0,
+      "tolerance": 0.0
+    },
+    "Outcome-aware support>=2 relations": {
+      "expected": 77.0,
+      "tolerance": 0.0
+    },
+    "Outcome-aware active nodes": {
+      "expected": 38.0,
+      "tolerance": 0.0
+    },
+    "Outcome-aware active edges": {
+      "expected": 77.0,
+      "tolerance": 0.0
+    },
+    "Outcome-aware communities": {
+      "expected": 5.0,
+      "tolerance": 0.0
+    },
+    "Outcome-aware outcome outgoing edges": {
+      "expected": 0.0,
+      "tolerance": 0.0
+    },
+    "Outcome-aware modularity": {
+      "expected": 0.3303953959134851,
+      "tolerance": 1e-12
+    },
+    "Temporal normalized 2000-2009 eligible publications": {
+      "expected": 476.0,
+      "tolerance": 0.0
+    },
+    "Temporal normalized 2020-2025 eligible publications": {
+      "expected": 711.0,
+      "tolerance": 0.0
+    },
+    "Temporal normalized 2020-2025 edges per 100 publications": {
+      "expected": 14.767932489451477,
+      "tolerance": 1e-12
+    },
+    "Temporal rarefaction iterations": {
+      "expected": 100.0,
+      "tolerance": 0.0
+    },
+    "Composite sensitivity iterations per family": {
+      "expected": 10000.0,
+      "tolerance": 0.0
+    },
+    "Virotoxins dirichlet_c20 top-3 probability": {
+      "expected": 1.0,
+      "tolerance": 1e-12
+    },
+    "Fractional publication HHI": {
+      "expected": 0.7130980109983936,
+      "tolerance": 1e-12
+    },
+    "Fractional publication normalized entropy": {
+      "expected": 0.3083237004689986,
+      "tolerance": 1e-12
+    }
+  }
+}

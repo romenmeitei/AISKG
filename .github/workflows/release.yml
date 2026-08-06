@@ -1,0 +1,29 @@
+name: Build tagged AISKG release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e ".[dev]" --no-build-isolation
+      - run: pytest -q -m "not integration"
+      - run: python run_pipeline.py --config configs/manuscript_frozen.yaml --run-id release --clean --quiet
+      - run: aiskg verify --run-dir outputs/release
+      - name: Publish GitHub release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          body_path: RELEASE_NOTES_v3.0.0.md
+          files: outputs/release/AISKG_Framework_v3.0.0_Release.zip
