@@ -1,9 +1,10 @@
-# AISKG Framework
+# AISKG 
 
-[![CI](https://github.com/romenmeitei/AISKG_Framework/actions/workflows/ci.yml/badge.svg)](https://github.com/romenmeitei/AISKG_Framework/actions/workflows/ci.yml)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romenmeitei/AISKG_Framework/blob/main/notebooks/AISKG_Framework_v3_Complete_Pipeline.ipynb)
+[![CI](https://github.com/romenmeitei/AISKG/actions/workflows/ci.yml/badge.svg)](https://github.com/romenmeitei/AISKG/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21817891.svg)](https://doi.org/10.5281/zenodo.21817891)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romenmeitei/AISKG/blob/main/notebooks/AISKG_Framework_v3_Complete_Pipeline.ipynb)
 
-**AISKG Framework v3.0.0** is a unified, deterministic implementation of the AI-assisted ontology-guided semantic knowledge-graph workflow developed for biomedical literature mining. It merges the former AISKG Section 1 and Section 2 releases into one modular Python project while preserving their frozen manuscript outputs.
+**AISKG v3.0.0** is a unified, deterministic implementation of the AI-assisted ontology-guided semantic knowledge-graph workflow developed for biomedical literature mining. It merges the former AISKG Section 1 and Section 2 releases into one modular Python project while preserving their frozen manuscript outputs.
 
 ## Scope
 
@@ -100,7 +101,7 @@ Each variant exports metrics, relations, aggregated edges, GraphML, pathway edge
 ## Repository organization
 
 ```text
-AISKG_Framework/
+AISKG/
 ├── configs/                  # Execution profiles
 ├── data/frozen/              # Versioned frozen input bundles
 ├── data/reference/           # Ablation checkpoints and executed reference release
@@ -137,6 +138,8 @@ The GitHub Actions workflow runs unit tests, the complete frozen pipeline, outpu
 ## Reproducibility and data rights
 
 The software is MIT licensed. Original repository documentation and code are copyright © 2026 Lourembam Romen Meitei, subject to institutional and contractual rights. Third-party bibliographic metadata and abstracts remain subject to publisher, author, database-provider, and institutional terms; see `THIRD_PARTY_DATA_NOTICE.md`.
+The archived software release corresponding to this version is preserved on Zenodo:
+https://doi.org/10.5281/zenodo.21817891
 
 ## Historical repositories
 
@@ -145,6 +148,20 @@ The software is MIT licensed. Original repository documentation and code are cop
 
 These repositories remain provenance records. New development should occur in this unified repository.
 
+
 ## Citation
 
-Use the metadata in `CITATION.cff`. After creating the GitHub `v3.0.0` release, archive it with Zenodo or another DOI-issuing service and update the software citation with the permanent DOI.
+If you use AISKG Framework in your research, please cite both the software and the associated manuscript.
+
+### Software citation
+
+Lourembam Romen Meitei.
+
+**AISKG Framework v3.0.0**.
+Zenodo.
+DOI: https://doi.org/10.5281/zenodo.21817891
+
+GitHub release:
+https://github.com/romenmeitei/AISKG/releases/tag/v3.0.0
+
+Machine-readable citation metadata is also available in `CITATION.cff`.
