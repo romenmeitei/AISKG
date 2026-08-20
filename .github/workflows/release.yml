@@ -32,6 +32,8 @@ jobs:
       - run: python verify_repository.py
       - run: pytest -q -m "not integration"
       - run: python scripts/verify_v3_1_2_release.py
+      - name: Register Python 3 Jupyter kernel
+        run: python -m ipykernel install --user --name python3 --display-name "Python 3"
       - run: python scripts/execute_v3_1_2_notebook_smoke.py
       - run: python run_pipeline.py --config configs/manuscript_frozen.yaml --run-id release --clean --quiet
       - run: aiskg verify --run-dir outputs/release

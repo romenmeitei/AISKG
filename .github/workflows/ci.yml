@@ -45,6 +45,9 @@ jobs:
       - name: Verify corrected v3.1.2 additional analyses
         run: python scripts/verify_v3_1_2_release.py
 
+      - name: Register Python 3 Jupyter kernel
+        run: python -m ipykernel install --user --name python3 --display-name "Python 3"
+
       - name: Clean-directory master-notebook smoke test
         run: python scripts/execute_v3_1_2_notebook_smoke.py
 
