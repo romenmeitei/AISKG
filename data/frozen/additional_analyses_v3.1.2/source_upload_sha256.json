@@ -1,0 +1,54 @@
+{
+  "base_repository_archive": {
+    "filename": "AISKG_Framework_v3.0.0_GITHUB_READY.zip",
+    "sha256": "b51d8f0b17b9bad7b3b6ab2f01fb10ab132eae01d7fd8f315c375fc52d31d759"
+  },
+  "benchmark_sentence_corpus": {
+    "byte_identical": true,
+    "frozen_source_archive": "data/frozen/AISKG_Section2_Inputs_v2.1.1.zip",
+    "frozen_source_member": "data/heldout_sentences.csv",
+    "public_file": "benchmark/benchmark_sentences.csv",
+    "sha256": "cc98cc7ee6e8b248d161b0be5754c9db96bf31fb7c21175a7985615a23cb2701"
+  },
+  "corrected_benchmark_analysis": {
+    "source_notebook": "AISKG_PubTator3_Structured_LLM_Benchmark_Corrected_Executed_source.ipynb",
+    "source_notebook_sha256": "920d222921cf81887b0b83b244cbc093e57cf6c6ffe66389eeeb03f116fdec20",
+    "source_output_archive": "AISKG_three_system_benchmark_corrected_outputs_source.zip",
+    "source_output_archive_sha256": "109f7af0ac4281a970e6d084daa16a70d0231d599c603fe340f928daae1fa31d",
+    "superseded_incorrect_notebook_and_outputs_excluded_from_public_release": true
+  },
+  "pathway_analysis": {
+    "source_notebook": "AISKG_Blinded_Pathway_Validation_Colab_source.ipynb",
+    "source_notebook_sha256": "ce0e1af18623991a5df51a668215556b1ce6ce93c0142873b6704df3e9485de9",
+    "source_output_archive": "AISKG_expanded_pathway_validation_outputs_source.zip",
+    "source_output_archive_sha256": "913355edbe2da32835e3bdae39fafd2d7f3d62832a93cfa92b5ec70366ec262c"
+  },
+  "reviewer_workbooks": {
+    "privacy_note": "Original uploads contained document properties and are retained only in the private provenance archive. Public copies are content-equivalent exports produced with artifact_tool, with docProps removed and ZIP timestamps normalized.",
+    "expert_A_original": {
+      "filename": "Expert_A_completed.xlsx",
+      "sha256": "bf2515f59999d83c673aaa39b01f2ee815fae6161cef07f13f8c5106dd4f9d29"
+    },
+    "expert_A_public": {
+      "filename": "pathway/reviewer_workbooks/Expert_A_completed_public.xlsx",
+      "sha256": "bf3dbf599fa7176fb6f54c5102da12276791f689885b92ea9f585b1471e9d447"
+    },
+    "expert_B_original": {
+      "filename": "Expert_B_completed.xlsx",
+      "sha256": "96e124e390eaaaa0e3462dce017e7b316f6e215d0fa527b82682173b6ca31f34"
+    },
+    "expert_B_public": {
+      "filename": "pathway/reviewer_workbooks/Expert_B_completed_public.xlsx",
+      "sha256": "849adf9dd1522ead303d0fa481591a70777bf03ef8cef33a096f95bf66dcad4e"
+    },
+    "third_expert_original": {
+      "filename": "Third_Expert_completed.xlsx",
+      "sha256": "18650f36298152e654c67e317ccb09e424407f5898419ec8747d559185e92d90"
+    },
+    "third_expert_public": {
+      "filename": "pathway/reviewer_workbooks/Third_Expert_completed_public.xlsx",
+      "sha256": "c86c0d4bfdc10b0713f7ded76331135bc806092a81a38794dc648308439751e5"
+    }
+  },
+  "release_version": "3.1.2"
+}

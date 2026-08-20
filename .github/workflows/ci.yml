@@ -2,17 +2,24 @@ name: AISKG continuous integration
 
 on:
   push:
-    branches: [main]
+    branches: [main, "release/**"]
   pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
 
+env:
+  OPENBLAS_NUM_THREADS: "1"
+  OMP_NUM_THREADS: "1"
+  MKL_NUM_THREADS: "1"
+  NUMEXPR_NUM_THREADS: "1"
+  MPLBACKEND: "Agg"
+
 jobs:
   frozen-reproducibility:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,36 +30,45 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Upgrade packaging tools
-        run: python -m pip install --upgrade pip setuptools wheel
-
       - name: Install
-        run: |
-          python -m pip install -e ".[dev]"
-          python -m pip check 
+        run: python -m pip install -e ".[dev]" --no-build-isolation
+
+      - name: Verify source repository manifest
+        run: python verify_repository.py
 
       - name: Unit tests
         run: pytest -q -m "not integration"
 
-      - name: Complete frozen pipeline
+      - name: Verify corrected v3.1.2 additional analyses
+        run: python scripts/verify_v3_1_2_release.py
+
+      - name: Clean-directory master-notebook smoke test
+        run: python scripts/execute_v3_1_2_notebook_smoke.py
+
+      - name: Complete frozen v3.0.0 core pipeline
         run: python run_pipeline.py --config configs/ci.yaml --run-id github-actions --clean --quiet
 
-      - name: Verify generated release
+      - name: Verify generated core release
         run: aiskg verify --run-dir outputs/github-actions
 
-      - name: Check 285 reproducibility assertions
+      - name: Check 285 frozen core assertions
         run: |
           python - <<'PY'
           import pandas as pd
           audit = pd.read_csv("outputs/github-actions/outputs/reproducibility_audit.csv")
           assert len(audit) == 285, len(audit)
           assert set(audit["status"]) == {"PASS"}
-          print("285/285 checks passed")
+          print("285/285 frozen core checks passed")
           PY
 
-      - name: Upload deterministic release
+      - name: Generate corrected additional-analysis archive
+        run: aiskg additional-analyses --output-root outputs/additional-analyses-v3.1.2
+
+      - name: Upload deterministic release artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AISKG-Framework-v3.0.0-release
-          path: outputs/github-actions/AISKG_Framework_v3.0.0_Release.zip
+          name: AISKG-v3.1.2-reproducibility-artifacts
+          path: |
+            outputs/github-actions/AISKG_Framework_v3.0.0_Release.zip
+            outputs/AISKG_v3.1.2_additional_analyses_reproduced.zip
           if-no-files-found: error

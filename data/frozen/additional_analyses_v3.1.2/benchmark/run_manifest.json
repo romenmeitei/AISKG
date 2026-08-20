@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-08-18T10:07:17.609469+00:00",
+  "repository": "https://github.com/romenmeitei/AISKG.git",
+  "commit": "0e9e0e979c98664c74d7f27e318a7a06aed4fa54",
+  "frozen_zip": "data/frozen/AISKG_Section2_Inputs_v2.1.1.zip",
+  "frozen_zip_sha256": "11034f559a447f46ec0ba8118572fb6a54297de04af638f34a6ff87dd41367cc",
+  "seed": 20260817,
+  "bootstrap_replicates": 5000,
+  "smoke_test": false,
+  "n_sentences": 150,
+  "common_entity_n_sentences": 146,
+  "full_domain_n_sentences": 150,
+  "pubtator_retrieved_at": "2026-08-18T09:31:48.151920+00:00",
+  "pubtator_sentence_coverage": 146,
+  "pubtator_ineligible_sentence_ids": [
+    "BMS-0023",
+    "BMS-0038",
+    "BMS-0075",
+    "BMS-0130"
+  ],
+  "pubtator_relation_status": "not_evaluable_no_relation_objects",
+  "llm_model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "llm_model_revision": "main",
+  "temperature": 0,
+  "prompt_sha256": "5bfb057854ddfa1873972281f5833119ffd32f3401e9f18c80ee3768e483582b",
+  "common_schema": [
+    "CHEMICAL",
+    "DISEASE",
+    "GENE_PROTEIN",
+    "SPECIES"
+  ],
+  "full_schema": [
+    "CHEMICAL",
+    "DISEASE",
+    "GENE_PROTEIN",
+    "MECHANISM",
+    "ORGAN",
+    "OTHER",
+    "SPECIES"
+  ],
+  "allowed_relations": [
+    "ACTS_THROUGH_MECHANISM",
+    "AFFECTS",
+    "CAUSES",
+    "CONTAINS",
+    "COUNTERACTS_TOXIN",
+    "INHIBITS",
+    "INVOLVES_ORGAN",
+    "TREATS"
+  ],
+  "relation_endpoint_normalization": "Greek-letter and whitespace normalized locked AISKG rule",
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "pandas": "2.2.2",
+  "numpy": "2.0.2"
+}

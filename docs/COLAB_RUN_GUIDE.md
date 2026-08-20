@@ -1,15 +1,10 @@
-# Google Colab run guide
+# Google Colab run guide — AISKG v3.1.2
 
-1. Upload the repository to `https://github.com/romenmeitei/AISKG_Framework`.
-2. Open:
-   `https://colab.research.google.com/github/romenmeitei/AISKG_Framework/blob/main/notebooks/AISKG_Framework_v3_Complete_Pipeline.ipynb`
-3. Select **Runtime → Run all**.
-4. Keep `CONFIG_PATH = "configs/manuscript_frozen.yaml"` for publication reproduction.
-5. Wait for `SUCCESS`, `285/285 checks passed`, and the ablation table.
-6. Download `AISKG_Framework_v3.0.0_Release.zip` when prompted.
+1. Open `notebooks/AISKG_Framework_v3_1_2_Complete_Reproducibility.ipynb` from the README Colab badge.
+2. Select **Runtime → Run all**.
+3. Keep seed `20260817`, pathway bootstrap count `10000`, and benchmark bootstrap count `5000` unchanged for manuscript reproduction.
+4. Leave `RUN_CORE_FROZEN_PIPELINE = False` unless the unchanged v3.0.0 core must also be rerun.
+5. After completion, confirm the final cell reports 805 reviewer pairs, 92 adjudications, and status `PASS`.
+6. Download `AISKG_v3.1.2_additional_analyses_reproduced.zip` when required.
 
-The notebook does not use `argparse` inside a notebook cell. It invokes the tested repository command through `subprocess`, preventing the earlier `--input-dir/--output-dir` Colab error.
-
-## Validation performed before release
-
-The notebook was executed end-to-end with `nbclient` using the same cells, Python package, configuration, and frozen inputs. Hosted Google Colab execution must still be initiated by the repository owner because this environment cannot sign in to the owner's Google account.
+The notebook is self-contained and requires no live PubTator or language-model call. It restores three public reviewer workbooks, validates all source/adjudication records, reconstructs final labels, reproduces pathway and benchmark results, and emits checksums. PubTator relation performance must remain reported as not evaluable.

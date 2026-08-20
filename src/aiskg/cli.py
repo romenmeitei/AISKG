@@ -9,6 +9,7 @@ from typing import Sequence
 from .config import AISKGConfig
 from .pipeline import run_pipeline
 from .reproducibility import verify_run
+from .additional_analyses import run_replay
 from .stages import run_stage
 
 
@@ -34,6 +35,13 @@ def build_parser() -> argparse.ArgumentParser:
     verify = subparsers.add_parser("verify", help="Verify a completed output directory")
     verify.add_argument("--run-dir", required=True)
 
+    additional = subparsers.add_parser(
+        "additional-analyses",
+        help="Replay the corrected v3.1.2 pathway validation and three-system benchmark",
+    )
+    additional.add_argument("--data-root", default="data/frozen/additional_analyses_v3.1.2")
+    additional.add_argument("--output-root", default="outputs/additional-analyses-v3.1.2")
+
     variants = subparsers.add_parser("list-variants", help="List configured ablation variants")
     variants.add_argument("--config", default="config.yaml")
     return parser
@@ -55,6 +63,22 @@ def main(argv: Sequence[str] | None = None) -> int:
         return 0
     if args.command == "verify":
         print(json.dumps(verify_run(args.run_dir), indent=2))
+        return 0
+    if args.command == "additional-analyses":
+        result = run_replay(
+            args.data_root,
+            args.output_root,
+        )
+        print(
+            json.dumps(
+                {
+                    "output_root": str(result.output_root),
+                    "output_archive": str(result.output_archive),
+                    "manifest": str(result.manifest),
+                },
+                indent=2,
+            )
+        )
         return 0
     if args.command == "list-variants":
         config = AISKGConfig.load(args.config)

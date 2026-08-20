@@ -13,7 +13,7 @@ def build_source_manifests(repository_root: str | Path) -> tuple[Path, Path]:
     exclude = {
         manifest.name,
         checksums.name,
-        "AISKG_Framework_v3.0.0_GITHUB_READY.zip",
+        "AISKG_v3.1.2_GITHUB_READY_COMPLETE.zip",
     }
     write_manifest(root, manifest, exclude=exclude)
     write_sha256s(root, checksums, exclude=exclude)

@@ -1,0 +1,273 @@
+benchmark_sentence_id,system,text,type,start,end,canonical
+BMS-0001,AISKG,renal,ORGAN,13,18,Kidney
+BMS-0002,AISKG,α-amanitin,CHEMICAL,124,134,Alpha-amanitin
+BMS-0002,AISKG,β-amanitin,CHEMICAL,136,146,Beta-amanitin
+BMS-0002,AISKG,amatoxins,CHEMICAL,185,194,Amatoxins
+BMS-0002,AISKG,phallotoxins,CHEMICAL,196,208,Phallotoxins
+BMS-0003,AISKG,phalloidin,CHEMICAL,36,46,Phallotoxins
+BMS-0004,AISKG,Hemoperfusion,CHEMICAL,0,13,Hemoperfusion
+BMS-0005,AISKG,Liver,ORGAN,92,97,Liver
+BMS-0006,AISKG,phallotoxins,CHEMICAL,65,77,Phallotoxins
+BMS-0007,AISKG,α-amanitin,CHEMICAL,39,49,Alpha-amanitin
+BMS-0008,AISKG,amatoxins,CHEMICAL,4,13,Amatoxins
+BMS-0009,AISKG,Amanita virosa,SPECIES,25,39,Amanita virosa
+BMS-0010,AISKG,alpha-amanitin,CHEMICAL,204,218,Alpha-amanitin
+BMS-0011,AISKG,alpha-amanitin,CHEMICAL,119,133,Alpha-amanitin
+BMS-0012,AISKG,orellanine,CHEMICAL,37,47,Orellanine
+BMS-0013,AISKG,hallucinogenic,DISEASE,14,28,Hallucinations
+BMS-0013,AISKG,psilocybin,CHEMICAL,38,48,Psilocybin
+BMS-0014,AISKG,amatoxin,CHEMICAL,127,135,Amatoxins
+BMS-0014,AISKG,phallotoxin,CHEMICAL,140,151,Phallotoxins
+BMS-0015,AISKG,Psilocybin,CHEMICAL,0,10,Psilocybin
+BMS-0015,AISKG,psilocin,CHEMICAL,15,23,Psilocin
+BMS-0016,AISKG,acute kidney injury,DISEASE,66,85,Acute kidney injury
+BMS-0016,AISKG,kidney,ORGAN,72,78,Kidney
+BMS-0016,AISKG,kidney injury,DISEASE,72,85,Nephrotoxicity
+BMS-0017,AISKG,phalloidin,CHEMICAL,69,79,Phallotoxins
+BMS-0018,AISKG,erythromelalgia,DISEASE,18,33,Erythromelalgia
+BMS-0019,AISKG,α-amanitin,CHEMICAL,158,168,Alpha-amanitin
+BMS-0020,AISKG,Plasmapheresis,CHEMICAL,0,14,Plasmapheresis
+BMS-0020,AISKG,Amanita phalloides,SPECIES,35,53,Amanita phalloides
+BMS-0021,AISKG,Amanita phalloides,SPECIES,0,18,Amanita phalloides
+BMS-0021,AISKG,Amanita verna,SPECIES,20,33,Amanita verna
+BMS-0021,AISKG,Phallotoxin,CHEMICAL,51,62,Phallotoxins
+BMS-0022,AISKG,alpha-amanitin,CHEMICAL,67,81,Alpha-amanitin
+BMS-0023,AISKG,Amatoxin,CHEMICAL,0,8,Amatoxins
+BMS-0023,AISKG,phallotoxin,CHEMICAL,13,24,Phallotoxins
+BMS-0024,AISKG,liver,ORGAN,6,11,Liver
+BMS-0024,AISKG,liver injury,DISEASE,6,18,Hepatotoxicity
+BMS-0024,AISKG,acute liver failure,DISEASE,20,39,Acute liver failure
+BMS-0024,AISKG,liver,ORGAN,26,31,Liver
+BMS-0024,AISKG,liver,ORGAN,61,66,Liver
+BMS-0024,AISKG,Gyromitra esculenta,SPECIES,116,135,Gyromitra esculenta
+BMS-0025,AISKG,alpha-amanitin,CHEMICAL,105,119,Alpha-amanitin
+BMS-0026,AISKG,cardiac,ORGAN,83,90,Heart
+BMS-0026,AISKG,supportive care,CHEMICAL,108,123,Supportive care
+BMS-0027,AISKG,Nephrotoxicity,DISEASE,0,14,Nephrotoxicity
+BMS-0028,AISKG,renal,ORGAN,116,121,Kidney
+BMS-0029,AISKG,Phallotoxins,CHEMICAL,0,12,Phallotoxins
+BMS-0030,AISKG,Amatoxins,CHEMICAL,0,9,Amatoxins
+BMS-0030,AISKG,phallotoxins,CHEMICAL,37,49,Phallotoxins
+BMS-0030,AISKG,Amanita bisporigera,SPECIES,82,101,Amanita bisporigera
+BMS-0030,AISKG,Amanita phalloides,SPECIES,103,121,Amanita phalloides
+BMS-0031,AISKG,psilocin,CHEMICAL,92,100,Psilocin
+BMS-0031,AISKG,Gastrointestinal,ORGAN,133,149,Gastrointestinal tract
+BMS-0031,AISKG,Liver,ORGAN,185,190,Liver
+BMS-0031,AISKG,Psilocin,CHEMICAL,92,100,Psilocin
+BMS-0032,AISKG,gyromitrin,CHEMICAL,58,68,Gyromitrin
+BMS-0032,AISKG,hemolytic,DISEASE,121,130,Hemolysis
+BMS-0033,AISKG,α-Amanitin,CHEMICAL,64,74,Alpha-amanitin
+BMS-0034,AISKG,gyromitrin,CHEMICAL,37,47,Gyromitrin
+BMS-0035,AISKG,amatoxins,CHEMICAL,60,69,Amatoxins
+BMS-0035,AISKG,phallotoxins,CHEMICAL,74,86,Phallotoxins
+BMS-0036,AISKG,hepatocytes,ORGAN,83,94,Liver
+BMS-0037,AISKG,amatoxin,CHEMICAL,41,49,Amatoxins
+BMS-0038,AISKG,Muscarine,CHEMICAL,33,42,Muscarine
+BMS-0038,AISKG,Muscimol,CHEMICAL,44,52,Muscimol
+BMS-0038,AISKG,Ibotenic Acid,CHEMICAL,58,71,Ibotenic acid
+BMS-0039,AISKG,hallucinogenic,DISEASE,42,56,Hallucinations
+BMS-0039,AISKG,CNS,ORGAN,152,155,Central nervous system
+BMS-0039,AISKG,ibotenic acid,CHEMICAL,176,189,Ibotenic acid
+BMS-0039,AISKG,muscimol,CHEMICAL,190,198,Muscimol
+BMS-0039,AISKG,neurologic,ORGAN,211,221,Central nervous system
+BMS-0040,AISKG,Amanita phalloides,SPECIES,0,18,Amanita phalloides
+BMS-0040,AISKG,phallotoxin,CHEMICAL,36,47,Phallotoxins
+BMS-0041,AISKG,Chlorophyllum molybdites,SPECIES,75,99,Chlorophyllum molybdites
+BMS-0042,AISKG,alpha-amanitin,CHEMICAL,123,137,Alpha-amanitin
+BMS-0043,AISKG,illudin,CHEMICAL,22,29,Illudins
+BMS-0044,AISKG,Amanita bisporigera,SPECIES,23,42,Amanita bisporigera
+BMS-0044,AISKG,amatoxins,CHEMICAL,48,57,Amatoxins
+BMS-0044,AISKG,phallotoxins,CHEMICAL,62,74,Phallotoxins
+BMS-0045,AISKG,Ibotenic acid,CHEMICAL,0,13,Ibotenic acid
+BMS-0045,AISKG,muscimol,CHEMICAL,18,26,Muscimol
+BMS-0045,AISKG,Amanita pantherina,SPECIES,97,115,Amanita pantherina
+BMS-0045,AISKG,Amanita muscaria,SPECIES,120,136,Amanita muscaria
+BMS-0046,AISKG,α-amanitin,CHEMICAL,18,28,Alpha-amanitin
+BMS-0047,AISKG,mortality,DISEASE,33,42,Death
+BMS-0047,AISKG,silibinin,CHEMICAL,71,80,Silibinin
+BMS-0048,AISKG,mortality,DISEASE,39,48,Death
+BMS-0049,AISKG,amatoxin,CHEMICAL,4,12,Amatoxins
+BMS-0050,AISKG,illudin,CHEMICAL,35,42,Illudins
+BMS-0051,AISKG,liver,ORGAN,39,44,Liver
+BMS-0051,AISKG,liver injury,DISEASE,39,51,Hepatotoxicity
+BMS-0052,AISKG,Death,DISEASE,17,22,Death
+BMS-0052,AISKG,α-Amanitin,CHEMICAL,42,52,Alpha-amanitin
+BMS-0052,AISKG,α-Amanitin,CHEMICAL,55,65,Alpha-amanitin
+BMS-0052,AISKG,death,DISEASE,127,132,Death
+BMS-0052,AISKG,Amanita phalloides,SPECIES,147,165,Amanita phalloides
+BMS-0053,AISKG,Alpha-Amanitin,CHEMICAL,0,14,Alpha-amanitin
+BMS-0053,AISKG,hepatotoxicity,DISEASE,103,117,Hepatotoxicity
+BMS-0053,AISKG,nephrotoxicity,DISEASE,122,136,Nephrotoxicity
+BMS-0054,AISKG,amatoxins,CHEMICAL,157,166,Amatoxins
+BMS-0054,AISKG,phalloidin,CHEMICAL,208,218,Phallotoxins
+BMS-0054,AISKG,phallotoxins,CHEMICAL,220,232,Phallotoxins
+BMS-0055,AISKG,gastroenteritis,DISEASE,26,41,Gastroenteritis
+BMS-0055,AISKG,acute liver failure,DISEASE,129,148,Acute liver failure
+BMS-0055,AISKG,liver,ORGAN,135,140,Liver
+BMS-0055,AISKG,liver transplantation,CHEMICAL,209,230,Liver transplantation
+BMS-0056,AISKG,α-amanitin,CHEMICAL,74,84,Alpha-amanitin
+BMS-0057,AISKG,Ibotenic acid,CHEMICAL,0,13,Ibotenic acid
+BMS-0058,AISKG,amatoxins,CHEMICAL,12,21,Amatoxins
+BMS-0058,AISKG,phallotoxins,CHEMICAL,26,38,Phallotoxins
+BMS-0059,AISKG,Amatoxins,CHEMICAL,0,9,Amatoxins
+BMS-0059,AISKG,phallotoxins,CHEMICAL,17,29,Phallotoxins
+BMS-0059,AISKG,blood,ORGAN,60,65,Blood
+BMS-0060,AISKG,α-Amanitin,CHEMICAL,205,215,Alpha-amanitin
+BMS-0061,AISKG,plasmapheresis,CHEMICAL,251,265,Plasmapheresis
+BMS-0062,AISKG,muscarine,CHEMICAL,59,68,Muscarine
+BMS-0062,AISKG,neurological,ORGAN,96,108,Central nervous system
+BMS-0063,AISKG,α-amanitin,CHEMICAL,188,198,Alpha-amanitin
+BMS-0063,AISKG,amatoxin,CHEMICAL,250,258,Amatoxins
+BMS-0063,AISKG,phallotoxin,CHEMICAL,286,297,Phallotoxins
+BMS-0064,AISKG,central nervous system,ORGAN,47,69,Central nervous system
+BMS-0064,AISKG,Amanita pantherina,SPECIES,128,146,Amanita pantherina
+BMS-0064,AISKG,Ibotenic acid,CHEMICAL,182,195,Ibotenic acid
+BMS-0064,AISKG,Muscimol,CHEMICAL,197,205,Muscimol
+BMS-0065,AISKG,α-amanitin,CHEMICAL,74,84,Alpha-amanitin
+BMS-0066,AISKG,orellanine,CHEMICAL,59,69,Orellanine
+BMS-0067,AISKG,α-amanitin,CHEMICAL,13,23,Alpha-amanitin
+BMS-0067,AISKG,liver,ORGAN,138,143,Liver
+BMS-0068,AISKG,acromelic acids,CHEMICAL,29,44,Acromelic acids
+BMS-0069,AISKG,Phallotoxins,CHEMICAL,75,87,Phallotoxins
+BMS-0070,AISKG,alpha-Amanitin,CHEMICAL,0,14,Alpha-amanitin
+BMS-0071,AISKG,apoptosis,MECHANISM,38,47,Apoptosis
+BMS-0072,AISKG,alpha-amanitin,CHEMICAL,148,162,Alpha-amanitin
+BMS-0072,AISKG,psilocin,CHEMICAL,189,197,Psilocin
+BMS-0073,AISKG,liver,ORGAN,76,81,Liver
+BMS-0073,AISKG,liver injury,DISEASE,76,88,Hepatotoxicity
+BMS-0073,AISKG,hepatocyte,ORGAN,119,129,Liver
+BMS-0074,AISKG,mortality,DISEASE,144,153,Death
+BMS-0075,AISKG,alpha amanitin,CHEMICAL,41,55,Alpha-amanitin
+BMS-0076,AISKG,N-acetylcysteine,CHEMICAL,35,51,N-acetylcysteine
+BMS-0076,AISKG,NAC,CHEMICAL,53,56,N-acetylcysteine
+BMS-0076,AISKG,amatoxin,CHEMICAL,77,85,Amatoxins
+BMS-0077,AISKG,Amatoxin,CHEMICAL,0,8,Amatoxins
+BMS-0077,AISKG,acute liver failure,DISEASE,17,36,Acute liver failure
+BMS-0077,AISKG,liver,ORGAN,23,28,Liver
+BMS-0077,AISKG,mortality,DISEASE,59,68,Death
+BMS-0077,AISKG,liver transplantation,CHEMICAL,77,98,Liver transplantation
+BMS-0078,AISKG,amatoxin,CHEMICAL,44,52,Amatoxins
+BMS-0079,AISKG,phallotoxins,CHEMICAL,29,41,Phallotoxins
+BMS-0079,AISKG,amatoxins,CHEMICAL,46,55,Amatoxins
+BMS-0080,AISKG,alpha amanitin,CHEMICAL,34,48,Alpha-amanitin
+BMS-0081,AISKG,α-amanitin,CHEMICAL,23,33,Alpha-amanitin
+BMS-0082,AISKG,Inocybe,SPECIES,26,33,Inocybe spp.
+BMS-0082,AISKG,muscarine,CHEMICAL,85,94,Muscarine
+BMS-0083,AISKG,psilocybin,CHEMICAL,12,22,Psilocybin
+BMS-0083,AISKG,psilocin,CHEMICAL,27,35,Psilocin
+BMS-0084,AISKG,lung,ORGAN,82,86,Respiratory system
+BMS-0085,AISKG,psilocin,CHEMICAL,15,23,Psilocin
+BMS-0085,AISKG,blood,ORGAN,40,45,Blood
+BMS-0086,AISKG,Orellanine,CHEMICAL,17,27,Orellanine
+BMS-0087,AISKG,alpha-amanitin,CHEMICAL,175,189,Alpha-amanitin
+BMS-0088,AISKG,amatoxins,CHEMICAL,3,12,Amatoxins
+BMS-0088,AISKG,phallotoxins,CHEMICAL,16,28,Phallotoxins
+BMS-0089,AISKG,ibotenic acid,CHEMICAL,39,52,Ibotenic acid
+BMS-0089,AISKG,muscimol,CHEMICAL,57,65,Muscimol
+BMS-0090,AISKG,amatoxin,CHEMICAL,16,24,Amatoxins
+BMS-0090,AISKG,Amanita phalloides,SPECIES,53,71,Amanita phalloides
+BMS-0090,AISKG,Lepiota brunneoincarnata,SPECIES,78,102,Lepiota brunneoincarnata
+BMS-0091,AISKG,mortality,DISEASE,77,86,Death
+BMS-0092,AISKG,illudin,CHEMICAL,17,24,Illudins
+BMS-0093,AISKG,alpha-amanitin,CHEMICAL,49,63,Alpha-amanitin
+BMS-0094,AISKG,Phallotoxins,CHEMICAL,0,12,Phallotoxins
+BMS-0095,AISKG,alpha-amanitin,CHEMICAL,24,38,Alpha-amanitin
+BMS-0096,AISKG,Inhibition of transcription,MECHANISM,0,27,Transcription inhibition
+BMS-0096,AISKG,alpha-amanitin,CHEMICAL,31,45,Alpha-amanitin
+BMS-0097,AISKG,brain,ORGAN,53,58,Central nervous system
+BMS-0097,AISKG,ibotenic acid,CHEMICAL,111,124,Ibotenic acid
+BMS-0098,AISKG,phallotoxin,CHEMICAL,72,83,Phallotoxins
+BMS-0099,AISKG,Cardiac,ORGAN,12,19,Heart
+BMS-0099,AISKG,Seizure,DISEASE,61,68,Seizures
+BMS-0100,AISKG,α-amanitin,CHEMICAL,31,41,Alpha-amanitin
+BMS-0101,AISKG,ibotenic acid,CHEMICAL,9,22,Ibotenic acid
+BMS-0101,AISKG,muscimol,CHEMICAL,27,35,Muscimol
+BMS-0101,AISKG,gastrointestinal,ORGAN,73,89,Gastrointestinal tract
+BMS-0102,AISKG,ibotenic acid,CHEMICAL,65,78,Ibotenic acid
+BMS-0103,AISKG,muscarine,CHEMICAL,12,21,Muscarine
+BMS-0104,AISKG,alpha-amanitin,CHEMICAL,137,151,Alpha-amanitin
+BMS-0105,AISKG,α-amanitin,CHEMICAL,154,164,Alpha-amanitin
+BMS-0106,AISKG,muscarine,CHEMICAL,56,65,Muscarine
+BMS-0106,AISKG,supportive treatment,CHEMICAL,87,107,Supportive care
+BMS-0106,AISKG,atropine,CHEMICAL,112,120,Atropine
+BMS-0107,AISKG,hemodialysis,CHEMICAL,24,36,Hemodialysis
+BMS-0107,AISKG,Amanita phalloides,SPECIES,86,104,Amanita phalloides
+BMS-0107,AISKG,acute kidney injury,DISEASE,117,136,Acute kidney injury
+BMS-0107,AISKG,kidney,ORGAN,123,129,Kidney
+BMS-0107,AISKG,kidney injury,DISEASE,123,136,Nephrotoxicity
+BMS-0108,AISKG,Amatoxin,CHEMICAL,0,8,Amatoxins
+BMS-0109,AISKG,β-amanitin,CHEMICAL,20,30,Beta-amanitin
+BMS-0109,AISKG,muscarine,CHEMICAL,32,41,Muscarine
+BMS-0109,AISKG,muscimol,CHEMICAL,43,51,Muscimol
+BMS-0109,AISKG,ibotenic acid,CHEMICAL,57,70,Ibotenic acid
+BMS-0110,AISKG,β-amanitin,CHEMICAL,85,95,Beta-amanitin
+BMS-0111,AISKG,β-amanitin,CHEMICAL,72,82,Beta-amanitin
+BMS-0112,AISKG,liver,ORGAN,56,61,Liver
+BMS-0112,AISKG,liver transplantation,CHEMICAL,56,77,Liver transplantation
+BMS-0113,AISKG,α-amanitin,CHEMICAL,151,161,Alpha-amanitin
+BMS-0114,AISKG,amatoxin,CHEMICAL,58,66,Amatoxins
+BMS-0115,AISKG,amatoxins,CHEMICAL,41,50,Amatoxins
+BMS-0115,AISKG,ibotenic acid,CHEMICAL,75,88,Ibotenic acid
+BMS-0115,AISKG,muscimol,CHEMICAL,90,98,Muscimol
+BMS-0115,AISKG,liver,ORGAN,132,137,Liver
+BMS-0115,AISKG,kidney,ORGAN,139,145,Kidney
+BMS-0115,AISKG,central nervous system,ORGAN,147,169,Central nervous system
+BMS-0116,AISKG,α-amanitin,CHEMICAL,91,101,Alpha-amanitin
+BMS-0116,AISKG,liver,ORGAN,110,115,Liver
+BMS-0117,AISKG,α-amanitin,CHEMICAL,26,36,Alpha-amanitin
+BMS-0118,AISKG,hallucinogenic,DISEASE,50,64,Hallucinations
+BMS-0119,AISKG,α-amanitin,CHEMICAL,51,61,Alpha-amanitin
+BMS-0120,AISKG,Phallotoxins,CHEMICAL,61,73,Phallotoxins
+BMS-0121,AISKG,amatoxin,CHEMICAL,116,124,Amatoxins
+BMS-0122,AISKG,amatoxin,CHEMICAL,21,29,Amatoxins
+BMS-0122,AISKG,phallotoxin,CHEMICAL,34,45,Phallotoxins
+BMS-0123,AISKG,α-amanitin,CHEMICAL,13,23,Alpha-amanitin
+BMS-0124,AISKG,amatoxin,CHEMICAL,121,129,Amatoxins
+BMS-0125,AISKG,orellanine,CHEMICAL,152,162,Orellanine
+BMS-0126,AISKG,amatoxin,CHEMICAL,10,18,Amatoxins
+BMS-0126,AISKG,gastrointestinal,ORGAN,111,127,Gastrointestinal tract
+BMS-0127,AISKG,Amanita phalloides,SPECIES,92,110,Amanita phalloides
+BMS-0127,AISKG,blood,ORGAN,150,155,Blood
+BMS-0128,AISKG,amatoxins,CHEMICAL,97,106,Amatoxins
+BMS-0129,AISKG,gyromitrin,CHEMICAL,79,89,Gyromitrin
+BMS-0129,AISKG,muscarine,CHEMICAL,91,100,Muscarine
+BMS-0129,AISKG,coprine,CHEMICAL,102,109,Coprine
+BMS-0129,AISKG,orellanine,CHEMICAL,111,121,Orellanine
+BMS-0129,AISKG,psilocybin,CHEMICAL,123,133,Psilocybin
+BMS-0130,AISKG,α-amanitin,CHEMICAL,63,73,Alpha-amanitin
+BMS-0131,AISKG,amatoxin,CHEMICAL,18,26,Amatoxins
+BMS-0132,AISKG,α-amanitin,CHEMICAL,4,14,Alpha-amanitin
+BMS-0133,AISKG,amatoxins,CHEMICAL,99,108,Amatoxins
+BMS-0133,AISKG,phallotoxins,CHEMICAL,114,126,Phallotoxins
+BMS-0134,AISKG,rhabdomyolysis,DISEASE,185,199,Rhabdomyolysis
+BMS-0135,AISKG,Hallucinations,DISEASE,0,14,Hallucinations
+BMS-0135,AISKG,myocardial,ORGAN,89,99,Heart
+BMS-0135,AISKG,psilocybin,CHEMICAL,108,118,Psilocybin
+BMS-0136,AISKG,amatoxins,CHEMICAL,22,31,Amatoxins
+BMS-0136,AISKG,Amatoxin,CHEMICAL,22,30,Amatoxins
+BMS-0137,AISKG,alpha-amanitin,CHEMICAL,24,38,Alpha-amanitin
+BMS-0138,AISKG,alpha-amanitin,CHEMICAL,60,74,Alpha-amanitin
+BMS-0139,AISKG,renal,ORGAN,101,106,Kidney
+BMS-0140,AISKG,Acute liver failure,DISEASE,0,19,Acute liver failure
+BMS-0140,AISKG,liver,ORGAN,6,11,Liver
+BMS-0141,AISKG,Tricholoma equestre,SPECIES,0,19,Tricholoma equestre
+BMS-0141,AISKG,rhabdomyolysis,DISEASE,73,87,Rhabdomyolysis
+BMS-0142,AISKG,Fulminant liver failure,DISEASE,0,23,Acute liver failure
+BMS-0142,AISKG,liver,ORGAN,10,15,Liver
+BMS-0142,AISKG,liver,ORGAN,103,108,Liver
+BMS-0142,AISKG,liver transplantation,CHEMICAL,103,124,Liver transplantation
+BMS-0143,AISKG,amatoxins,CHEMICAL,79,88,Amatoxins
+BMS-0144,AISKG,liver,ORGAN,21,26,Liver
+BMS-0144,AISKG,necrosis,MECHANISM,57,65,Necrosis
+BMS-0144,AISKG,hepatocytes,ORGAN,69,80,Liver
+BMS-0145,AISKG,ibotenic acid,CHEMICAL,33,46,Ibotenic acid
+BMS-0146,AISKG,α-amanitin,CHEMICAL,31,41,Alpha-amanitin
+BMS-0147,AISKG,reactive oxygen species,MECHANISM,99,122,Oxidative stress
+BMS-0147,AISKG,alpha amanitin,CHEMICAL,180,194,Alpha-amanitin
+BMS-0148,AISKG,Cortinarius orellanus,SPECIES,0,21,Cortinarius orellanus
+BMS-0148,AISKG,Cortinarius rubellus,SPECIES,26,46,Cortinarius rubellus
+BMS-0148,AISKG,orellanine,CHEMICAL,61,71,Orellanine
+BMS-0149,AISKG,renal,ORGAN,71,76,Kidney
+BMS-0149,AISKG,hemodialysis,CHEMICAL,207,219,Hemodialysis
+BMS-0149,AISKG,supportive treatment,CHEMICAL,224,244,Supportive care
+BMS-0150,AISKG,cardiac,ORGAN,37,44,Heart
