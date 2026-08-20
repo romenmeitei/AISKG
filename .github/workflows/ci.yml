@@ -30,7 +30,10 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Install
+      - name: Install build tools
+        run: python -m pip install "setuptools>=69" wheel
+
+      - name: Install AISKG and test dependencies
         run: python -m pip install -e ".[dev]" --no-build-isolation
 
       - name: Verify source repository manifest
