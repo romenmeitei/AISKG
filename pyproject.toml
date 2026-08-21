@@ -39,11 +39,11 @@ dependencies = [
   "rapidfuzz>=3.6,<4",
   "requests>=2.31,<3",
   "biopython>=1.83,<2",
+  "spacy>=3.7,<4",
 ]
 
 [project.optional-dependencies]
 live = [
-  "spacy>=3.7,<4",
   "sentence-transformers>=3,<6",
   "umap-learn>=0.5.5,<1",
   "hdbscan>=0.8.33,<1",
