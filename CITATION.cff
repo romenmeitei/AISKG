@@ -1,24 +1,26 @@
 cff-version: 1.2.0
-message: "If you use AISKG Framework, please cite this software and the associated manuscript."
-title: "AISKG Framework: Unified AI-Assisted Ontology-Guided Semantic Knowledge Graph Pipeline"
+message: "If you use AISKG, please cite this software release and the associated manuscript."
+title: "AISKG: Unified AI-Assisted Ontology-Guided Semantic Knowledge Graph Pipeline"
 type: software
-version: 3.0.0
-date-released: 2026-08-05
+version: 3.1.2
+date-released: 2026-08-18
 license: MIT
 authors:
   - family-names: "Lourembam"
     given-names: "Romen Meitei"
-repository-code: "https://github.com/romenmeitei/AISKG_Framework"
-url: "https://github.com/romenmeitei/AISKG_Framework"
+repository-code: "https://github.com/romenmeitei/AISKG"
+url: "https://github.com/romenmeitei/AISKG"
 keywords:
   - biomedical natural language processing
   - semantic knowledge graph
   - ontology-guided extraction
-  - BERTopic
+  - pathway validation
+  - reviewer adjudication
+  - PubTator
+  - structured large language model
   - reproducibility
-  - ablation study
 abstract: >-
-  AISKG Framework unifies literature retrieval, preprocessing, semantic modelling,
-  ontology-guided extraction, graph construction, pathway analysis, validation,
-  benchmarking, research-representation analysis, robustness testing, and
-  deterministic release auditing for biomedical literature mining.
+  AISKG v3.1.2 preserves the frozen v3.0.0 manuscript pipeline, adds complete
+  reviewer-level replay of expanded blinded pathway validation from three
+  public metadata-sanitized completed workbooks, and retains the corrected
+  three-system held-out biomedical NLP benchmark introduced in v3.1.1.

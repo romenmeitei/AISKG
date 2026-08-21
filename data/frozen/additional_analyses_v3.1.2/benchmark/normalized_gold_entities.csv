@@ -1,0 +1,319 @@
+benchmark_sentence_id,system,text,type,start,end,canonical
+BMS-0001,GOLD,renal,ORGAN,13,18,Kidney
+BMS-0002,GOLD,α-amanitin,CHEMICAL,124,134,Alpha-amanitin
+BMS-0002,GOLD,β-amanitin,CHEMICAL,136,146,Beta-amanitin
+BMS-0002,GOLD,amatoxins,CHEMICAL,185,194,Amatoxins
+BMS-0002,GOLD,phallotoxins,CHEMICAL,196,208,Phallotoxins
+BMS-0003,GOLD,phalloidin,CHEMICAL,36,46,Phallotoxins
+BMS-0003,GOLD,actin filaments,GENE_PROTEIN,111,126,actin filaments
+BMS-0003,GOLD,actin,GENE_PROTEIN,163,168,actin
+BMS-0003,GOLD,actin-binding proteins,GENE_PROTEIN,210,232,actin-binding proteins
+BMS-0004,GOLD,Hemoperfusion,OTHER,0,13,Hemoperfusion
+BMS-0005,GOLD,Liver,ORGAN,92,97,Liver
+BMS-0006,GOLD,phallotoxins,CHEMICAL,65,77,Phallotoxins
+BMS-0007,GOLD,α-amanitin,CHEMICAL,39,49,Alpha-amanitin
+BMS-0008,GOLD,amatoxins,CHEMICAL,4,13,Amatoxins
+BMS-0008,GOLD,RNA,OTHER,67,70,RNA
+BMS-0008,GOLD,RNA polymerase II,GENE_PROTEIN,67,84,RNA polymerase II
+BMS-0009,GOLD,Amanita virosa,SPECIES,25,39,Amanita virosa
+BMS-0010,GOLD,alpha-amanitin,CHEMICAL,204,218,Alpha-amanitin
+BMS-0010,GOLD,TFIIS,GENE_PROTEIN,279,284,TFIIS
+BMS-0010,GOLD,DNA,OTHER,305,308,DNA
+BMS-0010,GOLD,RNA,OTHER,332,335,RNA
+BMS-0011,GOLD,RNA,OTHER,43,46,RNA
+BMS-0011,GOLD,alpha-amanitin,CHEMICAL,119,133,Alpha-amanitin
+BMS-0012,GOLD,orellanine,CHEMICAL,37,47,Orellanine
+BMS-0013,GOLD,hallucinogenic,DISEASE,14,28,Hallucinations
+BMS-0013,GOLD,psilocybin,CHEMICAL,38,48,Psilocybin
+BMS-0014,GOLD,amatoxin,CHEMICAL,127,135,Amatoxins
+BMS-0014,GOLD,phallotoxin,CHEMICAL,140,151,Phallotoxins
+BMS-0015,GOLD,Psilocybin,CHEMICAL,0,10,Psilocybin
+BMS-0015,GOLD,psilocin,CHEMICAL,15,23,Psilocin
+BMS-0015,GOLD,psilocin,CHEMICAL,68,76,Psilocin
+BMS-0016,GOLD,acute kidney injury,DISEASE,66,85,Acute kidney injury
+BMS-0016,GOLD,kidney,ORGAN,72,78,Kidney
+BMS-0016,GOLD,kidney injury,DISEASE,72,85,Nephrotoxicity
+BMS-0017,GOLD,actin,GENE_PROTEIN,37,42,actin
+BMS-0017,GOLD,phalloidin,CHEMICAL,69,79,Phallotoxins
+BMS-0017,GOLD,actin,GENE_PROTEIN,102,107,actin
+BMS-0017,GOLD,actin,GENE_PROTEIN,135,140,actin
+BMS-0018,GOLD,erythromelalgia,DISEASE,18,33,Erythromelalgia
+BMS-0018,GOLD,Clitocybe acromelalga,SPECIES,50,71,Clitocybe acromelalga
+BMS-0019,GOLD,RNA,OTHER,129,132,RNA
+BMS-0019,GOLD,RNA polymerase II,GENE_PROTEIN,129,146,RNA polymerase II
+BMS-0019,GOLD,α-amanitin,CHEMICAL,158,168,Alpha-amanitin
+BMS-0020,GOLD,Plasmapheresis,OTHER,0,14,Plasmapheresis
+BMS-0020,GOLD,Amanita phalloides,SPECIES,35,53,Amanita phalloides
+BMS-0021,GOLD,Amanita phalloides,SPECIES,0,18,Amanita phalloides
+BMS-0021,GOLD,Amanita verna,SPECIES,20,33,Amanita verna
+BMS-0021,GOLD,Phallotoxin,CHEMICAL,51,62,Phallotoxins
+BMS-0022,GOLD,alpha-amanitin,CHEMICAL,67,81,Alpha-amanitin
+BMS-0023,GOLD,Amatoxin,CHEMICAL,0,8,Amatoxins
+BMS-0023,GOLD,phallotoxin,CHEMICAL,13,24,Phallotoxins
+BMS-0023,GOLD,Amanita fuliginea,SPECIES,43,60,Amanita fuliginea
+BMS-0024,GOLD,liver,ORGAN,6,11,Liver
+BMS-0024,GOLD,liver injury,DISEASE,6,18,Hepatotoxicity
+BMS-0024,GOLD,acute liver failure,DISEASE,20,39,Acute liver failure
+BMS-0024,GOLD,liver,ORGAN,26,31,Liver
+BMS-0024,GOLD,liver,ORGAN,61,66,Liver
+BMS-0024,GOLD,Gyromitra esculenta,SPECIES,116,135,Gyromitra esculenta
+BMS-0025,GOLD,alpha-amanitin,CHEMICAL,105,119,Alpha-amanitin
+BMS-0026,GOLD,cardiac,ORGAN,83,90,Heart
+BMS-0026,GOLD,supportive care,OTHER,108,123,Supportive care
+BMS-0027,GOLD,Nephrotoxicity,DISEASE,0,14,Nephrotoxicity
+BMS-0028,GOLD,renal,ORGAN,116,121,Kidney
+BMS-0029,GOLD,Phallotoxins,CHEMICAL,0,12,Phallotoxins
+BMS-0030,GOLD,Amatoxins,CHEMICAL,0,9,Amatoxins
+BMS-0030,GOLD,phallotoxins,CHEMICAL,37,49,Phallotoxins
+BMS-0030,GOLD,Amanita bisporigera,SPECIES,82,101,Amanita bisporigera
+BMS-0030,GOLD,Amanita phalloides,SPECIES,103,121,Amanita phalloides
+BMS-0030,GOLD,Amanita ocreata,SPECIES,127,142,Amanita ocreata
+BMS-0031,GOLD,psilocin,CHEMICAL,92,100,Psilocin
+BMS-0031,GOLD,Gastrointestinal,ORGAN,133,149,Gastrointestinal tract
+BMS-0031,GOLD,Liver,ORGAN,185,190,Liver
+BMS-0031,GOLD,Psilocin,CHEMICAL,216,224,Psilocin
+BMS-0032,GOLD,Gyromitra infula,SPECIES,0,16,Gyromitra infula
+BMS-0032,GOLD,gyromitrin,CHEMICAL,58,68,Gyromitrin
+BMS-0032,GOLD,hemolytic,DISEASE,121,130,Hemolysis
+BMS-0033,GOLD,α-Amanitin,CHEMICAL,64,74,Alpha-amanitin
+BMS-0034,GOLD,gyromitrin,CHEMICAL,37,47,Gyromitrin
+BMS-0034,GOLD,Gyromitra spp,SPECIES,60,73,Gyromitra spp
+BMS-0035,GOLD,amatoxins,CHEMICAL,60,69,Amatoxins
+BMS-0035,GOLD,phallotoxins,CHEMICAL,74,86,Phallotoxins
+BMS-0036,GOLD,hepatocytes,ORGAN,83,94,Liver
+BMS-0037,GOLD,amatoxin,CHEMICAL,41,49,Amatoxins
+BMS-0038,GOLD,Muscarine,CHEMICAL,33,42,Muscarine
+BMS-0038,GOLD,Muscimol,CHEMICAL,44,52,Muscimol
+BMS-0038,GOLD,Ibotenic Acid,CHEMICAL,58,71,Ibotenic acid
+BMS-0039,GOLD,hallucinogenic,DISEASE,42,56,Hallucinations
+BMS-0039,GOLD,CNS,ORGAN,152,155,Central nervous system
+BMS-0039,GOLD,ibotenic acid,CHEMICAL,176,189,Ibotenic acid
+BMS-0039,GOLD,muscimol,CHEMICAL,190,198,Muscimol
+BMS-0039,GOLD,neurologic,ORGAN,211,221,Central nervous system
+BMS-0040,GOLD,Amanita phalloides,SPECIES,0,18,Amanita phalloides
+BMS-0040,GOLD,phallotoxin,CHEMICAL,36,47,Phallotoxins
+BMS-0041,GOLD,Chlorophyllum molybdites,SPECIES,75,99,Chlorophyllum molybdites
+BMS-0042,GOLD,alpha-amanitin,CHEMICAL,123,137,Alpha-amanitin
+BMS-0043,GOLD,illudin,CHEMICAL,22,29,Illudins
+BMS-0043,GOLD,DNA,OTHER,53,56,DNA
+BMS-0044,GOLD,Amanita bisporigera,SPECIES,23,42,Amanita bisporigera
+BMS-0044,GOLD,amatoxins,CHEMICAL,48,57,Amatoxins
+BMS-0044,GOLD,phallotoxins,CHEMICAL,62,74,Phallotoxins
+BMS-0045,GOLD,Ibotenic acid,CHEMICAL,0,13,Ibotenic acid
+BMS-0045,GOLD,muscimol,CHEMICAL,18,26,Muscimol
+BMS-0045,GOLD,Amanita pantherina,SPECIES,97,115,Amanita pantherina
+BMS-0045,GOLD,Amanita muscaria,SPECIES,120,136,Amanita muscaria
+BMS-0046,GOLD,α-amanitin,CHEMICAL,18,28,Alpha-amanitin
+BMS-0047,GOLD,mortality,DISEASE,33,42,Death
+BMS-0047,GOLD,silibinin,CHEMICAL,71,80,Silibinin
+BMS-0048,GOLD,mortality,DISEASE,39,48,Death
+BMS-0049,GOLD,amatoxin,CHEMICAL,4,12,Amatoxins
+BMS-0050,GOLD,illudin,CHEMICAL,35,42,Illudins
+BMS-0050,GOLD,illudin,CHEMICAL,49,56,Illudins
+BMS-0051,GOLD,liver,ORGAN,39,44,Liver
+BMS-0051,GOLD,liver injury,DISEASE,39,51,Hepatotoxicity
+BMS-0052,GOLD,Death,DISEASE,17,22,Death
+BMS-0052,GOLD,α-Amanitin,CHEMICAL,42,52,Alpha-amanitin
+BMS-0052,GOLD,α-Amanitin,CHEMICAL,55,65,Alpha-amanitin
+BMS-0052,GOLD,death,DISEASE,127,132,Death
+BMS-0052,GOLD,Amanita phalloides,SPECIES,147,165,Amanita phalloides
+BMS-0053,GOLD,Alpha-Amanitin,CHEMICAL,0,14,Alpha-amanitin
+BMS-0053,GOLD,hepatotoxicity,DISEASE,103,117,Hepatotoxicity
+BMS-0053,GOLD,nephrotoxicity,DISEASE,122,136,Nephrotoxicity
+BMS-0054,GOLD,amatoxins,CHEMICAL,157,166,Amatoxins
+BMS-0054,GOLD,phalloidin,CHEMICAL,208,218,Phallotoxins
+BMS-0054,GOLD,phallotoxins,CHEMICAL,220,232,Phallotoxins
+BMS-0055,GOLD,gastroenteritis,DISEASE,26,41,Gastroenteritis
+BMS-0055,GOLD,acute liver failure,DISEASE,129,148,Acute liver failure
+BMS-0055,GOLD,liver,ORGAN,135,140,Liver
+BMS-0055,GOLD,liver,ORGAN,209,214,Liver
+BMS-0055,GOLD,liver transplantation,OTHER,209,230,Liver transplantation
+BMS-0056,GOLD,α-amanitin,CHEMICAL,74,84,Alpha-amanitin
+BMS-0057,GOLD,Ibotenic acid,CHEMICAL,0,13,Ibotenic acid
+BMS-0058,GOLD,amatoxins,CHEMICAL,12,21,Amatoxins
+BMS-0058,GOLD,phallotoxins,CHEMICAL,26,38,Phallotoxins
+BMS-0058,GOLD,Amanita species,SPECIES,87,102,Amanita species
+BMS-0059,GOLD,Amatoxins,CHEMICAL,0,9,Amatoxins
+BMS-0059,GOLD,phallotoxins,CHEMICAL,17,29,Phallotoxins
+BMS-0059,GOLD,blood,ORGAN,60,65,Blood
+BMS-0060,GOLD,α-Amanitin,CHEMICAL,205,215,Alpha-amanitin
+BMS-0061,GOLD,plasmapheresis,OTHER,251,265,Plasmapheresis
+BMS-0062,GOLD,muscarine,CHEMICAL,59,68,Muscarine
+BMS-0062,GOLD,neurological,ORGAN,96,108,Central nervous system
+BMS-0063,GOLD,Amanita and,SPECIES,74,85,Amanita and
+BMS-0063,GOLD,α-amanitin,CHEMICAL,188,198,Alpha-amanitin
+BMS-0063,GOLD,amatoxin,CHEMICAL,250,258,Amatoxins
+BMS-0063,GOLD,phallotoxin,CHEMICAL,286,297,Phallotoxins
+BMS-0064,GOLD,central nervous system,ORGAN,47,69,Central nervous system
+BMS-0064,GOLD,Amanita pantherina,SPECIES,128,146,Amanita pantherina
+BMS-0064,GOLD,Ibotenic acid,CHEMICAL,182,195,Ibotenic acid
+BMS-0064,GOLD,Muscimol,CHEMICAL,197,205,Muscimol
+BMS-0065,GOLD,α-amanitin,CHEMICAL,74,84,Alpha-amanitin
+BMS-0066,GOLD,Cortinarius mushroom,SPECIES,30,50,Cortinarius mushroom
+BMS-0066,GOLD,orellanine,CHEMICAL,59,69,Orellanine
+BMS-0067,GOLD,α-amanitin,CHEMICAL,13,23,Alpha-amanitin
+BMS-0067,GOLD,liver,ORGAN,138,143,Liver
+BMS-0068,GOLD,acromelic acids,CHEMICAL,29,44,Acromelic acids
+BMS-0069,GOLD,Phallotoxins,CHEMICAL,75,87,Phallotoxins
+BMS-0070,GOLD,alpha-Amanitin,CHEMICAL,0,14,Alpha-amanitin
+BMS-0071,GOLD,apoptosis,MECHANISM,38,47,Apoptosis
+BMS-0072,GOLD,alpha-amanitin,CHEMICAL,148,162,Alpha-amanitin
+BMS-0072,GOLD,psilocin,CHEMICAL,189,197,Psilocin
+BMS-0073,GOLD,liver,ORGAN,76,81,Liver
+BMS-0073,GOLD,liver injury,DISEASE,76,88,Hepatotoxicity
+BMS-0073,GOLD,hepatocyte,ORGAN,119,129,Liver
+BMS-0073,GOLD,liver,ORGAN,165,170,Liver
+BMS-0074,GOLD,mortality,DISEASE,144,153,Death
+BMS-0075,GOLD,alpha amanitin,CHEMICAL,41,55,Alpha-amanitin
+BMS-0076,GOLD,N-acetylcysteine,CHEMICAL,35,51,N-acetylcysteine
+BMS-0076,GOLD,NAC,OTHER,53,56,N-acetylcysteine
+BMS-0076,GOLD,amatoxin,CHEMICAL,77,85,Amatoxins
+BMS-0077,GOLD,Amatoxin,CHEMICAL,0,8,Amatoxins
+BMS-0077,GOLD,acute liver failure,DISEASE,17,36,Acute liver failure
+BMS-0077,GOLD,liver,ORGAN,23,28,Liver
+BMS-0077,GOLD,mortality,DISEASE,59,68,Death
+BMS-0077,GOLD,liver,ORGAN,77,82,Liver
+BMS-0077,GOLD,liver transplantation,OTHER,77,98,Liver transplantation
+BMS-0078,GOLD,amatoxin,CHEMICAL,44,52,Amatoxins
+BMS-0079,GOLD,phallotoxins,CHEMICAL,29,41,Phallotoxins
+BMS-0079,GOLD,amatoxins,CHEMICAL,46,55,Amatoxins
+BMS-0080,GOLD,alpha amanitin,CHEMICAL,34,48,Alpha-amanitin
+BMS-0081,GOLD,α-amanitin,CHEMICAL,23,33,Alpha-amanitin
+BMS-0082,GOLD,Inocybe,SPECIES,26,33,Inocybe spp.
+BMS-0082,GOLD,muscarine,CHEMICAL,85,94,Muscarine
+BMS-0083,GOLD,psilocybin,CHEMICAL,12,22,Psilocybin
+BMS-0083,GOLD,psilocin,CHEMICAL,27,35,Psilocin
+BMS-0084,GOLD,lung,ORGAN,82,86,Respiratory system
+BMS-0085,GOLD,psilocin,CHEMICAL,15,23,Psilocin
+BMS-0085,GOLD,blood,ORGAN,40,45,Blood
+BMS-0086,GOLD,Orellanine,CHEMICAL,17,27,Orellanine
+BMS-0087,GOLD,RNA,OTHER,50,53,RNA
+BMS-0087,GOLD,RNA polymerase II,GENE_PROTEIN,50,67,RNA polymerase II
+BMS-0087,GOLD,alpha-amanitin,CHEMICAL,175,189,Alpha-amanitin
+BMS-0087,GOLD,RNA,OTHER,218,221,RNA
+BMS-0088,GOLD,amatoxins,CHEMICAL,3,12,Amatoxins
+BMS-0088,GOLD,phallotoxins,CHEMICAL,16,28,Phallotoxins
+BMS-0089,GOLD,ibotenic acid,CHEMICAL,39,52,Ibotenic acid
+BMS-0089,GOLD,muscimol,CHEMICAL,57,65,Muscimol
+BMS-0090,GOLD,amatoxin,CHEMICAL,16,24,Amatoxins
+BMS-0090,GOLD,Amanita phalloides,SPECIES,53,71,Amanita phalloides
+BMS-0090,GOLD,Lepiota brunneoincarnata,SPECIES,78,102,Lepiota brunneoincarnata
+BMS-0091,GOLD,mortality,DISEASE,77,86,Death
+BMS-0092,GOLD,illudin,CHEMICAL,17,24,Illudins
+BMS-0093,GOLD,alpha-amanitin,CHEMICAL,49,63,Alpha-amanitin
+BMS-0094,GOLD,Phallotoxins,CHEMICAL,0,12,Phallotoxins
+BMS-0095,GOLD,alpha-amanitin,CHEMICAL,24,38,Alpha-amanitin
+BMS-0096,GOLD,Inhibition of transcription,MECHANISM,0,27,Transcription inhibition
+BMS-0096,GOLD,alpha-amanitin,CHEMICAL,31,45,Alpha-amanitin
+BMS-0097,GOLD,brain,ORGAN,53,58,Central nervous system
+BMS-0097,GOLD,ibotenic acid,CHEMICAL,111,124,Ibotenic acid
+BMS-0098,GOLD,phallotoxin,CHEMICAL,72,83,Phallotoxins
+BMS-0099,GOLD,Cardiac,ORGAN,12,19,Heart
+BMS-0099,GOLD,Seizure,DISEASE,61,68,Seizures
+BMS-0100,GOLD,α-amanitin,CHEMICAL,31,41,Alpha-amanitin
+BMS-0101,GOLD,ibotenic acid,CHEMICAL,9,22,Ibotenic acid
+BMS-0101,GOLD,muscimol,CHEMICAL,27,35,Muscimol
+BMS-0101,GOLD,gastrointestinal,ORGAN,73,89,Gastrointestinal tract
+BMS-0102,GOLD,ibotenic acid,CHEMICAL,65,78,Ibotenic acid
+BMS-0102,GOLD,ibotenic acid,CHEMICAL,81,94,Ibotenic acid
+BMS-0103,GOLD,muscarine,CHEMICAL,12,21,Muscarine
+BMS-0104,GOLD,RNA,OTHER,0,3,RNA
+BMS-0104,GOLD,DNA,OTHER,55,58,DNA
+BMS-0104,GOLD,alpha-amanitin,CHEMICAL,137,151,Alpha-amanitin
+BMS-0105,GOLD,α-amanitin,CHEMICAL,154,164,Alpha-amanitin
+BMS-0106,GOLD,muscarine,CHEMICAL,56,65,Muscarine
+BMS-0106,GOLD,supportive treatment,OTHER,87,107,Supportive care
+BMS-0106,GOLD,atropine,OTHER,112,120,Atropine
+BMS-0107,GOLD,hemodialysis,OTHER,24,36,Hemodialysis
+BMS-0107,GOLD,Amanita phalloides,SPECIES,86,104,Amanita phalloides
+BMS-0107,GOLD,acute kidney injury,DISEASE,117,136,Acute kidney injury
+BMS-0107,GOLD,kidney,ORGAN,123,129,Kidney
+BMS-0107,GOLD,kidney injury,DISEASE,123,136,Nephrotoxicity
+BMS-0107,GOLD,hemodialysis,OTHER,174,186,Hemodialysis
+BMS-0108,GOLD,Amatoxin,CHEMICAL,0,8,Amatoxins
+BMS-0109,GOLD,β-amanitin,CHEMICAL,20,30,Beta-amanitin
+BMS-0109,GOLD,muscarine,CHEMICAL,32,41,Muscarine
+BMS-0109,GOLD,muscimol,CHEMICAL,43,51,Muscimol
+BMS-0109,GOLD,ibotenic acid,CHEMICAL,57,70,Ibotenic acid
+BMS-0110,GOLD,β-amanitin,CHEMICAL,85,95,Beta-amanitin
+BMS-0111,GOLD,β-amanitin,CHEMICAL,72,82,Beta-amanitin
+BMS-0112,GOLD,liver,ORGAN,56,61,Liver
+BMS-0112,GOLD,liver transplantation,OTHER,56,77,Liver transplantation
+BMS-0113,GOLD,α-amanitin,CHEMICAL,151,161,Alpha-amanitin
+BMS-0114,GOLD,amatoxin,CHEMICAL,58,66,Amatoxins
+BMS-0115,GOLD,amatoxins,CHEMICAL,41,50,Amatoxins
+BMS-0115,GOLD,ibotenic acid,CHEMICAL,75,88,Ibotenic acid
+BMS-0115,GOLD,muscimol,CHEMICAL,90,98,Muscimol
+BMS-0115,GOLD,liver,ORGAN,132,137,Liver
+BMS-0115,GOLD,kidney,ORGAN,139,145,Kidney
+BMS-0115,GOLD,central nervous system,ORGAN,147,169,Central nervous system
+BMS-0116,GOLD,α-amanitin,CHEMICAL,91,101,Alpha-amanitin
+BMS-0116,GOLD,liver,ORGAN,110,115,Liver
+BMS-0117,GOLD,α-amanitin,CHEMICAL,26,36,Alpha-amanitin
+BMS-0117,GOLD,RNA,OTHER,80,83,RNA
+BMS-0118,GOLD,hallucinogenic,DISEASE,50,64,Hallucinations
+BMS-0119,GOLD,α-amanitin,CHEMICAL,51,61,Alpha-amanitin
+BMS-0120,GOLD,Phallotoxins,CHEMICAL,61,73,Phallotoxins
+BMS-0121,GOLD,amatoxin,CHEMICAL,116,124,Amatoxins
+BMS-0122,GOLD,amatoxin,CHEMICAL,21,29,Amatoxins
+BMS-0122,GOLD,phallotoxin,CHEMICAL,34,45,Phallotoxins
+BMS-0123,GOLD,α-amanitin,CHEMICAL,13,23,Alpha-amanitin
+BMS-0124,GOLD,amatoxin,CHEMICAL,121,129,Amatoxins
+BMS-0125,GOLD,Amanita smithiana,SPECIES,24,41,Amanita smithiana
+BMS-0125,GOLD,orellanine,CHEMICAL,152,162,Orellanine
+BMS-0126,GOLD,amatoxin,CHEMICAL,10,18,Amatoxins
+BMS-0126,GOLD,gastrointestinal,ORGAN,111,127,Gastrointestinal tract
+BMS-0127,GOLD,Amanita phalloides,SPECIES,92,110,Amanita phalloides
+BMS-0127,GOLD,blood,ORGAN,150,155,Blood
+BMS-0128,GOLD,amatoxins,CHEMICAL,97,106,Amatoxins
+BMS-0129,GOLD,gyromitrin,CHEMICAL,79,89,Gyromitrin
+BMS-0129,GOLD,muscarine,CHEMICAL,91,100,Muscarine
+BMS-0129,GOLD,coprine,CHEMICAL,102,109,Coprine
+BMS-0129,GOLD,orellanine,CHEMICAL,111,121,Orellanine
+BMS-0129,GOLD,psilocybin,CHEMICAL,123,133,Psilocybin
+BMS-0130,GOLD,α-amanitin,CHEMICAL,63,73,Alpha-amanitin
+BMS-0131,GOLD,amatoxin,CHEMICAL,18,26,Amatoxins
+BMS-0132,GOLD,α-amanitin,CHEMICAL,4,14,Alpha-amanitin
+BMS-0133,GOLD,amatoxins,CHEMICAL,99,108,Amatoxins
+BMS-0133,GOLD,phallotoxins,CHEMICAL,114,126,Phallotoxins
+BMS-0134,GOLD,rhabdomyolysis,DISEASE,185,199,Rhabdomyolysis
+BMS-0135,GOLD,Hallucinations,DISEASE,0,14,Hallucinations
+BMS-0135,GOLD,Psilocybe keralensis,SPECIES,31,51,Psilocybe keralensis
+BMS-0135,GOLD,Psilocybe spp,SPECIES,53,66,Psilocybe spp
+BMS-0135,GOLD,myocardial,ORGAN,89,99,Heart
+BMS-0135,GOLD,psilocybin,CHEMICAL,108,118,Psilocybin
+BMS-0136,GOLD,amatoxin,CHEMICAL,22,30,Amatoxins
+BMS-0136,GOLD,amatoxins,CHEMICAL,22,31,Amatoxins
+BMS-0136,GOLD,amatoxin,CHEMICAL,114,122,Amatoxins
+BMS-0136,GOLD,amatoxins,CHEMICAL,114,123,Amatoxins
+BMS-0136,GOLD,Amatoxin,CHEMICAL,212,220,Amatoxins
+BMS-0137,GOLD,alpha-amanitin,CHEMICAL,24,38,Alpha-amanitin
+BMS-0137,GOLD,actin,GENE_PROTEIN,64,69,actin
+BMS-0138,GOLD,RNA,OTHER,40,43,RNA
+BMS-0138,GOLD,alpha-amanitin,CHEMICAL,60,74,Alpha-amanitin
+BMS-0138,GOLD,RNA,OTHER,105,108,RNA
+BMS-0138,GOLD,RNA,OTHER,146,149,RNA
+BMS-0139,GOLD,renal,ORGAN,101,106,Kidney
+BMS-0140,GOLD,Acute liver failure,DISEASE,0,19,Acute liver failure
+BMS-0140,GOLD,liver,ORGAN,6,11,Liver
+BMS-0141,GOLD,Tricholoma equestre,SPECIES,0,19,Tricholoma equestre
+BMS-0141,GOLD,rhabdomyolysis,DISEASE,73,87,Rhabdomyolysis
+BMS-0142,GOLD,Fulminant liver failure,DISEASE,0,23,Acute liver failure
+BMS-0142,GOLD,liver,ORGAN,10,15,Liver
+BMS-0142,GOLD,liver,ORGAN,103,108,Liver
+BMS-0142,GOLD,liver transplantation,OTHER,103,124,Liver transplantation
+BMS-0143,GOLD,amatoxins,CHEMICAL,79,88,Amatoxins
+BMS-0144,GOLD,liver,ORGAN,21,26,Liver
+BMS-0144,GOLD,necrosis,MECHANISM,57,65,Necrosis
+BMS-0144,GOLD,hepatocytes,ORGAN,69,80,Liver
+BMS-0145,GOLD,ibotenic acid,CHEMICAL,33,46,Ibotenic acid
+BMS-0146,GOLD,α-amanitin,CHEMICAL,31,41,Alpha-amanitin
+BMS-0147,GOLD,reactive oxygen species,MECHANISM,99,122,Oxidative stress
+BMS-0147,GOLD,alpha amanitin,CHEMICAL,180,194,Alpha-amanitin
+BMS-0148,GOLD,Cortinarius orellanus,SPECIES,0,21,Cortinarius orellanus
+BMS-0148,GOLD,Cortinarius rubellus,SPECIES,26,46,Cortinarius rubellus
+BMS-0148,GOLD,orellanine,CHEMICAL,61,71,Orellanine
+BMS-0149,GOLD,renal,ORGAN,71,76,Kidney
+BMS-0149,GOLD,hemodialysis,OTHER,207,219,Hemodialysis
+BMS-0149,GOLD,supportive treatment,OTHER,224,244,Supportive care
+BMS-0150,GOLD,cardiac,ORGAN,37,44,Heart

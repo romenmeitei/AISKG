@@ -1,0 +1,159 @@
+benchmark_sentence_id,system,source,source_type,relation,target,target_type
+BMS-0001,StructuredLLM,mushroom poisoning,DISEASE,CAUSES,Irreversible renal damage,DISEASE
+BMS-0002,StructuredLLM,α-amanitin,CHEMICAL,CONTAINS,A. albolimbata,SPECIES
+BMS-0002,StructuredLLM,β-amanitin,CHEMICAL,CONTAINS,A. albolimbata,SPECIES
+BMS-0002,StructuredLLM,phallacidin,CHEMICAL,CONTAINS,A. albolimbata,SPECIES
+BMS-0003,StructuredLLM,phalloidin,CHEMICAL,INVOLVES_ORGAN,actin,ORGAN
+BMS-0003,StructuredLLM,phalloidin,CHEMICAL,AFFECTS,actin-binding proteins,OTHER
+BMS-0004,StructuredLLM,Hemoperfusion,OTHER,TREATS,Mushroom poisoning,DISEASE
+BMS-0007,StructuredLLM,α-amanitin,CHEMICAL,CAUSES,Poisoning,DISEASE
+BMS-0007,StructuredLLM,mushroom,SPECIES,CONTAINS,α-amanitin,CHEMICAL
+BMS-0008,StructuredLLM,amatoxins,CHEMICAL,INHIBITS,RNA polymerase II,GENE_PROTEIN
+BMS-0010,StructuredLLM,alpha-amanitin,CHEMICAL,INHIBITS,EC,GENE_PROTEIN
+BMS-0010,StructuredLLM,TFIIS,GENE_PROTEIN,INVOLVES_ORGAN,EC,GENE_PROTEIN
+BMS-0011,StructuredLLM,aucubin,CHEMICAL,AFFECTS,RNA polymerase,GENE_PROTEIN
+BMS-0013,StructuredLLM,psilocybin,CHEMICAL,CONTAINS,hallucinogenic alkaloid,CHEMICAL
+BMS-0014,StructuredLLM,L. castanea mushrooms,SPECIES,CONTAINS,amatoxin,CHEMICAL
+BMS-0014,StructuredLLM,L. castanea mushrooms,SPECIES,CONTAINS,phallotoxin,CHEMICAL
+BMS-0015,StructuredLLM,Psilocybin,CHEMICAL,CONTAINS,mushroom samples,SPECIES
+BMS-0015,StructuredLLM,psilocin,CHEMICAL,CONTAINS,biological samples,SPECIES
+BMS-0016,StructuredLLM,Nephrotoxic mushroom poisoning,DISEASE,CAUSES,acute kidney injury,DISEASE
+BMS-0018,StructuredLLM,Clitocybe acromelalga,SPECIES,CAUSES,erythromelalgia,DISEASE
+BMS-0019,StructuredLLM,RNA polymerase II inhibitor,CHEMICAL,CAUSES,hIAPP protein expression,CHEMICAL
+BMS-0019,StructuredLLM,high glucose,CHEMICAL,CAUSES,hIAPP protein expression,CHEMICAL
+BMS-0019,StructuredLLM,thapsigargin,CHEMICAL,CAUSES,hIAPP protein expression,CHEMICAL
+BMS-0021,StructuredLLM,Amanita phalloides,SPECIES,CONTAINS,Amanitin,CHEMICAL
+BMS-0021,StructuredLLM,Amanita verna,SPECIES,CONTAINS,Amanitin,CHEMICAL
+BMS-0021,StructuredLLM,Amanitin,CHEMICAL,CONTAINS,Phallotoxin,CHEMICAL
+BMS-0022,StructuredLLM,normal centriole duplication,DISEASE,AFFECTS,alpha-amanitin-treated cells,SPECIES
+BMS-0023,StructuredLLM,Amatoxin,CHEMICAL,CONTAINS,Amanita fuliginea,SPECIES
+BMS-0023,StructuredLLM,phallotoxin,CHEMICAL,CONTAINS,Amanita fuliginea,SPECIES
+BMS-0024,StructuredLLM,Gyromitra esculenta,CHEMICAL,CAUSES,Acute liver injury,DISEASE
+BMS-0024,StructuredLLM,Gyromitra esculenta,CHEMICAL,CAUSES,Acute liver failure,DISEASE
+BMS-0024,StructuredLLM,Gyromitra esculenta,CHEMICAL,CAUSES,Acute on chronic liver failure,DISEASE
+BMS-0026,StructuredLLM,close monitoring,OTHER,AFFECTS,serum potassium,CHEMICAL
+BMS-0026,StructuredLLM,close monitoring,OTHER,AFFECTS,creatinine,CHEMICAL
+BMS-0026,StructuredLLM,close monitoring,OTHER,AFFECTS,CPK,CHEMICAL
+BMS-0026,StructuredLLM,close monitoring,OTHER,AFFECTS,cardiac effect,OTHER
+BMS-0027,StructuredLLM,plant toxins,CHEMICAL,CAUSES,Nephrotoxicity,DISEASE
+BMS-0029,StructuredLLM,Phallotoxins,CHEMICAL,CONTAINS,species,SPECIES
+BMS-0030,StructuredLLM,Amatoxins,CHEMICAL,CONTAINS,ribosomes,ORGAN
+BMS-0030,StructuredLLM,phallotoxins,CHEMICAL,CONTAINS,ribosomes,ORGAN
+BMS-0030,StructuredLLM,Amanita bisporigera,SPECIES,CONTAINS,Amatoxins,CHEMICAL
+BMS-0030,StructuredLLM,Amanita phalloides,SPECIES,CONTAINS,Amatoxins,CHEMICAL
+BMS-0030,StructuredLLM,Amanita ocreata,SPECIES,CONTAINS,Amatoxins,CHEMICAL
+BMS-0032,StructuredLLM,gyromitrin toxin,CHEMICAL,CAUSES,epileptogenic neurotoxicity,DISEASE
+BMS-0032,StructuredLLM,gyromitrin toxin,CHEMICAL,CAUSES,hemolytic disease,DISEASE
+BMS-0034,StructuredLLM,gyromitrin,CHEMICAL,CONTAINS,Gyromitra spp.,SPECIES
+BMS-0036,StructuredLLM,administration of studied antidotes,CHEMICAL,AFFECTS,hepatocytes,ORGAN
+BMS-0037,StructuredLLM,amatoxin-containing mushrooms,CHEMICAL,CAUSES,Wild mushroom poisoning,DISEASE
+BMS-0040,StructuredLLM,amanitin,CHEMICAL,CONTAINS,Amanita phalloides,SPECIES
+BMS-0040,StructuredLLM,phallotoxin,CHEMICAL,CONTAINS,Amanita phalloides,SPECIES
+BMS-0041,StructuredLLM,Meyeroguilline E,CHEMICAL,CONTAINS,Chlorophyllum molybdites,SPECIES
+BMS-0042,StructuredLLM,alpha-amanitin,CHEMICAL,AFFECTS,DGK-theta,GENE_PROTEIN
+BMS-0043,StructuredLLM,Anti-tumour compounds,CHEMICAL,CAUSES,DNA lesions,CHEMICAL
+BMS-0043,StructuredLLM,transcription- and replication-coupled repair pathways,ORGAN,INVOLVES_ORGAN,transcription- and replication-coupled repair pathways,ORGAN
+BMS-0045,StructuredLLM,ibotenic acid,CHEMICAL,INVOLVES_ORGAN,psychotropic properties,OTHER
+BMS-0045,StructuredLLM,muscimol,CHEMICAL,INVOLVES_ORGAN,psychotropic properties,OTHER
+BMS-0045,StructuredLLM,ibotenic acid,CHEMICAL,CONTAINS,psychotropic properties,OTHER
+BMS-0045,StructuredLLM,muscimol,CHEMICAL,CONTAINS,psychotropic properties,OTHER
+BMS-0046,StructuredLLM,α-amanitin,CHEMICAL,CONTAINS,pileus,ORGAN
+BMS-0046,StructuredLLM,α-amanitin,CHEMICAL,CONTAINS,stipe,ORGAN
+BMS-0047,StructuredLLM,silibinin/silymarin-treated,CHEMICAL,AFFECTS,untreated,OTHER
+BMS-0048,StructuredLLM,Myotoxic mushroom poisoning,DISEASE,CAUSES,mortality rate,OTHER
+BMS-0049,StructuredLLM,amatoxin,CHEMICAL,CONTAINS,A. exitialis,SPECIES
+BMS-0051,StructuredLLM,Mushroom poisoning,DISEASE,CAUSES,acute liver injury,DISEASE
+BMS-0052,StructuredLLM,α-Amanitin,CHEMICAL,CONTAINS,Death-Cap Mushroom,SPECIES
+BMS-0053,StructuredLLM,Alpha-Amanitin (α-AMA),CHEMICAL,CAUSES,hepatotoxicity,DISEASE
+BMS-0053,StructuredLLM,Alpha-Amanitin (α-AMA),CHEMICAL,CAUSES,nephrotoxicity,DISEASE
+BMS-0055,StructuredLLM,mushroom,SPECIES,CAUSES,severe acute liver failure,DISEASE
+BMS-0058,StructuredLLM,amatoxins,CHEMICAL,CONTAINS,basidiocarps,ORGAN
+BMS-0058,StructuredLLM,phallotoxins,CHEMICAL,CONTAINS,basidiocarps,ORGAN
+BMS-0058,StructuredLLM,amatoxins,CHEMICAL,CAUSES,phallotoxins,CHEMICAL
+BMS-0058,StructuredLLM,phallotoxins,CHEMICAL,CAUSES,amatoxins,CHEMICAL
+BMS-0059,StructuredLLM,Amatoxins,CHEMICAL,AFFECTS,whole blood sample,SPECIES
+BMS-0059,StructuredLLM,Amatoxins,CHEMICAL,AFFECTS,urine sample,SPECIES
+BMS-0062,StructuredLLM,muscarine,CHEMICAL,CAUSES,parasympathetic neurological damage,DISEASE
+BMS-0064,StructuredLLM,Ibotenic acid,CHEMICAL,CAUSES,Burst suppression,DISEASE
+BMS-0064,StructuredLLM,Muscimol,CHEMICAL,CAUSES,Burst suppression,DISEASE
+BMS-0066,StructuredLLM,Cortinarius mushroom,SPECIES,CONTAINS,orellanine,CHEMICAL
+BMS-0067,StructuredLLM,α-amanitin,CHEMICAL,INHIBITS,cytochrome P450,GENE_PROTEIN
+BMS-0067,StructuredLLM,α-amanitin,CHEMICAL,INHIBITS,5'-diphospho-glucuronosyltransferase,GENE_PROTEIN
+BMS-0067,StructuredLLM,α-amanitin,CHEMICAL,AFFECTS,major drug transport functions,OTHER
+BMS-0067,StructuredLLM,α-amanitin,CHEMICAL,INVOLVES_ORGAN,human liver microsomes,ORGAN
+BMS-0067,StructuredLLM,α-amanitin,CHEMICAL,INVOLVES_ORGAN,mammalian cells,ORGAN
+BMS-0069,StructuredLLM,Phallotoxins,CHEMICAL,INVOLVES_ORGAN,Liquid chromatography-diode array detection-mass spectrometry,OTHER
+BMS-0071,StructuredLLM,Mafosfamide,CHEMICAL,CAUSES,apoptosis,MECHANISM
+BMS-0075,StructuredLLM,chrysin,CHEMICAL,AFFECTS,alpha amanitin,CHEMICAL
+BMS-0076,StructuredLLM,N-acetylcysteine,CHEMICAL,TREATS,amatoxin poisoning,DISEASE
+BMS-0077,StructuredLLM,liver transplantation,DISEASE,TREATS,Amatoxin-related acute liver failure,DISEASE
+BMS-0080,StructuredLLM,alpha amanitin,CHEMICAL,AFFECTS,mice,SPECIES
+BMS-0084,StructuredLLM,Reduced toxicity of high zinc exposure,CHEMICAL,AFFECTS,pretreatment of various lung cells with nonlethal zinc concentrations,CHEMICAL
+BMS-0085,StructuredLLM,psilocin,CHEMICAL,AFFECTS,blood,ORGAN
+BMS-0085,StructuredLLM,psilocin,CHEMICAL,AFFECTS,urine,ORGAN
+BMS-0087,StructuredLLM,RNA polymerase II,GENE_PROTEIN,AFFECTS,spinocerebellar ataxia type 1,DISEASE
+BMS-0087,StructuredLLM,alpha-amanitin,CHEMICAL,INHIBITS,RNA polymerase II,GENE_PROTEIN
+BMS-0090,StructuredLLM,Amanita phalloides,SPECIES,CAUSES,Twenty cases of amatoxin poisoning,DISEASE
+BMS-0090,StructuredLLM,Lepiota brunneoincarnata,SPECIES,CAUSES,Twenty cases of amatoxin poisoning,DISEASE
+BMS-0092,StructuredLLM,illudin s,CHEMICAL,CONTAINS,omphalotus guepiniformis,SPECIES
+BMS-0092,StructuredLLM,illudin s,CHEMICAL,CAUSES,food poisoning,DISEASE
+BMS-0093,StructuredLLM,alpha-amanitin,CHEMICAL,CAUSES,FHF,DISEASE
+BMS-0093,StructuredLLM,lipopolysaccharide,CHEMICAL,CAUSES,FHF,DISEASE
+BMS-0098,StructuredLLM,[Ala7]-phalloidin,CHEMICAL,CONTAINS,phalloidin,CHEMICAL
+BMS-0099,StructuredLLM,Arrhythmia,DISEASE,CAUSES,Cardiac arrest,DISEASE
+BMS-0099,StructuredLLM,Mushroom poisoning,DISEASE,CAUSES,Seizure,DISEASE
+BMS-0100,StructuredLLM,α-amanitin toxicosis,DISEASE,CAUSES,mushroom ingestion,CHEMICAL
+BMS-0101,StructuredLLM,ibotenic acid,CHEMICAL,CONTAINS,Secr,CHEMICAL
+BMS-0101,StructuredLLM,muscimol,CHEMICAL,CONTAINS,Secr,CHEMICAL
+BMS-0102,StructuredLLM,ibotenic acid,CHEMICAL,CAUSES,neurotoxic mushroom poisoning,DISEASE
+BMS-0103,StructuredLLM,muscarine,CHEMICAL,INVOLVES_ORGAN,Agaricales,SPECIES
+BMS-0104,StructuredLLM,RNA polymerase (Pol) II,GENE_PROTEIN,AFFECTS,RNA polymerase (Pol) II,GENE_PROTEIN
+BMS-0106,StructuredLLM,atropine,CHEMICAL,TREATS,muscarine-containing mushrooms,CHEMICAL
+BMS-0107,StructuredLLM,Amanita phalloides poisoning,DISEASE,CAUSES,acute kidney injury,DISEASE
+BMS-0111,StructuredLLM,ɑ-amanit,CHEMICAL,CAUSES,β-amanitin,CHEMICAL
+BMS-0113,StructuredLLM,toxin entry blockage,CHEMICAL,CONTAINS,cuticle,ORGAN
+BMS-0113,StructuredLLM,toxin entry blockage,CHEMICAL,CONTAINS,phase I and II detoxification,CHEMICAL
+BMS-0113,StructuredLLM,toxin entry blockage,CHEMICAL,CONTAINS,lipid particles,ORGAN
+BMS-0114,StructuredLLM,amatoxin,CHEMICAL,CAUSES,ALI,DISEASE
+BMS-0114,StructuredLLM,amatoxin,CHEMICAL,CAUSES,ALF,DISEASE
+BMS-0117,StructuredLLM,α-amanitin,CHEMICAL,INHIBITS,feline immunodeficiency virus (FIV),DISEASE
+BMS-0120,StructuredLLM,Phallotoxins,CHEMICAL,CAUSES,Mushroom poisoning,DISEASE
+BMS-0120,StructuredLLM,Monoclonal antibody,CHEMICAL,AFFECTS,Phallotoxins,CHEMICAL
+BMS-0121,StructuredLLM,advanced ALF,DISEASE,CAUSES,Reversal,OTHER
+BMS-0121,StructuredLLM,amatoxin,CHEMICAL,CONTAINS,Reversal,OTHER
+BMS-0121,StructuredLLM,gallbladder,ORGAN,INVOLVES_ORGAN,Reversal,OTHER
+BMS-0122,StructuredLLM,amatoxin,CHEMICAL,CONTAINS,A. phalloides,SPECIES
+BMS-0122,StructuredLLM,phallotoxin,CHEMICAL,CONTAINS,A. phalloides,SPECIES
+BMS-0124,StructuredLLM,amatoxin-containing species,SPECIES,CONTAINS,mushroom poisonings,DISEASE
+BMS-0126,StructuredLLM,Mushroom (amatoxin),CHEMICAL,CAUSES,gastrointestinal symptoms,OTHER
+BMS-0126,StructuredLLM,Mushroom (amatoxin),CHEMICAL,CAUSES,multisystem organ failure,OTHER
+BMS-0127,StructuredLLM,Amanita phalloides poisoning,DISEASE,CAUSES,amanitins,CHEMICAL
+BMS-0127,StructuredLLM,amanitins,CHEMICAL,CAUSES,amanitins,CHEMICAL
+BMS-0128,StructuredLLM,amatoxins,CHEMICAL,CAUSES,mushroom poisoning,DISEASE
+BMS-0129,StructuredLLM,cyclopeptides,CHEMICAL,CONTAINS,cyclopeptides,CHEMICAL
+BMS-0129,StructuredLLM,gyromitrin,CHEMICAL,CONTAINS,gyromitrin,CHEMICAL
+BMS-0129,StructuredLLM,muscarine,CHEMICAL,CONTAINS,muscarine,CHEMICAL
+BMS-0129,StructuredLLM,coprine,CHEMICAL,CONTAINS,coprine,CHEMICAL
+BMS-0129,StructuredLLM,orellanine,CHEMICAL,CONTAINS,orellanine,CHEMICAL
+BMS-0129,StructuredLLM,psilocybin,CHEMICAL,CONTAINS,psilocybin,CHEMICAL
+BMS-0129,StructuredLLM,GI irritants,CHEMICAL,CONTAINS,GI irritants,CHEMICAL
+BMS-0130,StructuredLLM,CuNPs-based nanozyme strip,OTHER,AFFECTS,α-amanitin,CHEMICAL
+BMS-0133,StructuredLLM,cyclopeptide-containing mushrooms,CHEMICAL,CONTAINS,cyclopeptide-containing mushrooms,CHEMICAL
+BMS-0133,StructuredLLM,amatoxins,CHEMICAL,CONTAINS,amatoxins,CHEMICAL
+BMS-0133,StructuredLLM,phallotoxins,CHEMICAL,CONTAINS,phallotoxins,CHEMICAL
+BMS-0134,StructuredLLM,Impella CP,OTHER,TREATS,cardiogenic shock,DISEASE
+BMS-0134,StructuredLLM,veno-arterial extracorporeal membranous oxygenation,OTHER,TREATS,cardiogenic shock,DISEASE
+BMS-0134,StructuredLLM,continuous haemodiafiltration,OTHER,TREATS,rhabdomyolysis,DISEASE
+BMS-0135,StructuredLLM,psilocybin,CHEMICAL,CAUSES,myocardial injury,DISEASE
+BMS-0136,StructuredLLM,amatoxins,CHEMICAL,AFFECTS,Beagles,SPECIES
+BMS-0136,StructuredLLM,amatoxins,CHEMICAL,CONTAINS,amatoxins,CHEMICAL
+BMS-0137,StructuredLLM,alpha-amanitin,CHEMICAL,CAUSES,actin bundle network,OTHER
+BMS-0138,StructuredLLM,alpha-amanitin,CHEMICAL,COUNTERACTS_TOXIN,RNA polymerase,GENE_PROTEIN
+BMS-0138,StructuredLLM,SL RNA promoter,GENE_PROTEIN,INVOLVES_ORGAN,SL RNA,SPECIES
+BMS-0141,StructuredLLM,Tricholoma equestre,SPECIES,CAUSES,mushroom poisoning,DISEASE
+BMS-0141,StructuredLLM,mutagenicity,MECHANISM,INVOLVES_ORGAN,rhabdomyolysis,DISEASE
+BMS-0142,StructuredLLM,Fulminant liver failure,DISEASE,CAUSES,mushroom poisoning,DISEASE
+BMS-0142,StructuredLLM,early referral to a liver transplantation unit,OTHER,TREATS,Fulminant liver failure,DISEASE
+BMS-0143,StructuredLLM,altered mental state,DISEASE,AFFECTS,poorly controlled hypertension,DISEASE
+BMS-0144,StructuredLLM,panlobular coagulative necrosis of hepatocytes,DISEASE,INVOLVES_ORGAN,the liver,ORGAN
+BMS-0150,StructuredLLM,mushroom poisoning,DISEASE,AFFECTS,cardiac functions,ORGAN

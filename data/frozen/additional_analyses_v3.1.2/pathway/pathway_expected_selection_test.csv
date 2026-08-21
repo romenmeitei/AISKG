@@ -1,0 +1,2 @@
+comparison,odds_ratio_correctness,fisher_exact_P,table_correct_incorrect
+Shared/retained vs removed pathways,8.0,7.179936177379428e-05,"[[16, 16], [7, 56]]"

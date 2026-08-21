@@ -1,34 +1,33 @@
-# Reproducibility model
+# Reproducibility
 
-## Level 1: exact manuscript reproduction
-
-`configs/manuscript_frozen.yaml` starts from frozen, checksummed inputs and reproduces the reported Section 1 and Section 2 outputs. This is the authoritative route for the manuscript.
-
-## Level 2: additive ablation reproduction
-
-The nine ablation states use the same frozen corpus. Versioned per-variant checkpoints are independently audited and converted into publication tables, graphs, figures, JSON, XLSX, Markdown, and PDF outputs. The 153 manuscript-facing ablation checks cover 17 metrics for nine variants.
-
-## Level 3: live refresh
-
-Live PubMed, Scopus, and Web of Science retrieval is available in the upstream compatibility engine. It requires credentials, current service availability, model downloads, and expert topic curation. Live results will differ from the frozen snapshot as databases evolve.
-
-## Deterministic controls
-
-- Python random seed and NumPy seed;
-- fixed Louvain seeds;
-- fixed bootstrap and Monte Carlo iteration counts;
-- SHA-256 input verification;
-- formula-free expert workbooks;
-- sample-manifest verification;
-- expected numerical results;
-- fixed ZIP member timestamps;
-- versioned configuration snapshots;
-- source and output manifests.
-
-## Verification
+## Additional analyses v3.1.2
 
 ```bash
-aiskg verify --run-dir outputs/publication-v3
+python -m pip install -e ".[dev]" --no-build-isolation
+python scripts/reproduce_additional_analyses_v3_1_2.py
 ```
 
-A valid run must contain `PIPELINE_SUCCESS.txt`, a complete manifest, matching file sizes, and matching SHA-256 hashes.
+The equivalent self-contained route is `notebooks/AISKG_Framework_v3_1_2_Complete_Reproducibility.ipynb`.
+
+The replay verifies all files under `data/frozen/additional_analyses_v3.1.2/`, including metadata-sanitized completed Expert A, Expert B, and third-expert workbooks. It recomputes seven agreement tables, validates the exact 92-case adjudication set, reconstructs all 805 final ratings, and only then calculates pathway statistics. The benchmark module replays the corrected item-level gold and predictions.
+
+Locked parameters are seed `20260817`, 10,000 pathway bootstraps, 5,000 benchmark bootstraps, and `clean=True`. Input tampering, altered parameters, and stale-output mode cause failure.
+
+## Frozen v3.0.0 core
+
+```bash
+python run_pipeline.py --config configs/manuscript_frozen.yaml --run-id publication-v3 --clean
+```
+
+This route reproduces the original frozen core and evaluates 285 expected-result assertions.
+
+## Independent checks
+
+```bash
+python verify_repository.py
+pytest -q -m "not integration"
+python scripts/verify_v3_1_2_release.py
+python scripts/execute_v3_1_2_notebook_smoke.py
+```
+
+The structured-LLM archived predictions replay exactly, but future live inference is not bitwise guaranteed because the source run recorded model revision `main`. PubTator relations are not evaluable.

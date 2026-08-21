@@ -1,0 +1,409 @@
+benchmark_sentence_id,system,text,type,start,end,canonical
+BMS-0001,StructuredLLM,Irreversible renal damage,DISEASE,0,25,Irreversible Renal Damage
+BMS-0001,StructuredLLM,mushroom poisoning,DISEASE,42,60,Mushroom Poisoning
+BMS-0002,StructuredLLM,α-amanitin,CHEMICAL,124,134,alpha-amanitin
+BMS-0002,StructuredLLM,β-amanitin,CHEMICAL,136,146,beta-amanitin
+BMS-0002,StructuredLLM,phallacidin,CHEMICAL,152,163,phallacidin
+BMS-0002,StructuredLLM,A. albolimbata,SPECIES,167,181,Amanita albolimbata
+BMS-0003,StructuredLLM,phalloidin,CHEMICAL,36,46,Phalloidin
+BMS-0003,StructuredLLM,actin,ORGAN,111,116,Actin
+BMS-0003,StructuredLLM,actin-binding proteins,OTHER,210,232,Actin-binding proteins
+BMS-0004,StructuredLLM,Hemoperfusion,OTHER,0,13,Hemoperfusion
+BMS-0004,StructuredLLM,High performance liquid chromatography,OTHER,15,53,High performance liquid chromatography
+BMS-0004,StructuredLLM,Molecular imprinting,OTHER,55,75,Molecular imprinting
+BMS-0004,StructuredLLM,Mushroom poisoning,DISEASE,77,95,Mushroom poisoning
+BMS-0005,StructuredLLM,Silver Nanoparticle,CHEMICAL,55,74,silver nanoparticle
+BMS-0005,StructuredLLM,Mice Liver Primary Cell Culture,ORGAN,87,118,liver cell culture
+BMS-0005,StructuredLLM,Silymarin,CHEMICAL,9,18,silymarin
+BMS-0005,StructuredLLM,Vitamin E,CHEMICAL,23,32,vitamin E
+BMS-0006,StructuredLLM,GA,CHEMICAL,24,26,Gibberellin
+BMS-0006,StructuredLLM,phallotoxins,CHEMICAL,65,77,Phallotoxin
+BMS-0007,StructuredLLM,Poisoning,DISEASE,0,9,Poisoning
+BMS-0007,StructuredLLM,α-amanitin,CHEMICAL,39,49,α-amanitin
+BMS-0007,StructuredLLM,mushroom,SPECIES,24,32,mushroom
+BMS-0008,StructuredLLM,amatoxins,CHEMICAL,4,13,Amatoxins
+BMS-0008,StructuredLLM,RNA polymerase II,GENE_PROTEIN,67,84,RNA polymerase II
+BMS-0009,StructuredLLM,Amanita virosa,SPECIES,25,39,Amanita virosa
+BMS-0010,StructuredLLM,alpha-amanitin,CHEMICAL,204,218,alpha-amanitin
+BMS-0010,StructuredLLM,EC,GENE_PROTEIN,92,94,EC
+BMS-0010,StructuredLLM,TFIIS,GENE_PROTEIN,279,284,TFIIS
+BMS-0011,StructuredLLM,aucubin,CHEMICAL,94,101,aucubin
+BMS-0011,StructuredLLM,alpha-amanitin,CHEMICAL,119,133,alpha-amanitin
+BMS-0011,StructuredLLM,RNA polymerase,GENE_PROTEIN,43,57,RNA polymerase
+BMS-0012,StructuredLLM,orellanine,CHEMICAL,37,47,orellanine
+BMS-0013,StructuredLLM,psilocybin,CHEMICAL,38,48,Psilocybin
+BMS-0013,StructuredLLM,hallucinogenic alkaloid,CHEMICAL,14,37,Hallucinogenic Alkaloid
+BMS-0014,StructuredLLM,L. castanea mushrooms,SPECIES,43,64,Lactarius castaneus
+BMS-0014,StructuredLLM,amatoxin,CHEMICAL,127,135,amatoxin
+BMS-0014,StructuredLLM,phallotoxin,CHEMICAL,140,151,phallotoxin
+BMS-0015,StructuredLLM,Psilocybin,CHEMICAL,0,10,Psilocybin
+BMS-0015,StructuredLLM,psilocin,CHEMICAL,15,23,Psilocin
+BMS-0015,StructuredLLM,mushroom samples,SPECIES,41,57,Mushroom
+BMS-0015,StructuredLLM,biological samples,SPECIES,93,111,Biological sample
+BMS-0016,StructuredLLM,Nephrotoxic mushroom poisoning,DISEASE,0,30,Nephrotoxic mushroom poisoning
+BMS-0016,StructuredLLM,acute kidney injury,DISEASE,66,85,Acute kidney injury
+BMS-0017,StructuredLLM,phalloidin,CHEMICAL,69,79,phalloidin
+BMS-0017,StructuredLLM,VDAC,OTHER,111,115,VDAC
+BMS-0018,StructuredLLM,Nicotinic acid,CHEMICAL,0,14,Nicotinic acid
+BMS-0018,StructuredLLM,erythromelalgia,DISEASE,18,33,Erythromelalgia
+BMS-0018,StructuredLLM,Clitocybe acromelalga,SPECIES,50,71,Clitocybe acromelalga
+BMS-0019,StructuredLLM,intact nucleolar organization and function,ORGAN,9,51,nucleolus
+BMS-0019,StructuredLLM,RNA polymerase II inhibitor,CHEMICAL,129,156,α-amanitin
+BMS-0019,StructuredLLM,high glucose,CHEMICAL,213,225,high glucose
+BMS-0019,StructuredLLM,thapsigargin,CHEMICAL,230,242,thapsigargin
+BMS-0019,StructuredLLM,hIAPP protein expression,CHEMICAL,178,202,hIAPP protein expression
+BMS-0020,StructuredLLM,Amanita phalloides poisoning,DISEASE,35,63,Amanita phalloides poisoning
+BMS-0021,StructuredLLM,Amanita phalloides,SPECIES,0,18,Amanita phalloides
+BMS-0021,StructuredLLM,Amanita verna,SPECIES,20,33,Amanita verna
+BMS-0021,StructuredLLM,Amanitin,CHEMICAL,35,43,Amanitin
+BMS-0021,StructuredLLM,Phallotoxin,CHEMICAL,51,62,Phallotoxin
+BMS-0022,StructuredLLM,alpha-amanitin-treated cells,SPECIES,67,95,alpha-amanitin-treated cells
+BMS-0022,StructuredLLM,normal centriole duplication,DISEASE,13,41,normal centriole duplication
+BMS-0023,StructuredLLM,Amatoxin,CHEMICAL,0,8,Amatoxin
+BMS-0023,StructuredLLM,phallotoxin,CHEMICAL,13,24,Phallotoxin
+BMS-0023,StructuredLLM,Amanita fuliginea,SPECIES,43,60,Amanita fuliginea
+BMS-0024,StructuredLLM,Acute liver injury,DISEASE,0,18,Acute liver injury
+BMS-0024,StructuredLLM,Acute liver failure,DISEASE,20,39,Acute liver failure
+BMS-0024,StructuredLLM,Acute on chronic liver failure,DISEASE,44,74,Acute on chronic liver failure
+BMS-0024,StructuredLLM,Gyromitra esculenta,CHEMICAL,116,135,Gyromitra esculenta
+BMS-0025,StructuredLLM,selenoprotein W mRNA,GENE_PROTEIN,19,39,selenoprotein W mRNA
+BMS-0025,StructuredLLM,alpha-amanitin,CHEMICAL,105,119,alpha-amanitin
+BMS-0025,StructuredLLM,myoblasts,ORGAN,53,62,myoblasts
+BMS-0026,StructuredLLM,Early detection,OTHER,0,15,Early detection
+BMS-0026,StructuredLLM,close monitoring,OTHER,17,33,Close monitoring
+BMS-0026,StructuredLLM,serum potassium,CHEMICAL,46,61,Serum potassium
+BMS-0026,StructuredLLM,creatinine,CHEMICAL,63,73,Creatinine
+BMS-0026,StructuredLLM,CPK,CHEMICAL,75,78,CPK
+BMS-0026,StructuredLLM,cardiac effect,OTHER,83,97,Cardiac effect
+BMS-0027,StructuredLLM,Nephrotoxicity,DISEASE,0,14,Nephrotoxicity
+BMS-0027,StructuredLLM,plant toxins,CHEMICAL,43,55,Plant toxins
+BMS-0028,StructuredLLM,renal damage,DISEASE,116,128,Renal Damage
+BMS-0029,StructuredLLM,Phallotoxins,CHEMICAL,0,12,Phallotoxin
+BMS-0029,StructuredLLM,species,SPECIES,49,56,Species
+BMS-0030,StructuredLLM,Amatoxins,CHEMICAL,0,9,Amatoxin
+BMS-0030,StructuredLLM,phallotoxins,CHEMICAL,37,49,Phallotoxin
+BMS-0030,StructuredLLM,ribosomes,ORGAN,69,78,Ribosome
+BMS-0030,StructuredLLM,Amanita bisporigera,SPECIES,82,101,Amanita bisporigera
+BMS-0030,StructuredLLM,Amanita phalloides,SPECIES,103,121,Amanita phalloides
+BMS-0030,StructuredLLM,Amanita ocreata,SPECIES,127,142,Amanita ocreata
+BMS-0031,StructuredLLM,amanitin,CHEMICAL,79,87,amanitin
+BMS-0031,StructuredLLM,psilocin,CHEMICAL,92,100,psilocin
+BMS-0032,StructuredLLM,Gyromitra infula,SPECIES,0,16,Gyromitra infula
+BMS-0032,StructuredLLM,gyromitrin toxin,CHEMICAL,58,74,gyromitrin toxin
+BMS-0032,StructuredLLM,epileptogenic neurotoxicity,DISEASE,89,116,epileptogenic neurotoxicity
+BMS-0032,StructuredLLM,hemolytic disease,DISEASE,121,138,hemolytic disease
+BMS-0033,StructuredLLM,"4,5-Dihydroxyisoleucine Fragment",CHEMICAL,28,60,"4,5-dihydroxyisoleucine"
+BMS-0033,StructuredLLM,α-Amanitin,CHEMICAL,64,74,alpha-amanitin
+BMS-0034,StructuredLLM,gyromitrin,CHEMICAL,37,47,gyromitrin
+BMS-0034,StructuredLLM,Gyromitra spp.,SPECIES,60,74,Gyromitra species
+BMS-0035,StructuredLLM,amatoxins,CHEMICAL,60,69,Amatoxin
+BMS-0035,StructuredLLM,phallotoxins,CHEMICAL,74,86,Phallotoxin
+BMS-0036,StructuredLLM,administration of studied antidotes,CHEMICAL,0,35,antidote
+BMS-0036,StructuredLLM,hepatocytes,ORGAN,83,94,liver cell
+BMS-0037,StructuredLLM,Wild mushroom poisoning,DISEASE,0,23,Wild mushroom poisoning
+BMS-0037,StructuredLLM,amatoxin-containing mushrooms,CHEMICAL,41,70,Amatoxins
+BMS-0038,StructuredLLM,Muscarine,CHEMICAL,33,42,Muscarine
+BMS-0038,StructuredLLM,Muscimol,CHEMICAL,44,52,Muscimol
+BMS-0038,StructuredLLM,Ibotenic Acid,CHEMICAL,58,71,Ibotenic Acid
+BMS-0039,StructuredLLM,hallucinogenic mushrooms,SPECIES,42,66,Psilocybe
+BMS-0039,StructuredLLM,autonomic-toxicity mushrooms,SPECIES,105,133,Muscaria
+BMS-0039,StructuredLLM,CNS-toxicity mushrooms,SPECIES,152,174,Ibotenic acid/Muscimol
+BMS-0039,StructuredLLM,morel neurologic syndrome,DISEASE,205,230,Morel Neurologic Syndrome
+BMS-0039,StructuredLLM,Morchella spp.,SPECIES,232,246,Morchella
+BMS-0040,StructuredLLM,Amanita phalloides,SPECIES,0,18,Amanita phalloides
+BMS-0040,StructuredLLM,amanitin,CHEMICAL,26,34,amanitin
+BMS-0040,StructuredLLM,phallotoxin,CHEMICAL,36,47,phallotoxin
+BMS-0041,StructuredLLM,Meyeroguilline E,CHEMICAL,0,16,Meyeroguilline E
+BMS-0041,StructuredLLM,Chlorophyllum molybdites,SPECIES,75,99,Chlorophyllum molybdites
+BMS-0042,StructuredLLM,DGK-theta,GENE_PROTEIN,36,45,DGK theta
+BMS-0042,StructuredLLM,alpha-amanitin,CHEMICAL,123,137,alpha-amanitin
+BMS-0043,StructuredLLM,Anti-tumour compounds,CHEMICAL,0,21,anti-tumour compounds
+BMS-0043,StructuredLLM,illudin S,CHEMICAL,22,31,illudin S
+BMS-0043,StructuredLLM,Irofulven,CHEMICAL,36,45,Irofulven
+BMS-0043,StructuredLLM,DNA lesions,CHEMICAL,53,64,DNA lesions
+BMS-0043,StructuredLLM,transcription- and replication-coupled repair pathways,ORGAN,119,173,transcription- and replication-coupled repair pathways
+BMS-0044,StructuredLLM,Amanita bisporigera,SPECIES,23,42,Amanita bisporigera
+BMS-0044,StructuredLLM,amatoxins,CHEMICAL,48,57,amatoxins
+BMS-0044,StructuredLLM,phallotoxins,CHEMICAL,62,74,phallotoxins
+BMS-0045,StructuredLLM,ibotenic acid,CHEMICAL,0,13,ibotenic acid
+BMS-0045,StructuredLLM,muscimol,CHEMICAL,18,26,muscimol
+BMS-0045,StructuredLLM,psychotropic properties,OTHER,70,93,psychotropic properties
+BMS-0045,StructuredLLM,Amanita pantherina,SPECIES,97,115,Amanita pantherina
+BMS-0045,StructuredLLM,Amanita muscaria,SPECIES,120,136,Amanita muscaria
+BMS-0046,StructuredLLM,α-amanitin,CHEMICAL,18,28,α-amanitin
+BMS-0046,StructuredLLM,pileus,ORGAN,36,42,pileus
+BMS-0046,StructuredLLM,stipe,ORGAN,82,87,stipe
+BMS-0047,StructuredLLM,silibinin/silymarin-treated,CHEMICAL,71,98,silymarin
+BMS-0047,StructuredLLM,untreated,OTHER,103,112,untreated
+BMS-0048,StructuredLLM,Myotoxic mushroom poisoning,DISEASE,0,27,myotoxic mushroom poisoning
+BMS-0048,StructuredLLM,mortality rate,OTHER,39,53,mortality rate
+BMS-0049,StructuredLLM,amatoxin,CHEMICAL,4,12,Amatoxin
+BMS-0049,StructuredLLM,A. exitialis,SPECIES,76,88,Amanita exitialis
+BMS-0050,StructuredLLM,illudin S,CHEMICAL,35,44,illudin S
+BMS-0050,StructuredLLM,neoilludins A-B,CHEMICAL,46,61,neoilludins A-B
+BMS-0050,StructuredLLM,5-hydroxydichomitol,CHEMICAL,63,82,5-hydroxydichomitol
+BMS-0050,StructuredLLM,ergosterolperoxide,CHEMICAL,84,102,ergosterolperoxide
+BMS-0050,StructuredLLM,"3β,5α,9α-trihydroxyergosta-7,22-diene-6-one",CHEMICAL,108,151,"3β,5α,9α-trihydroxyergosta-7,22-diene-6-one"
+BMS-0051,StructuredLLM,Mushroom poisoning,DISEASE,0,18,Mushroom poisoning
+BMS-0051,StructuredLLM,acute liver injury,DISEASE,33,51,Acute liver injury
+BMS-0052,StructuredLLM,α-Amanitin,CHEMICAL,42,52,α-amanitin
+BMS-0052,StructuredLLM,Death-Cap Mushroom,SPECIES,17,35,Amanita phalloides
+BMS-0053,StructuredLLM,Alpha-Amanitin (α-AMA),CHEMICAL,0,22,alpha-amanitin
+BMS-0053,StructuredLLM,hepatotoxicity,DISEASE,103,117,hepatotoxicity
+BMS-0053,StructuredLLM,nephrotoxicity,DISEASE,122,136,nephrotoxicity
+BMS-0054,StructuredLLM,hydrophilic peptides,CHEMICAL,107,127,hydrophilic peptides
+BMS-0054,StructuredLLM,amatoxins,CHEMICAL,157,166,amatoxins
+BMS-0054,StructuredLLM,phalloidin,CHEMICAL,208,218,phalloidin
+BMS-0054,StructuredLLM,phallotoxins,CHEMICAL,220,232,phallotoxins
+BMS-0055,StructuredLLM,gastroenteritis,DISEASE,26,41,Gastroenteritis
+BMS-0055,StructuredLLM,mushroom,SPECIES,60,68,Wild Mushroom
+BMS-0055,StructuredLLM,severe acute liver failure,DISEASE,122,148,Severe Acute Liver Failure
+BMS-0056,StructuredLLM,Peptide macrocyclization,CHEMICAL,0,24,Peptide macrocyclization
+BMS-0056,StructuredLLM,prolyl oligopeptidase,GENE_PROTEIN,40,61,prolyl oligopeptidase
+BMS-0056,StructuredLLM,α-amanitin,CHEMICAL,74,84,α-amanitin
+BMS-0057,StructuredLLM,ibotenic acid,CHEMICAL,0,13,ibotenic acid
+BMS-0057,StructuredLLM,neurotoxin,CHEMICAL,43,53,neurotoxin
+BMS-0058,StructuredLLM,amatoxins,CHEMICAL,12,21,Amatoxin
+BMS-0058,StructuredLLM,phallotoxins,CHEMICAL,26,38,Phallotoxin
+BMS-0058,StructuredLLM,basidiocarps,ORGAN,71,83,Basidiocarp
+BMS-0058,StructuredLLM,Amanita,SPECIES,87,94,Amanita
+BMS-0059,StructuredLLM,Amatoxins,CHEMICAL,0,9,Amatoxins
+BMS-0059,StructuredLLM,phallotoxins,CHEMICAL,17,29,Phallotoxins
+BMS-0059,StructuredLLM,whole blood sample,SPECIES,54,72,Human
+BMS-0059,StructuredLLM,urine sample,SPECIES,114,126,Human
+BMS-0060,StructuredLLM,miRNA,GENE_PROTEIN,44,49,microRNA
+BMS-0060,StructuredLLM,Ago2,GENE_PROTEIN,103,107,AGO2
+BMS-0060,StructuredLLM,Actinomycin D,CHEMICAL,188,201,Actinomycin D
+BMS-0060,StructuredLLM,α-Amanitin,CHEMICAL,205,215,α-amanitin
+BMS-0061,StructuredLLM,poisoning,DISEASE,135,144,poisoning
+BMS-0061,StructuredLLM,snake bite injuries,DISEASE,149,168,snake bite injuries
+BMS-0062,StructuredLLM,muscarine,CHEMICAL,59,68,Muscarine
+BMS-0062,StructuredLLM,parasympathetic neurological damage,DISEASE,80,115,Parasympathetic Neurological Damage
+BMS-0063,StructuredLLM,horizontal gene transfer,MECHANISM,25,49,horizontal gene transfer
+BMS-0063,StructuredLLM,Amanita,SPECIES,74,81,Amanita
+BMS-0063,StructuredLLM,Galerina,SPECIES,86,94,Galerina
+BMS-0064,StructuredLLM,Amanita pantherina,SPECIES,128,146,Amanita pantherina
+BMS-0064,StructuredLLM,Ibotenic acid,CHEMICAL,182,195,ibotenic acid
+BMS-0064,StructuredLLM,Muscimol,CHEMICAL,197,205,muscimol
+BMS-0064,StructuredLLM,Burst suppression,DISEASE,100,117,burst suppression
+BMS-0065,StructuredLLM,α-amanitin,CHEMICAL,74,84,α-amanitin
+BMS-0066,StructuredLLM,Cortinarius mushroom,SPECIES,30,50,Cortinarius species
+BMS-0066,StructuredLLM,orellanine,CHEMICAL,59,69,orellanine
+BMS-0067,StructuredLLM,α-amanitin,CHEMICAL,13,23,α-amanitin
+BMS-0067,StructuredLLM,cytochrome P450,GENE_PROTEIN,55,70,cytochrome P450
+BMS-0067,StructuredLLM,5'-diphospho-glucuronosyltransferase,GENE_PROTEIN,75,111,5'-diphospho-glucuronosyltransferase
+BMS-0067,StructuredLLM,human liver microsomes,ORGAN,132,154,liver
+BMS-0067,StructuredLLM,major drug transport functions,OTHER,166,196,major drug transport functions
+BMS-0067,StructuredLLM,mammalian cells,ORGAN,200,215,mammalian cells
+BMS-0068,StructuredLLM,acromelic acids A and B,CHEMICAL,29,52,Acromelic Acids A and B
+BMS-0069,StructuredLLM,Phallotoxins,CHEMICAL,75,87,Phallotoxin
+BMS-0069,StructuredLLM,Liquid chromatography-diode array detection-mass spectrometry,OTHER,0,61,LC-DAD-MS
+BMS-0070,StructuredLLM,alpha-Amanitin,CHEMICAL,0,14,alpha-amanitin
+BMS-0070,StructuredLLM,2-5-cell stage,ORGAN,53,67,2-5 cell stage
+BMS-0070,StructuredLLM,6-8-cell stage,ORGAN,105,119,6-8 cell stage
+BMS-0070,StructuredLLM,blastocyst stage,ORGAN,209,225,blastocyst stage
+BMS-0071,StructuredLLM,Mafosfamide,CHEMICAL,0,11,Mafosfamide
+BMS-0071,StructuredLLM,caspase,GENE_PROTEIN,20,27,Caspase
+BMS-0071,StructuredLLM,apoptosis,MECHANISM,38,47,Apoptosis
+BMS-0072,StructuredLLM,alpha-amanitin,CHEMICAL,148,162,alpha-amanitin
+BMS-0072,StructuredLLM,psilocin,CHEMICAL,189,197,psilocin
+BMS-0072,StructuredLLM,5-hydroxytryptamine,CHEMICAL,245,264,5-hydroxytryptamine
+BMS-0072,StructuredLLM,"5-methoxy-N,N-dimethyltryptamine",CHEMICAL,298,330,"5-methoxy-N,N-dimethyltryptamine"
+BMS-0072,StructuredLLM,water,CHEMICAL,405,410,water
+BMS-0072,StructuredLLM,methanol,CHEMICAL,415,423,methanol
+BMS-0073,StructuredLLM,ALT,OTHER,38,41,Liver Transplantation
+BMS-0073,StructuredLLM,ALF,DISEASE,46,49,Acute Liver Failure
+BMS-0073,StructuredLLM,acetaminophen toxicity,CHEMICAL,96,118,Acetaminophen Toxicity
+BMS-0074,StructuredLLM,mushroom intoxication,DISEASE,157,178,mushroom poisoning
+BMS-0075,StructuredLLM,chrysin,CHEMICAL,30,37,Chrysin
+BMS-0075,StructuredLLM,alpha amanitin,CHEMICAL,41,55,Alpha amanitin
+BMS-0076,StructuredLLM,N-acetylcysteine,CHEMICAL,35,51,N-acetylcysteine
+BMS-0076,StructuredLLM,amatoxin poisoning,DISEASE,77,95,Amatoxin poisoning
+BMS-0077,StructuredLLM,Amatoxin-related acute liver failure,DISEASE,0,36,Amatoxin-related acute liver failure
+BMS-0077,StructuredLLM,liver transplantation,DISEASE,77,98,Liver transplantation
+BMS-0078,StructuredLLM,non-amatoxin-producing mushrooms,SPECIES,40,72,non-amatoxin-producing mushrooms
+BMS-0079,StructuredLLM,phallotoxins,CHEMICAL,29,41,phallotoxins
+BMS-0079,StructuredLLM,amatoxins,CHEMICAL,46,55,amatoxins
+BMS-0080,StructuredLLM,alpha amanitin,CHEMICAL,34,48,alpha amanitin
+BMS-0080,StructuredLLM,mice,SPECIES,52,56,mouse
+BMS-0081,StructuredLLM,α-amanitin,CHEMICAL,23,33,α-amanitin
+BMS-0081,StructuredLLM,carbon dots/AuNPs nanoenzyme,OTHER,57,85,carbon dots/AuNPs nanoenzymes
+BMS-0082,StructuredLLM,Inocybe,SPECIES,26,33,Inocybe
+BMS-0083,StructuredLLM,psilocybin,CHEMICAL,12,22,psilocybin
+BMS-0083,StructuredLLM,psilocin,CHEMICAL,27,35,psilocin
+BMS-0084,StructuredLLM,Reduced toxicity of high zinc exposure,CHEMICAL,0,38,zinc
+BMS-0084,StructuredLLM,pretreatment of various lung cells with nonlethal zinc concentrations,CHEMICAL,58,127,zinc
+BMS-0085,StructuredLLM,psilocin,CHEMICAL,15,23,psilocin
+BMS-0085,StructuredLLM,blood,ORGAN,40,45,blood
+BMS-0085,StructuredLLM,urine,ORGAN,50,55,urine
+BMS-0086,StructuredLLM,Orellanine,CHEMICAL,17,27,Orellanine
+BMS-0086,StructuredLLM,Liquid Chromatography with High-Resolution Mass Spectrometry Detection,OTHER,63,133,Liquid Chromatography with High-Resolution Mass Spectrometry Detection
+BMS-0086,StructuredLLM,Human Biological Matrices,ORGAN,31,56,Human Biological Matrices
+BMS-0087,StructuredLLM,RNA polymerase II,GENE_PROTEIN,50,67,RNA polymerase II
+BMS-0087,StructuredLLM,spinocerebellar ataxia type 1,DISEASE,85,114,Spinocerebellar ataxia type 1
+BMS-0087,StructuredLLM,alpha-amanitin,CHEMICAL,175,189,alpha-amanitin
+BMS-0088,StructuredLLM,L. clypeolaria,SPECIES,46,60,Lactarius clypeolaria
+BMS-0088,StructuredLLM,L. cristata,SPECIES,62,73,Lactarius cristatus
+BMS-0088,StructuredLLM,L. echinacea,SPECIES,75,87,Lactarius echinaceus
+BMS-0088,StructuredLLM,L. magnispora,SPECIES,92,105,Lactarius magnisporus
+BMS-0089,StructuredLLM,ibotenic acid,CHEMICAL,39,52,ibotenic acid
+BMS-0089,StructuredLLM,muscimol,CHEMICAL,57,65,muscimol
+BMS-0090,StructuredLLM,Twenty cases of amatoxin poisoning,DISEASE,0,34,Amatoxin poisoning
+BMS-0090,StructuredLLM,Amanita phalloides,SPECIES,53,71,Amanita phalloides
+BMS-0090,StructuredLLM,Lepiota brunneoincarnata,SPECIES,78,102,Lepiota brunneoincarnata
+BMS-0091,StructuredLLM,mushroom intoxication,DISEASE,110,131,mushroom poisoning
+BMS-0092,StructuredLLM,illudin s,CHEMICAL,17,26,Illudin S
+BMS-0092,StructuredLLM,omphalotus guepiniformis,SPECIES,30,54,Omphalotus guepiniformis
+BMS-0092,StructuredLLM,food poisoning,DISEASE,77,91,Food Poisoning
+BMS-0093,StructuredLLM,FHF,DISEASE,0,3,FHF
+BMS-0093,StructuredLLM,alpha-amanitin,CHEMICAL,49,63,alpha-amanitin
+BMS-0093,StructuredLLM,lipopolysaccharide,CHEMICAL,68,86,lipopolysaccharide
+BMS-0094,StructuredLLM,Phallotoxins,CHEMICAL,0,12,Phallotoxins
+BMS-0094,StructuredLLM,species,SPECIES,41,48,species
+BMS-0095,StructuredLLM,alpha-amanitin,CHEMICAL,24,38,alpha-amanitin
+BMS-0095,StructuredLLM,Howardula aoronymphium,SPECIES,0,22,Howardula aoronymphium
+BMS-0096,StructuredLLM,alpha-amanitin,CHEMICAL,31,45,alpha-amanitin
+BMS-0096,StructuredLLM,CRYM mRNA,GENE_PROTEIN,68,77,CRYM mRNA
+BMS-0097,StructuredLLM,ibotenic acid,CHEMICAL,111,124,ibotenic acid
+BMS-0097,StructuredLLM,mice,SPECIES,80,84,mouse
+BMS-0098,StructuredLLM,[Ala7]-phalloidin,CHEMICAL,41,58,Ala7-phalloidin
+BMS-0098,StructuredLLM,phalloidin,CHEMICAL,48,58,phalloidin
+BMS-0099,StructuredLLM,Arrhythmia,DISEASE,0,10,Arrhythmia
+BMS-0099,StructuredLLM,Cardiac arrest,DISEASE,12,26,Cardiac arrest
+BMS-0099,StructuredLLM,Mushroom poisoning,DISEASE,41,59,Mushroom poisoning
+BMS-0099,StructuredLLM,Seizure,DISEASE,61,68,Seizure
+BMS-0100,StructuredLLM,α-amanitin toxicosis,DISEASE,31,51,α-amanitin toxicosis
+BMS-0100,StructuredLLM,mushroom ingestion,CHEMICAL,171,189,mushroom ingestion
+BMS-0101,StructuredLLM,Secr,CHEMICAL,0,4,Secr
+BMS-0101,StructuredLLM,ibotenic acid,CHEMICAL,9,22,ibotenic acid
+BMS-0101,StructuredLLM,muscimol,CHEMICAL,27,35,muscimol
+BMS-0102,StructuredLLM,ibotenic acid,CHEMICAL,65,78,ibotenic acid
+BMS-0102,StructuredLLM,neurotoxic mushroom poisoning,DISEASE,110,139,mushroom poisoning
+BMS-0102,StructuredLLM,metabolomics,OTHER,96,108,metabolomics
+BMS-0102,StructuredLLM,neurotransmitters,OTHER,141,158,neurotransmitters
+BMS-0103,StructuredLLM,Agaricales,SPECIES,0,10,Agaricales
+BMS-0103,StructuredLLM,muscarine,CHEMICAL,12,21,Muscarine
+BMS-0104,StructuredLLM,RNA polymerase (Pol) II,GENE_PROTEIN,0,23,RNA polymerase II
+BMS-0104,StructuredLLM,alpha-amanitin,CHEMICAL,137,151,alpha-amanitin
+BMS-0105,StructuredLLM,mushroom-feeding Drosophila,SPECIES,3,30,Drosophila
+BMS-0105,StructuredLLM,Howardula nematode,SPECIES,73,91,Howardula nematode
+BMS-0105,StructuredLLM,α-amanitin,CHEMICAL,154,164,α-amanitin
+BMS-0106,StructuredLLM,muscarine-containing mushrooms,CHEMICAL,56,86,muscarine
+BMS-0106,StructuredLLM,atropine,CHEMICAL,112,120,atropine
+BMS-0107,StructuredLLM,Amanita phalloides poisoning,DISEASE,86,114,Amanita phalloides poisoning
+BMS-0107,StructuredLLM,acute kidney injury,DISEASE,117,136,Acute kidney injury
+BMS-0108,StructuredLLM,Amatoxin,CHEMICAL,0,8,Amatoxin
+BMS-0109,StructuredLLM,α- and β-amanitin,CHEMICAL,13,30,α- and β-amanitin
+BMS-0109,StructuredLLM,muscarine,CHEMICAL,32,41,muscarine
+BMS-0109,StructuredLLM,muscimol,CHEMICAL,43,51,muscimol
+BMS-0109,StructuredLLM,ibotenic acid,CHEMICAL,57,70,ibotenic acid
+BMS-0110,StructuredLLM,α- and γ-amanitin,CHEMICAL,54,71,α-amanitin and γ-amanitin
+BMS-0110,StructuredLLM,β-amanitin,CHEMICAL,85,95,β-amanitin
+BMS-0111,StructuredLLM,ɑ-amanit,CHEMICAL,62,70,α-amanitin
+BMS-0111,StructuredLLM,β-amanitin,CHEMICAL,72,82,β-amanitin
+BMS-0112,StructuredLLM,silymarin,CHEMICAL,15,24,silymarin
+BMS-0112,StructuredLLM,thioctic acid,CHEMICAL,26,39,thioctic acid
+BMS-0112,StructuredLLM,penicillin,CHEMICAL,41,51,penicillin
+BMS-0113,StructuredLLM,toxin entry blockage,CHEMICAL,16,36,toxin
+BMS-0113,StructuredLLM,cuticle,ORGAN,49,56,cuticle
+BMS-0113,StructuredLLM,phase I and II detoxification,CHEMICAL,58,87,detoxification
+BMS-0113,StructuredLLM,lipid particles,ORGAN,106,121,lipid particle
+BMS-0113,StructuredLLM,proteolytic cleavage of α-amanitin,CHEMICAL,127,161,α-amanitin
+BMS-0114,StructuredLLM,amatoxin,CHEMICAL,58,66,Amatoxin
+BMS-0114,StructuredLLM,ALI,DISEASE,75,78,Acute Lung Injury
+BMS-0114,StructuredLLM,ALF,DISEASE,91,94,Acute Liver Failure
+BMS-0116,StructuredLLM,α-amanitin,CHEMICAL,91,101,α-amanitin
+BMS-0116,StructuredLLM,liver injuries,DISEASE,110,124,liver injury
+BMS-0117,StructuredLLM,α-amanitin,CHEMICAL,26,36,α-amanitin
+BMS-0117,StructuredLLM,feline immunodeficiency virus (FIV),DISEASE,138,173,feline immunodeficiency virus (FIV)
+BMS-0118,StructuredLLM,Trichothecene,CHEMICAL,0,13,Trichothecene
+BMS-0118,StructuredLLM,tremulane sesquiterpenes,CHEMICAL,18,42,Tremulane sesquiterpenes
+BMS-0118,StructuredLLM,Gymnopilus junonius,SPECIES,74,93,Gymnopilus junonius
+BMS-0119,StructuredLLM,α-amanitin,CHEMICAL,51,61,α-amanitin
+BMS-0120,StructuredLLM,Monoclonal antibody,CHEMICAL,20,39,monoclonal antibody
+BMS-0120,StructuredLLM,Phallotoxins,CHEMICAL,61,73,phallotoxins
+BMS-0120,StructuredLLM,Mushroom poisoning,DISEASE,41,59,mushroom poisoning
+BMS-0121,StructuredLLM,Reversal,OTHER,0,8,Reversal
+BMS-0121,StructuredLLM,advanced ALF,DISEASE,12,24,Advanced Alcoholic Liver Failure
+BMS-0121,StructuredLLM,amatoxin,CHEMICAL,116,124,Amatoxin
+BMS-0121,StructuredLLM,gallbladder,ORGAN,145,156,Gallbladder
+BMS-0122,StructuredLLM,amatoxin,CHEMICAL,21,29,Amatoxin
+BMS-0122,StructuredLLM,phallotoxin,CHEMICAL,34,45,Phallotoxin
+BMS-0122,StructuredLLM,A. phalloides,SPECIES,64,77,Amanita phalloides
+BMS-0123,StructuredLLM,α-amanitin,CHEMICAL,13,23,alpha-amanitin
+BMS-0124,StructuredLLM,mushroom poisonings,DISEASE,18,37,mushroom poisoning
+BMS-0124,StructuredLLM,amatoxin-containing species,SPECIES,121,148,amatoxin-containing species
+BMS-0125,StructuredLLM,Amanita smithiana/proxima,SPECIES,24,49,Amanita smithiana
+BMS-0125,StructuredLLM,orellanine-induced syndrome,DISEASE,152,179,Orellanine-induced syndrome
+BMS-0126,StructuredLLM,Mushroom (amatoxin),CHEMICAL,0,19,Amatoxin
+BMS-0126,StructuredLLM,gastrointestinal symptoms,OTHER,111,136,Gastrointestinal Symptoms
+BMS-0126,StructuredLLM,multisystem organ failure,OTHER,159,184,Multisystem Organ Failure
+BMS-0127,StructuredLLM,PNC,GENE_PROTEIN,16,19,PNC
+BMS-0127,StructuredLLM,Amanita phalloides poisoning,DISEASE,92,120,Amanita phalloides poisoning
+BMS-0127,StructuredLLM,amanitins,CHEMICAL,137,146,amanitins
+BMS-0128,StructuredLLM,amatoxins,CHEMICAL,97,106,Amatoxin
+BMS-0128,StructuredLLM,canine,SPECIES,108,114,Canis lupus familiaris
+BMS-0128,StructuredLLM,mushroom poisoning,DISEASE,127,145,Mushroom Poisoning
+BMS-0129,StructuredLLM,cyclopeptides,CHEMICAL,64,77,Cyclopeptide
+BMS-0129,StructuredLLM,gyromitrin,CHEMICAL,79,89,Gyromitrin
+BMS-0129,StructuredLLM,muscarine,CHEMICAL,91,100,Muscarine
+BMS-0129,StructuredLLM,coprine,CHEMICAL,102,109,Coprine
+BMS-0129,StructuredLLM,orellanine,CHEMICAL,111,121,Orellanine
+BMS-0129,StructuredLLM,psilocybin,CHEMICAL,123,133,Psilocybin
+BMS-0129,StructuredLLM,GI irritants,CHEMICAL,139,151,GI Irritants
+BMS-0130,StructuredLLM,CuNPs-based nanozyme strip,OTHER,11,37,CuNPs-based nanozyme strip
+BMS-0130,StructuredLLM,α-amanitin,CHEMICAL,63,73,α-amanitin
+BMS-0131,StructuredLLM,amatoxin poisoning,DISEASE,18,36,Amatoxin poisoning
+BMS-0133,StructuredLLM,cyclopeptide-containing mushrooms,CHEMICAL,64,97,cyclopeptide-containing mushrooms
+BMS-0133,StructuredLLM,amatoxins,CHEMICAL,99,108,amatoxins
+BMS-0133,StructuredLLM,phallotoxins,CHEMICAL,114,126,phallotoxins
+BMS-0134,StructuredLLM,Impella CP,OTHER,25,35,Impella CP
+BMS-0134,StructuredLLM,veno-arterial extracorporeal membranous oxygenation,OTHER,37,88,VA-ECMO
+BMS-0134,StructuredLLM,continuous haemodiafiltration,OTHER,104,133,continuous haemodiafiltration
+BMS-0134,StructuredLLM,cardiogenic shock,DISEASE,156,173,cardiogenic shock
+BMS-0134,StructuredLLM,rhabdomyolysis,DISEASE,185,199,rhabdomyolysis
+BMS-0135,StructuredLLM,P. keralensis,SPECIES,16,29,Psilocybe keralensis
+BMS-0135,StructuredLLM,psilocybin,CHEMICAL,108,118,psilocybin
+BMS-0135,StructuredLLM,myocardial injury,DISEASE,89,106,myocardial injury
+BMS-0136,StructuredLLM,A. exitialis,SPECIES,93,105,A. exitialis
+BMS-0136,StructuredLLM,amatoxins,CHEMICAL,22,31,Amatoxin
+BMS-0136,StructuredLLM,Beagles,SPECIES,222,229,Beagles
+BMS-0137,StructuredLLM,alpha-amanitin,CHEMICAL,24,38,alpha-amanitin
+BMS-0137,StructuredLLM,actin bundle network,OTHER,64,84,actin bundle network
+BMS-0138,StructuredLLM,RNA polymerase,GENE_PROTEIN,40,54,RNA polymerase
+BMS-0138,StructuredLLM,alpha-amanitin,CHEMICAL,60,74,alpha-amanitin
+BMS-0138,StructuredLLM,SL RNA,SPECIES,102,108,SL RNA
+BMS-0138,StructuredLLM,SL RNA promoter,GENE_PROTEIN,143,158,SL RNA promoter
+BMS-0139,StructuredLLM,Mushroom poisoning,DISEASE,0,18,Mushroom poisoning
+BMS-0139,StructuredLLM,renal functions,ORGAN,101,116,renal function
+BMS-0140,StructuredLLM,Acute liver failure,DISEASE,0,19,Acute Liver Failure
+BMS-0141,StructuredLLM,Tricholoma equestre,SPECIES,0,19,Tricholoma equestre
+BMS-0141,StructuredLLM,edible mushrooms,OTHER,21,37,mushrooms
+BMS-0141,StructuredLLM,mushroom poisoning,DISEASE,39,57,mushroom poisoning
+BMS-0141,StructuredLLM,mutagenicity,MECHANISM,59,71,mutagenicity
+BMS-0141,StructuredLLM,rhabdomyolysis,DISEASE,73,87,rhabdomyolysis
+BMS-0142,StructuredLLM,Fulminant liver failure,DISEASE,0,23,Fulminant liver failure
+BMS-0142,StructuredLLM,mushroom poisoning,DISEASE,37,55,Mushroom poisoning
+BMS-0142,StructuredLLM,early referral to a liver transplantation unit,OTHER,83,129,Early referral to liver transplantation unit
+BMS-0143,StructuredLLM,isoxazoles,CHEMICAL,63,73,isoxazoles
+BMS-0143,StructuredLLM,amatoxins,CHEMICAL,79,88,amatoxins
+BMS-0143,StructuredLLM,mushrooms,SPECIES,100,109,mushrooms
+BMS-0143,StructuredLLM,altered mental state,DISEASE,126,146,altered mental state
+BMS-0143,StructuredLLM,poorly controlled hypertension,DISEASE,151,181,hypertension
+BMS-0144,StructuredLLM,the liver,ORGAN,17,26,liver
+BMS-0144,StructuredLLM,panlobular coagulative necrosis of hepatocytes,DISEASE,34,80,panlobular coagulative necrosis of hepatocytes
+BMS-0145,StructuredLLM,ibotenic acid,CHEMICAL,33,46,ibotenic acid
+BMS-0145,StructuredLLM,Drosophila flies,SPECIES,13,29,Drosophila melanogaster
+BMS-0146,StructuredLLM,low doses of α-amanitin-conjugated anti-epithelial cell adhesion molecule (EpCAM) antibody,CHEMICAL,18,108,α-amanitin-conjugated anti-EpCAM antibody
+BMS-0146,StructuredLLM,tumour,DISEASE,126,132,tumor
+BMS-0146,StructuredLLM,mouse models of human colorectal cancer,DISEASE,147,186,human colorectal cancer
+BMS-0146,StructuredLLM,POLR2A,GENE_PROTEIN,215,221,POLR2A
+BMS-0147,StructuredLLM,natural toxins,CHEMICAL,49,63,natural toxins
+BMS-0147,StructuredLLM,alpha amanitin,CHEMICAL,180,194,alpha amanitin
+BMS-0147,StructuredLLM,reactive oxygen species,CHEMICAL,99,122,ROS
+BMS-0148,StructuredLLM,Cortinarius orellanus,SPECIES,0,21,Cortinarius orellanus
+BMS-0148,StructuredLLM,Cortinarius rubellus,SPECIES,26,46,Cortinarius rubellus
+BMS-0149,StructuredLLM,acute anuric renal failure,DISEASE,58,84,Acute anuric renal failure
+BMS-0149,StructuredLLM,mountain climbing,OTHER,152,169,Mountain climbing
+BMS-0150,StructuredLLM,mushroom poisoning,DISEASE,15,33,mushroom poisoning
+BMS-0150,StructuredLLM,cardiac functions,ORGAN,37,54,cardiac functions

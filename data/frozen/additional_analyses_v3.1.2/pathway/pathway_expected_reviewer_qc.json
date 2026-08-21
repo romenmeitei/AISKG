@@ -1,0 +1,35 @@
+{
+  "all_reconstructed_final_labels_binary": true,
+  "complete_pathway_rollup_inconsistencies": {
+    "Expert A": [
+      {
+        "component_rollup": "No",
+        "recorded_complete_pathway_correct": "Yes",
+        "validation_id": "XPV-0052"
+      },
+      {
+        "component_rollup": "No",
+        "recorded_complete_pathway_correct": "Yes",
+        "validation_id": "XPV-0074"
+      }
+    ],
+    "Expert B": []
+  },
+  "definitive_A_B_consensus_ratings": 713,
+  "direct_A_B_disagreements": 22,
+  "expert_A_complete_pathway_formula_cells": 113,
+  "expert_B_complete_pathway_formula_cells": 115,
+  "nondefinitive_source_rating_cases": 84,
+  "rating_dimensions": 7,
+  "required_third_expert_adjudications": 92,
+  "reviewer_level_replay_passed": true,
+  "third_expert_exact_coverage_verified": true,
+  "third_expert_final_label_counts": {
+    "No": 88,
+    "Yes": 4
+  },
+  "third_expert_final_ratings": 92,
+  "third_expert_source_rows_match_primary_workbooks": true,
+  "total_A_B_rating_pairs": 805,
+  "unique_validation_ids": 115
+}

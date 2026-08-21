@@ -25,5 +25,14 @@ The optional `LIVE_REFRESH` route in Section 1 allows authorized users to
 retrieve a current corpus using their own credentials. A live refresh may not
 match the historical manuscript snapshot because databases and indexing change.
 
+The frozen manuscript snapshot also preserves published corresponding-author
+contact fields, including e-mail addresses, where those fields were present in
+the source bibliographic records. These are third-party published metadata—not
+software credentials and not the private document-property address removed from
+the reviewer workbooks. Institutions requiring additional data minimization
+should place the affected frozen bundles in controlled access rather than
+silently modifying this version, because the bundle hashes and 285 expected-
+result assertions define the v3.1.2 reproducibility record.
+
 This notice is a reproducibility and rights-management warning, not legal
 advice.
