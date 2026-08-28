@@ -44,6 +44,7 @@ dependencies = [
 [project.optional-dependencies]
 external-re = [
   "nbformat>=5.10,<6",
+  "ipykernel>=6.29,<8",
 ]
 live = [
   "spacy>=3.7,<4",

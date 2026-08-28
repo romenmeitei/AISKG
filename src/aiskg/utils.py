@@ -96,7 +96,11 @@ def write_manifest(root: Path, path: Path, exclude: Iterable[str] = ()) -> None:
         rows.append({"path": rel, "bytes": file_path.stat().st_size, "sha256": sha256_file(file_path)})
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["path", "bytes", "sha256"])
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=["path", "bytes", "sha256"],
+            lineterminator="\n",
+        )
         writer.writeheader()
         writer.writerows(rows)
 
