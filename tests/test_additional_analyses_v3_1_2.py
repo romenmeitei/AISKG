@@ -30,9 +30,9 @@ def reviewer_replay():
 
 
 def test_release_version_and_correct_repository_url():
-    assert (ROOT / "VERSION").read_text(encoding="utf-8").strip() == "3.1.2"
+    assert (ROOT / "VERSION").read_text(encoding="utf-8").strip() == "3.2.0"
     pyproject = (ROOT / "pyproject.toml").read_text(encoding="utf-8")
-    assert 'version = "3.1.2"' in pyproject
+    assert 'version = "3.2.0"' in pyproject
     assert "https://github.com/romenmeitei/AISKG" in pyproject
     assert "AISKG_Framework/issues" not in pyproject
 

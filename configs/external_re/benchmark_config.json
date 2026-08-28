@@ -1,0 +1,25 @@
+{
+  "bioredirect_batch_size": 8,
+  "bioredirect_revision": "main",
+  "bootstrap_iterations": 5000,
+  "cuda_device": "0",
+  "global_seed": 20260826,
+  "max_context_chars": 1800,
+  "modes": [
+    "sentence_local",
+    "full_document"
+  ],
+  "package_version": "1.0.0",
+  "reporting_boundaries": {
+    "adapter_status": "The AISKG external transfer systems are new prespecified adapters that inherit AISKG-style type constraints and evidence-context logic; they are not the unchanged mushroom-domain v3.1.2 extractor.",
+    "document_scope": "Sentence-local results are the closest architectural match to AISKG v3.1.2. Full-document results are a cross-sentence stress test.",
+    "gold_entities": "All BioRED/BioREDirect evaluations in this package use gold entity mentions and normalized concept identifiers to isolate relation extraction.",
+    "test_lock": "Model features and thresholds are fitted on train and tuned on development only. The test split is evaluated once after locking.",
+    "third_party": "BioRED/BioREDirect data, code, and model weights are downloaded from official NCBI locations at runtime and are not redistributed in this ZIP."
+  },
+  "run_bioredirect": true,
+  "run_constrained_text_transfer": true,
+  "run_rule_transfer": true,
+  "run_type_pair_majority": true,
+  "split_scheme": "bioredirect_bc8_official"
+}

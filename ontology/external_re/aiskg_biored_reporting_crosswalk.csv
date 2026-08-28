@@ -1,0 +1,9 @@
+AISKG_or_analysis_layer,BioRED_or_BioREDirect_layer,Use_in_external_benchmark,Reporting_note
+Frozen AISKG v3.1.2 mushroom benchmark,Custom seven-class entity schema and directed toxicology relations,Preserved as in-domain evidence,Do not merge its 56 gold relations with BioRED metrics
+AISKG external sentence-local adapter,BioRED gold entities and candidate pairs,Primary portability analysis,Closest match to sentence-level AISKG relation extraction
+AISKG external full-document adapter,BioRED gold entities and document context,Secondary stress test,Tests cross-sentence transfer beyond the original AISKG architecture
+Type-pair majority baseline,BioRED training-split type-pair priors,Baseline,Publication/document splits remain fixed and test labels are never used
+Official BioREDirect,BioRED relation type novelty and direction prediction,Contemporary comparator,Run official pretrained model and preserve its resolved source commit and download hashes
+Entity recognition,Gold BioRED entities,Not evaluated,External results are relation classification with gold entities rather than end-to-end NER plus RE
+Novelty detection,BioREDirect novelty labels,Optional descriptive output,Not a primary AISKG endpoint in v1.0
+Directionality,BioREDirect Subject annotations,Secondary endpoint,Report relation-plus-direction F1 only on gold relations with an annotated subject

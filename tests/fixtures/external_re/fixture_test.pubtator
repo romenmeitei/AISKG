@@ -1,0 +1,26 @@
+TS1|t|Compound U binds receptor V.
+TS1|a|Compound U binds receptor V with high affinity.
+TS1	0	10	Compound U	ChemicalEntity	TC1
+TS1	17	27	receptor V	GeneOrGeneProduct	TG1
+TS1	Bind	TC1	TG1	Novel
+TS1	TC1	TG1	Subject:TC1
+
+TS2|t|Agent W decreases disease X.
+TS2|a|Agent W reduced disease X in vivo.
+TS2	0	7	Agent W	ChemicalEntity	TC2
+TS2	18	27	disease X	DiseaseOrPhenotypicFeature	TD2
+TS2	Negative_Correlation	TC2	TD2	Novel
+TS2	TC2	TD2	Subject:TC2
+
+TS3|t|Drugs Y and Z were combined.
+TS3|a|Drug Y was co-administered together with drug Z.
+TS3	29	35	Drug Y	ChemicalEntity	TC3
+TS3	70	76	drug Z	ChemicalEntity	TC4
+TS3	Cotreatment	TC3	TC4	Novel
+
+TS4|t|Gene R is linked to disease S.
+TS4|a|Gene R was associated with disease S.
+TS4	0	6	Gene R	GeneOrGeneProduct	TG4
+TS4	20	29	disease S	DiseaseOrPhenotypicFeature	TD4
+TS4	Association	TG4	TD4	Novel
+

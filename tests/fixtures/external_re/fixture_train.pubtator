@@ -1,0 +1,70 @@
+TR1|t|Compound A binds receptor X.
+TR1|a|Compound A strongly binds receptor X in cultured cells. Control disease Z was unchanged.
+TR1	0	10	Compound A	ChemicalEntity	C1
+TR1	17	27	receptor X	GeneOrGeneProduct	G1
+TR1	93	102	disease Z	DiseaseOrPhenotypicFeature	D0
+TR1	Bind	C1	G1	Novel
+TR1	C1	G1	Subject:C1
+
+TR2|t|Drug B increases syndrome Y.
+TR2|a|Treatment with Drug B increased syndrome Y and elevated its biomarker.
+TR2	0	6	Drug B	ChemicalEntity	C2
+TR2	17	27	syndrome Y	DiseaseOrPhenotypicFeature	D2
+TR2	89	98	biomarker	GeneOrGeneProduct	G2
+TR2	Positive_Correlation	C2	D2	Novel
+TR2	C2	D2	Subject:C2
+
+TR3|t|Agent C reduces disease Q.
+TR3|a|Agent C significantly reduced disease Q and suppressed marker M.
+TR3	0	7	Agent C	ChemicalEntity	C3
+TR3	16	25	disease Q	DiseaseOrPhenotypicFeature	D3
+TR3	82	90	marker M	GeneOrGeneProduct	G3
+TR3	Negative_Correlation	C3	D3	Novel
+TR3	C3	D3	Subject:C3
+
+TR4|t|Compounds D and E were co-administered.
+TR4|a|The combination treatment used compound D together with compound E.
+TR4	71	81	compound D	ChemicalEntity	C4
+TR4	96	106	compound E	ChemicalEntity	C5
+TR4	Cotreatment	C4	C5	Novel
+
+TR5|t|Drug F interacts with drug G.
+TR5|a|A clinically relevant drug-drug interaction between drug F and drug G was observed.
+TR5	82	88	drug F	ChemicalEntity	C6
+TR5	22	28	drug G	ChemicalEntity	C7
+TR5	Drug_Interaction	C6	C7	Novel
+
+TR6|t|Gene H is associated with disease R.
+TR6|a|Gene H was linked to disease R in the cohort.
+TR6	0	6	Gene H	GeneOrGeneProduct	G6
+TR6	26	35	disease R	DiseaseOrPhenotypicFeature	D6
+TR6	Association	G6	D6	Novel
+
+TR7|t|Prodrug I converts to metabolite J.
+TR7|a|Prodrug I was converted to metabolite J in liver microsomes.
+TR7	0	9	Prodrug I	ChemicalEntity	C8
+TR7	22	34	metabolite J	ChemicalEntity	C9
+TR7	Conversion	C8	C9	Novel
+TR7	C8	C9	Subject:C8
+
+TR8|t|Compound K was compared with compound L.
+TR8|a|Compound K showed greater activity than compound L.
+TR8	0	10	Compound K	ChemicalEntity	C10
+TR8	29	39	compound L	ChemicalEntity	C11
+TR8	Comparison	C10	C11	Novel
+
+TR9|t|Ligand M binds protein N.
+TR9|a|Ligand M binds protein N, whereas unrelated disease S was not affected.
+TR9	0	8	Ligand M	ChemicalEntity	C12
+TR9	15	24	protein N	GeneOrGeneProduct	G12
+TR9	70	79	disease S	DiseaseOrPhenotypicFeature	D12
+TR9	Bind	C12	G12	Novel
+TR9	C12	G12	Subject:C12
+
+TR10|t|Therapy O decreases disorder P.
+TR10|a|Therapy O reduced disorder P in the treated group.
+TR10	0	9	Therapy O	ChemicalEntity	C13
+TR10	20	30	disorder P	DiseaseOrPhenotypicFeature	D13
+TR10	Negative_Correlation	C13	D13	Novel
+TR10	C13	D13	Subject:C13
+

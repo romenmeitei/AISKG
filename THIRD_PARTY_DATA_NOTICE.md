@@ -36,3 +36,8 @@ result assertions define the v3.1.2 reproducibility record.
 
 This notice is a reproducibility and rights-management warning, not legal
 advice.
+
+
+## BioRED/BioREDirect external benchmark
+
+AISKG v3.2.0 does not redistribute BioRED/BioREDirect text, official gold candidate rows, NCBI source code or model weights. The repository-native notebook retrieves official assets from NCBI at runtime and records the resolved BioREDirect commit and archive SHA-256 hashes. The public frozen result subset contains aggregate metrics, thresholds, figures, sanitized provenance and system prediction rows without source text. The complete author-side source result archive is intentionally excluded from public GitHub.

@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aiskg-framework"
-version = "3.1.2"
-description = "Unified AI-assisted ontology-guided semantic knowledge graph framework"
+version = "3.2.0"
+description = "Ontology-constrained biomedical evidence extraction, knowledge graphs, and external relation benchmarking"
 readme = "README.md"
 requires-python = ">=3.10,<3.14"
 license = {file = "LICENSE"}
@@ -39,11 +39,14 @@ dependencies = [
   "rapidfuzz>=3.6,<4",
   "requests>=2.31,<3",
   "biopython>=1.83,<2",
-  "spacy>=3.7,<4",
 ]
 
 [project.optional-dependencies]
+external-re = [
+  "nbformat>=5.10,<6",
+]
 live = [
+  "spacy>=3.7,<4",
   "sentence-transformers>=3,<6",
   "umap-learn>=0.5.5,<1",
   "hdbscan>=0.8.33,<1",
@@ -54,7 +57,6 @@ dev = [
   "pytest-cov>=5,<7",
   "nbclient>=0.10,<1",
   "nbformat>=5.10,<6",
-  "ipykernel>=6.29,<8",
   "ruff>=0.6,<1",
 ]
 
@@ -65,6 +67,8 @@ Issues = "https://github.com/romenmeitei/AISKG/issues"
 
 [project.scripts]
 aiskg = "aiskg.cli:main"
+aiskg-external-re = "aiskg_external_re.cli:main"
+aiskg-external-re-public-export = "aiskg_external_re.public_export:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

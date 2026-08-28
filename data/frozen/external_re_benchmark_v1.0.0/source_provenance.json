@@ -1,0 +1,31 @@
+{
+  "external_benchmark_package_version": "1.0.0",
+  "framework_release": "3.2.0",
+  "private_full_result_archive": {
+    "filename": "AISKG_External_RE_Benchmark_Results_v1_0.zip",
+    "public_repository_included": false,
+    "reason": "Contains third-party text-bearing candidate files and PubTator representations; retained author-side.",
+    "sha256": "4e15bf35114fd8d46e7645dca0e62cb75a42dc98fe9a7e3f8c7a2a256803107a"
+  },
+  "public_result_policy": {
+    "metrics_and_aggregate_audits": true,
+    "official_gold_candidate_rows": false,
+    "official_model_weights": false,
+    "official_source_code": false,
+    "system_prediction_rows_without_text": true,
+    "third_party_text": false
+  },
+  "release_date": "2026-08-28",
+  "source_external_colab_package": {
+    "filename": "AISKG_External_RE_Benchmark_Colab_Package_v1_0.zip",
+    "sha256": "e6a739f947872615e18051c5d9dfccd69a7fd5db222440dd0fe3c74ab4fa999e"
+  },
+  "source_external_notebook": {
+    "filename": "AISKG_External_RE_Benchmark_Colab_v1_0.ipynb",
+    "sha256": "38223a4e170c9c8555c0f39e2f6f63d67a36074cf51a4e933e13b1bc6da1003a"
+  },
+  "source_framework_archive": {
+    "filename": "AISKG_v3.1.2_GITHUB_READY_COMPLETE.zip",
+    "sha256": "3d40c74e10b39e9b4018067d74d60fb4cea0953de025ac7d7ecd8f640555aba7"
+  }
+}

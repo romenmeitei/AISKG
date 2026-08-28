@@ -1,0 +1,3 @@
+AISKG external relation-extraction benchmark completed.
+Quality-gate status: PASS
+Read QUALITY_GATES.json and the reporting boundaries before manuscript use.

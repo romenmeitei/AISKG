@@ -1,0 +1,105 @@
+{
+  "analysis_name": "AISKG external BioRED/BioREDirect relation-extraction benchmark",
+  "bioredirect_status": {
+    "completed": true,
+    "prediction_filename": "bioredirect_test.pred.pubtator",
+    "prediction_sha256": "26a8036e0c8ebd9c9d70c320d279acb5faba509697c9eae90729b39948b1d0b8",
+    "requested": true
+  },
+  "bootstrap_iterations": 5000,
+  "environment": {
+    "machine": "x86_64",
+    "packages": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scikit_learn": "1.6.1",
+      "scipy": "1.16.3"
+    },
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "processor": "x86_64",
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:23) [GCC 11.4.0]",
+    "torch": {
+      "cuda_available": true,
+      "cuda_version": "12.8",
+      "device_name": "Tesla T4",
+      "version": "2.11.0+cu128"
+    }
+  },
+  "external_benchmark_package_version": "1.0.0",
+  "framework_version": "3.2.0",
+  "input_hashes": {
+    "dev_pubtator": {
+      "logical_name": "bioredirect_test.pubtator",
+      "sha256": "cdb51c91cce5d849d863c550f7a7e253e04aad72b5a1757f1b6979a4b7b3399c"
+    },
+    "test_pubtator": {
+      "logical_name": "bioredirect_bc8_test.pubtator",
+      "sha256": "64e8fa95b0094f3e3c749a6bb63f5b429842af6f52d6ac62cb2db1dad9187715"
+    },
+    "train_pubtator": {
+      "logical_name": "bioredirect_train_dev.pubtator",
+      "sha256": "0e36e1f5db5d48ddcea1b2bcb30533ea6c09c93b584638505f1c8608cb20566b"
+    }
+  },
+  "modes": [
+    "sentence_local",
+    "full_document"
+  ],
+  "official_assets": {
+    "bioredirect_commit": "fc090435fa8198187ab5145da26d8abf01000131",
+    "bioredirect_repository": "https://github.com/ncbi-nlp/BioREDirect.git",
+    "bioredirect_revision_requested": "main",
+    "dataset_sha256": "29aa0b2060f9d3dc66d9452412e741158f69fb06021c7e326174cb3f1a1c4a85",
+    "dataset_url": "https://ftp.ncbi.nlm.nih.gov/pub/lu/BioREDirect/datasets.zip",
+    "model_sha256": "f7c85ab60e9d61f3d06c682e432ac0a16ba56844a6389ec2941b23d567d9be00",
+    "model_url": "https://ftp.ncbi.nlm.nih.gov/pub/lu/BioREDirect/bioredirect_biored_pt.zip"
+  },
+  "public_release": {
+    "excluded_patterns": [
+      "test_candidates_",
+      ".pubtator"
+    ],
+    "gold_annotation_rows_redistributed": false,
+    "prediction_rows_redistributed": true,
+    "source_full_result_zip_sha256": null,
+    "third_party_text_redistributed": false
+  },
+  "quality_gates": {
+    "bioredirect_completed": true,
+    "bioredirect_requested": true,
+    "gold_entities_used_for_all_external_systems": true,
+    "no_document_overlap": true,
+    "sentence_local_and_full_document_separated": true,
+    "status": "PASS",
+    "test_gold_relation_n_by_mode": {
+      "full_document": 6018,
+      "sentence_local": 4723
+    },
+    "test_tuning_performed": false,
+    "threshold_tuned_on_development_only": true,
+    "train_development_test_fixed": true
+  },
+  "reporting_boundaries": {
+    "adapter_status": "The AISKG external transfer systems are new prespecified adapters that inherit AISKG-style type constraints and evidence-context logic; they are not the unchanged mushroom-domain v3.1.2 extractor.",
+    "document_scope": "Sentence-local results are the closest architectural match to AISKG v3.1.2. Full-document results are a cross-sentence stress test.",
+    "gold_entities": "All BioRED/BioREDirect evaluations in this package use gold entity mentions and normalized concept identifiers to isolate relation extraction.",
+    "test_lock": "Model features and thresholds are fitted on train and tuned on development only. The test split is evaluated once after locking.",
+    "third_party": "BioRED/BioREDirect data, code, and model weights are downloaded from official NCBI locations at runtime and are not redistributed in this ZIP."
+  },
+  "rules_file": {
+    "filename": "biored_trigger_rules.json",
+    "sha256": "fd063391b8ea56f3bea773f075a62e2bacccf124d13e55ee57b6e16395d96e51"
+  },
+  "seed": 20260826,
+  "split_qc": {
+    "dev_documents": 100,
+    "document_overlap": {
+      "dev_test": 0,
+      "train_dev": 0,
+      "train_test": 0
+    },
+    "test_documents": 400,
+    "train_documents": 500
+  },
+  "split_scheme": "bioredirect_bc8_official"
+}

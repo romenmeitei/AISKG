@@ -1,0 +1,7 @@
+split,mode,candidates,positive_relations,negative_candidates,same_sentence_candidates,documents,relation_distribution.Association,relation_distribution.Bind,relation_distribution.Comparison,relation_distribution.Conversion,relation_distribution.Cotreatment,relation_distribution.Drug_Interaction,relation_distribution.Negative_Correlation,relation_distribution.None,relation_distribution.Positive_Correlation,direction_distribution_among_positive.Left_to_Right,direction_distribution_among_positive.No_Direct,direction_distribution_among_positive.Right_to_Left
+train,sentence_local,12169,4562,7607,12169,494,2336,77,33,3,41,11.0,870,7607,1191,2282,665,1615
+development,sentence_local,2699,938,1761,2699,100,489,8,6,1,14,2.0,149,1761,269,489,147,302
+test,sentence_local,12726,4723,8003,12726,398,2233,127,11,13,170,,974,8003,1195,2198,986,1539
+train,full_document,28089,5335,22754,12169,496,2750,78,33,3,41,11.0,979,22754,1440,2524,949,1862
+development,full_document,7047,1163,5884,2699,100,635,9,6,1,14,2.0,171,5884,325,550,232,381
+test,full_document,28734,6018,22716,12726,399,2756,132,13,13,171,,1186,22716,1747,2614,1441,1963
