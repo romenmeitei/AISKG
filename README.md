@@ -1,11 +1,72 @@
 # AISKG
 
 [![CI](https://github.com/romenmeitei/AISKG/actions/workflows/ci.yml/badge.svg)](https://github.com/romenmeitei/AISKG/actions/workflows/ci.yml)
-[![Open v3.1.2 reproducibility notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romenmeitei/AISKG/blob/main/notebooks/AISKG_Framework_v3_1_2_Complete_Reproducibility.ipynb)
+[![Open external benchmark in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romenmeitei/AISKG/blob/main/notebooks/additional_analyses/AISKG_External_RE_Benchmark_Colab_v1_1.ipynb)
+[![Open v3.1.2 replay in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romenmeitei/AISKG/blob/main/notebooks/AISKG_Framework_v3_1_2_Complete_Reproducibility.ipynb)
 
-**AISKG v3.1.2** is the complete manuscript-reproducibility release of the AI-assisted ontology-guided semantic knowledge-graph framework. It preserves the deterministic **v3.0.0 frozen core pipeline**, retains the corrected three-system benchmark introduced in v3.1.1, and closes the pathway-validation provenance gap by releasing three metadata-sanitized completed reviewer workbooks.
+**AISKG v3.2.0** is the external biomedical relation-benchmark release of the ontology-guided semantic knowledge-graph framework. It preserves the deterministic **v3.0.0 core** and the complete **v3.1.2 reviewer/in-domain benchmark replay**, and adds a new BioRED/BioREDirect cross-domain relation-classification experiment.
 
-## What v3.1.2 adds
+## What v3.2.0 adds
+
+- an independently executed BioRED/BioREDirect benchmark using 500/100/400 train/development/test documents;
+- a leakage-controlled type-pair majority baseline;
+- a transparent AISKG rule-transfer adapter;
+- an AISKG constrained TF-IDF transfer classifier;
+- the official pretrained BioREDirect comparator at commit `fc090435fa8198187ab5145da26d8abf01000131`;
+- sentence-local primary and full-document cross-sentence stress-test results;
+- document-bootstrap confidence intervals and paired comparisons;
+- repository-native CLI, tests and GPU Colab execution;
+- public-safe frozen outputs and sanitized provenance; and
+- CI/release verification without rerunning the live GPU model.
+
+### External benchmark headline results
+
+All systems received **gold entity mentions and normalized identifiers**. The endpoint is relation classification, not end-to-end NER plus RE.
+
+| Scope | Type-pair majority | AISKG rule transfer | AISKG constrained transfer | BioREDirect |
+|---|---:|---:|---:|---:|
+| Sentence-local relation F1 | 0.311 | 0.275 | **0.386** | **0.617** |
+| Full-document relation F1 | 0.199 | 0.184 | **0.362** | **0.568** |
+
+The constrained adapter improved over the majority baseline but remained below the specialist BioREDirect model. The AISKG external systems are transfer adapters, not the unchanged mushroom-domain v3.1.2 extractor. The examined BC8 test split is locked against further tuning.
+
+### Public-release boundary
+
+This repository does not redistribute BioRED/BioREDirect text, official gold candidate rows, NCBI source code or model weights. It publishes metrics, aggregate audits, thresholds, figures, sanitized provenance and system prediction rows without source text. The Colab notebook downloads official assets at runtime and records their hashes.
+
+## Install and verify
+
+```bash
+python -m pip install -e ".[dev,external-re]" --no-build-isolation
+python verify_repository.py
+pytest -q -m "not integration"
+python scripts/verify_v3_1_2_release.py
+python scripts/verify_v3_2_0_release.py
+python scripts/run_external_re_smoke.py
+```
+
+## Run the external benchmark
+
+The full official comparison requires a GPU and network access:
+
+```bash
+aiskg external-re-benchmark --run-bioredirect --clean
+```
+
+This creates an author-side complete result archive and a separate public-safe result archive. The repository-native Colab notebook provides the recommended execution route.
+
+## Frozen external reference outputs
+
+Public-safe frozen outputs are stored under:
+
+```text
+data/frozen/external_re_benchmark_v1.0.0/
+reference_outputs/external_re_benchmark_v1.0.0/
+```
+
+See `docs/EXTERNAL_BIORED_BIOREDIRECT_BENCHMARK_v1.0.0.md` and `manuscript/EXTERNAL_RE_BENCHMARK_RESULT_MAPPING_v3.2.0.md`.
+
+## Preserved v3.1.2 reviewer and in-domain replay
 
 The pathway replay now independently performs the full reviewer workflow before calculating any endpoint:
 
@@ -132,3 +193,4 @@ The full frozen core can also be tested with `pytest -q -m integration`.
 Use `CITATION.cff` for the v3.1.2 software citation. Create a new version-specific repository archive/DOI after publishing tag `v3.1.2`; do not relabel a DOI belonging to an earlier archived version.
 
 Source code is MIT licensed. Public data and frozen outputs are governed by `DATA_LICENSE.md`, `THIRD_PARTY_DATA_NOTICE.md`, and source-specific notices.
+

@@ -1,5 +1,15 @@
 # Changelog
 
+## 3.2.0 — 2026-08-28
+
+- Added an independent BioRED/BioREDirect external relation-classification benchmark under gold-entity conditions.
+- Added AISKG rule-transfer and constrained text-transfer adapters, a leakage-controlled type-pair baseline and the official BioREDirect comparator.
+- Added sentence-local primary and full-document stress-test evaluations, 5,000-document bootstrap intervals and paired comparisons.
+- Integrated external code, configuration, smoke tests, a repository-native Colab notebook and public-safe result export.
+- Published metrics, thresholds, aggregate audits, text-free predictions, figures and sanitized provenance while excluding third-party text, gold candidate rows, official code and model weights.
+- Locked the examined BC8 test set against further tuning.
+- Preserved the v3.0.0 core and v3.1.2 reviewer/in-domain benchmark replay unchanged.
+
 ## 3.1.2 — 2026-08-18
 
 - Added public metadata-sanitized completed Expert A, Expert B, and third-expert workbooks.

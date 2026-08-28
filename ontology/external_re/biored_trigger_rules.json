@@ -1,0 +1,31 @@
+{
+  "description": "Prespecified generic biomedical trigger patterns for the transparent AISKG-style BioRED transfer adapter. These rules are not tuned on the BioRED test split.",
+  "relation_patterns": {
+    "Association": [
+      "\\b(?:associate(?:d|s|ion)?|link(?:ed|s)?|relat(?:e|ed|es|ionship)|correlat(?:e|ed|es|ion))\\b",
+      "\\b(?:risk factor|biomarker|predictor|connected with|in association with)\\b"
+    ],
+    "Bind": [
+      "\\b(?:bind(?:s|ing)?|bound|binding|interact(?:s|ed|ion)? with|complex(?:es|ed)? with|affinity for)\\b",
+      "\\b(?:ligand|receptor binding|protein[- ]protein interaction)\\b"
+    ],
+    "Comparison": [
+      "\\b(?:compar(?:e|ed|es|ison)|versus|vs\\.?|relative to|than|difference between|similar to)\\b"
+    ],
+    "Conversion": [
+      "\\b(?:convert(?:s|ed|ing)? (?:into|to)|conversion (?:into|to)|metaboli[sz](?:e|ed|es|ing) (?:into|to)|transform(?:s|ed|ing)? (?:into|to)|cleav(?:e|ed|es|ing) (?:into|to))\\b"
+    ],
+    "Cotreatment": [
+      "\\b(?:co[- ]?treat(?:ment|ed|ing)?|co[- ]?administer(?:ed|s|ing|ation)?|combination (?:therapy|treatment|with)|together with|in combination with)\\b"
+    ],
+    "Drug_Interaction": [
+      "\\b(?:drug[- ]drug interaction|drug interaction|interact(?:s|ed|ion)? with|synerg(?:y|istic|istically)|antagoni[sz](?:e|ed|es|ing|m)|potentiat(?:e|ed|es|ing))\\b"
+    ],
+    "Negative_Correlation": [
+      "\\b(?:decreas(?:e|ed|es|ing)|reduc(?:e|ed|es|ing)|suppress(?:ed|es|ing|ion)?|inhibit(?:ed|s|ing|ion)?|down[- ]?regulat(?:e|ed|es|ing|ion)|protect(?:s|ed|ive|ion)? against|negative(?:ly)? correlat(?:e|ed|es|ion)|inverse(?:ly)? associat(?:e|ed|es|ion))\\b"
+    ],
+    "Positive_Correlation": [
+      "\\b(?:increas(?:e|ed|es|ing)|elevat(?:e|ed|es|ing|ion)|enhanc(?:e|ed|es|ing)|activat(?:e|ed|es|ing|ion)|induc(?:e|ed|es|ing|tion)|promot(?:e|ed|es|ing|ion)|up[- ]?regulat(?:e|ed|es|ing|ion)|positive(?:ly)? correlat(?:e|ed|es|ion)|associated with (?:higher|increased|greater))\\b"
+    ]
+  }
+}

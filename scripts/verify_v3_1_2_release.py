@@ -177,8 +177,9 @@ def main() -> int:
     args = parser.parse_args()
     repository = Path(args.repo_root).resolve()
     data_root = repository / DATA_REL
-    if (repository / "VERSION").read_text(encoding="utf-8").strip() != RELEASE:
-        raise AssertionError("VERSION does not identify v3.1.2.")
+    framework_release = (repository / "VERSION").read_text(encoding="utf-8").strip()
+    if framework_release not in {"3.1.2", "3.2.0"}:
+        raise AssertionError(f"Unsupported framework release for preserved v3.1.2 replay: {framework_release}")
     if not data_root.is_dir():
         raise AssertionError(f"Missing data directory: {data_root}")
     provenance = json.loads((data_root / "source_upload_sha256.json").read_text(encoding="utf-8"))
@@ -232,7 +233,8 @@ def main() -> int:
             raise AssertionError("Replay did not create required release artifacts.")
 
     print(json.dumps({
-        "release": RELEASE,
+        "preserved_release": RELEASE,
+        "framework_release": framework_release,
         "status": "PASS",
         "data_checksum_entries": checksum_entries,
         "reviewer_validation": reviewer_status,

@@ -3,7 +3,7 @@ name: Build tagged AISKG release
 on:
   push:
     tags:
-      - "v3.1.2"
+      - "v3.2.0"
 
 permissions:
   contents: write
@@ -18,30 +18,31 @@ env:
 jobs:
   release:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
-      - name: Install build tools
-        run: python -m pip install "setuptools>=69" wheel
-      - name: Install AISKG and test dependencies
-        run: python -m pip install -e ".[dev]" --no-build-isolation
+      - run: python -m pip install -e ".[dev,external-re]" --no-build-isolation
       - run: python verify_repository.py
       - run: pytest -q -m "not integration"
       - run: python scripts/verify_v3_1_2_release.py
-      - name: Register Python 3 Jupyter kernel
-        run: python -m ipykernel install --user --name python3 --display-name "Python 3"
       - run: python scripts/execute_v3_1_2_notebook_smoke.py
+      - run: python scripts/verify_v3_2_0_release.py
+      - run: python scripts/run_external_re_smoke.py
       - run: python run_pipeline.py --config configs/manuscript_frozen.yaml --run-id release --clean --quiet
       - run: aiskg verify --run-dir outputs/release
       - run: aiskg additional-analyses --output-root outputs/additional-analyses-v3.1.2
+      - name: Stage public external result
+        run: cp reference_outputs/external_re_benchmark_v1.0.0/AISKG_External_RE_Benchmark_Public_Results_v1_0_0.zip outputs/
       - name: Publish GitHub release assets
         uses: softprops/action-gh-release@v2
         with:
-          body_path: RELEASE_NOTES_v3.1.2.md
+          body_path: RELEASE_NOTES_v3.2.0.md
           files: |
             outputs/release/AISKG_Framework_v3.0.0_Release.zip
             outputs/AISKG_v3.1.2_additional_analyses_reproduced.zip
+            outputs/AISKG_External_RE_Benchmark_Public_Results_v1_0_0.zip
+            notebooks/additional_analyses/AISKG_External_RE_Benchmark_Colab_v1_1.ipynb

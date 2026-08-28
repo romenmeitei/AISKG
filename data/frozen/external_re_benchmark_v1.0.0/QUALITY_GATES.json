@@ -1,0 +1,15 @@
+{
+  "bioredirect_completed": true,
+  "bioredirect_requested": true,
+  "gold_entities_used_for_all_external_systems": true,
+  "no_document_overlap": true,
+  "sentence_local_and_full_document_separated": true,
+  "status": "PASS",
+  "test_gold_relation_n_by_mode": {
+    "full_document": 6018,
+    "sentence_local": 4723
+  },
+  "test_tuning_performed": false,
+  "threshold_tuned_on_development_only": true,
+  "train_development_test_fixed": true
+}

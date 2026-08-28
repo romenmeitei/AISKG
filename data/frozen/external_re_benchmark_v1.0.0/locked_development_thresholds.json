@@ -1,0 +1,17 @@
+{
+  "modes": {
+    "full_document": {
+      "AISKGConstrainedTransfer": 0.38999999999999996,
+      "AISKGRuleTransfer": -0.39486078111163614,
+      "TypePairMajority": 0.11
+    },
+    "sentence_local": {
+      "AISKGConstrainedTransfer": 0.30999999999999994,
+      "AISKGRuleTransfer": -0.30120321406113115,
+      "TypePairMajority": 0.19
+    }
+  },
+  "seed": 20260826,
+  "test_tuning_performed": false,
+  "threshold_selection_split": "development"
+}

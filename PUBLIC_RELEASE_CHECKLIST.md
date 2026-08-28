@@ -1,17 +1,19 @@
-# AISKG v3.1.2 public release checklist
+# AISKG v3.2.0 public release checklist
 
-- [ ] Extract `AISKG_v3.1.2_GITHUB_READY_COMPLETE.zip` into a clean directory.
-- [ ] Confirm `VERSION`, `pyproject.toml`, and `CITATION.cff` identify v3.1.2.
+- [ ] Extract `AISKG_v3.2.0_GITHUB_READY_COMPLETE.zip` into a clean directory.
+- [ ] Confirm `VERSION`, `pyproject.toml`, `src/aiskg/__init__.py`, and `CITATION.cff` identify v3.2.0.
 - [ ] Run `python verify_repository.py`.
 - [ ] Run `pytest -q -m "not integration"`.
 - [ ] Run `python scripts/verify_v3_1_2_release.py`.
 - [ ] Run `python scripts/execute_v3_1_2_notebook_smoke.py`.
-- [ ] Confirm 805 paired ratings and 92 adjudications are reported.
-- [ ] Confirm `XPV-0052` and `XPV-0074` are disclosed as Expert A roll-up exceptions and adjudicated `No`.
-- [ ] Confirm PubTator relations are reported as not evaluable, not zero.
-- [ ] Confirm no untouched `Expert_A_completed.xlsx`, `Expert_B_completed.xlsx`, or `Third_Expert_completed.xlsx` is present.
-- [ ] Keep `AISKG_v3.1.2_PRIVATE_SOURCE_PROVENANCE.zip` private.
-- [ ] Create branch `release/v3.1.2`, push it, and open a pull request.
+- [ ] Run `python scripts/verify_v3_2_0_release.py`.
+- [ ] Run `python scripts/run_external_re_smoke.py`.
+- [ ] Confirm the public external result directory and ZIP contain no `test_candidates_*`, `error_analysis.csv`, `.pubtator`, official datasets, source checkout or model weights.
+- [ ] Confirm all external quality gates report PASS and no test tuning.
+- [ ] Confirm the BC8 test-lock warning is present.
+- [ ] Confirm BioREDirect is reported as stronger than the AISKG adapters.
+- [ ] Keep `AISKG_External_RE_Benchmark_Results_v1_0.zip` author-side; do not upload it to the public repository.
+- [ ] Create branch `release/v3.2.0`, push it and open a pull request.
 - [ ] Merge only after GitHub Actions passes.
-- [ ] Create annotated tag `v3.1.2` and publish `RELEASE_NOTES_v3.1.2.md`.
-- [ ] Mint a new version-specific archive/DOI and update citation metadata without relabelling an earlier DOI.
+- [ ] Create annotated tag `v3.2.0` and publish `RELEASE_NOTES_v3.2.0.md`.
+- [ ] Mint a new version-specific archive/DOI and update `CITATION.cff` and the manuscript after Zenodo returns the DOI.

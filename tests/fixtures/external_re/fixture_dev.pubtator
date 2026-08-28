@@ -1,0 +1,26 @@
+DV1|t|Ligand AA binds target BB.
+DV1|a|Ligand AA directly binds target BB.
+DV1	0	9	Ligand AA	ChemicalEntity	DC1
+DV1	16	25	target BB	GeneOrGeneProduct	DG1
+DV1	Bind	DC1	DG1	Novel
+DV1	DC1	DG1	Subject:DC1
+
+DV2|t|Drug CC elevates disease DD.
+DV2|a|Drug CC increased disease DD after exposure.
+DV2	0	7	Drug CC	ChemicalEntity	DC2
+DV2	17	27	disease DD	DiseaseOrPhenotypicFeature	DD2
+DV2	Positive_Correlation	DC2	DD2	Novel
+DV2	DC2	DD2	Subject:DC2
+
+DV3|t|Drug EE and FF combination.
+DV3|a|Drug EE was given in combination with drug FF.
+DV3	0	7	Drug EE	ChemicalEntity	DC3
+DV3	66	73	drug FF	ChemicalEntity	DC4
+DV3	Cotreatment	DC3	DC4	Novel
+
+DV4|t|Marker GG linked to disease HH.
+DV4|a|Marker GG was associated with disease HH.
+DV4	0	9	Marker GG	GeneOrGeneProduct	DG4
+DV4	20	30	disease HH	DiseaseOrPhenotypicFeature	DD4
+DV4	Association	DG4	DD4	Novel
+

@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use AISKG, please cite this software release and the associated manuscript."
-title: "AISKG: Unified AI-Assisted Ontology-Guided Semantic Knowledge Graph Pipeline"
+message: "If you use AISKG, cite this software release, the associated manuscript, BioRED, and BioREDirect where applicable."
+title: "AISKG: Ontology-Constrained Biomedical Evidence Extraction and Knowledge Graph Framework"
 type: software
-version: 3.1.2
-date-released: 2026-08-18
+version: 3.2.0
+date-released: 2026-08-28
 license: MIT
 authors:
   - family-names: "Lourembam"
@@ -12,15 +12,17 @@ repository-code: "https://github.com/romenmeitei/AISKG"
 url: "https://github.com/romenmeitei/AISKG"
 keywords:
   - biomedical natural language processing
+  - biomedical relation extraction
   - semantic knowledge graph
   - ontology-guided extraction
+  - evidence provenance
+  - BioRED
+  - BioREDirect
   - pathway validation
-  - reviewer adjudication
-  - PubTator
-  - structured large language model
   - reproducibility
 abstract: >-
-  AISKG v3.1.2 preserves the frozen v3.0.0 manuscript pipeline, adds complete
-  reviewer-level replay of expanded blinded pathway validation from three
-  public metadata-sanitized completed workbooks, and retains the corrected
-  three-system held-out biomedical NLP benchmark introduced in v3.1.1.
+  AISKG v3.2.0 preserves the deterministic v3.0.0 core and complete v3.1.2
+  reviewer/in-domain benchmark replay, and adds an independently executed
+  BioRED/BioREDirect external relation-classification benchmark under
+  gold-entity conditions, with repository-integrated transfer adapters,
+  public-safe frozen results, quality gates and a GPU Colab workflow.
