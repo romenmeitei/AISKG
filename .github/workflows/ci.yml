@@ -22,14 +22,18 @@ jobs:
     timeout-minutes: 55
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
       - name: Install
-        run: python -m pip install -e ".[dev,external-re]" --no-build-isolation
+        run: python -m pip install -e ".[dev,external-re]"
+      - name: Register Python 3 Jupyter kernel
+        run: |
+          python -m ipykernel install --user --name python3 --display-name "Python 3"
+          python -c "from jupyter_client.kernelspec import KernelSpecManager; specs = KernelSpecManager().find_kernel_specs(); print(specs); assert 'python3' in specs, specs"
       - name: Verify source repository manifest
         run: python verify_repository.py
       - name: Unit tests
@@ -60,7 +64,7 @@ jobs:
       - name: Stage public external frozen archive
         run: cp reference_outputs/external_re_benchmark_v1.0.0/AISKG_External_RE_Benchmark_Public_Results_v1_0_0.zip outputs/
       - name: Upload deterministic release artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: AISKG-v3.2.0-reproducibility-artifacts
           path: |
