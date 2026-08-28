@@ -22,9 +22,9 @@ jobs:
     timeout-minutes: 55
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -64,7 +64,7 @@ jobs:
       - name: Stage public external frozen archive
         run: cp reference_outputs/external_re_benchmark_v1.0.0/AISKG_External_RE_Benchmark_Public_Results_v1_0_0.zip outputs/
       - name: Upload deterministic release artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: AISKG-v3.2.0-reproducibility-artifacts
           path: |
