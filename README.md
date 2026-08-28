@@ -190,7 +190,11 @@ The full frozen core can also be tested with `pytest -q -m integration`.
 
 ## Citation and licence
 
-Use `CITATION.cff` for the v3.1.2 software citation. Create a new version-specific repository archive/DOI after publishing tag `v3.1.2`; do not relabel a DOI belonging to an earlier archived version.
+If you use AISKG, please cite the software version used in your analysis. The repository-level citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
-Source code is MIT licensed. Public data and frozen outputs are governed by `DATA_LICENSE.md`, `THIRD_PARTY_DATA_NOTICE.md`, and source-specific notices.
+AISKG v3.2.0 is the current framework release. It preserves the deterministic v3.0.0 analytical core and the complete v3.1.2 reviewer/in-domain reproducibility layer, while adding the external BioRED/BioREDirect relation-classification benchmark.
+
+For reproduction of the manuscript's frozen in-domain analyses and reviewer-level validation, the preserved v3.1.2 release remains available through the repository release history.
+
+Source code is distributed under the [MIT License](LICENSE). Data, frozen outputs, and third-party materials are subject to the terms and provenance information described in [`DATA_LICENSE.md`](DATA_LICENSE.md), [`THIRD_PARTY_DATA_NOTICE.md`](THIRD_PARTY_DATA_NOTICE.md), and the corresponding source-specific notices.
 
